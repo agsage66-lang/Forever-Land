@@ -137,15 +137,12 @@ label start:
 
     show friend at center
 
-    show ailon idle at right
-
     "The man walks in the store, his calm demeanor and presence seem to fill the room with ease, slowly he makes his way to the cashier."
 
     ailon "One coffee, black, large with cream."
 
     "His voice sounded like a gentle breeze when spoken, clear to understand and pleasant. He seemed blissfully unaware, and ultimately he simply stood patiently for his order."
     
-    hide ailon
 
     show friend at right
 
@@ -155,13 +152,13 @@ label start:
 
     friend "Don’t look too desperate you might scare him."
 
-    hide friend
+    hide friend with dissolve
 
     "Thalia took a few steps closer to where the man stood."
 
     show thalia idle
 
-    show ailon idle at right
+    show ailon idle at right, with dissolve
     
     thalia "Ailon?"
 
@@ -265,12 +262,11 @@ label start:
     #======================== part 2 ================================
 
     scene bg parknoon
-
+    show thalia convencida at left, smaller
+    
     play music "one_0.mp3"
 
-    show thalia at smaller
-
-    show thalia convencida at left
+    with dissolve
 
     "The entrance to the park isnt as packed as in the mornings, most people already went in earlier in the day, however it doesn't stop a line from forming."   
     
@@ -292,7 +288,7 @@ label start:
 
     thalia "no no… thats to forward and too weird."
 
-    show ailon idle at right
+    show ailon idle at right, with dissolve
 
     "Ailon comes into her field of view from the crowd close to the gate"
 
