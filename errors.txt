@@ -2,17 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 19: end of line expected.
-    xaling 0.5
+File "game/script.rpy", line 97: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    with dissolve
     ^
 
-File "game/script.rpy", line 649: expected statement.
-    phobianJealosly = True
-                    ^
-
-File "game/script.rpy", line 698: reached end of line when expecting ':'.
-    if (phobianJealosly)
-                        ^
+File "game/script.rpy", line 99: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    with dissolve
+    ^
 
 Ren'Py Version: Ren'Py 8.4.1.25072401
-Thu Oct 16 22:16:32 2025
+Fri Oct 17 22:04:56 2025

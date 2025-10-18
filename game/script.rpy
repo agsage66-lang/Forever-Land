@@ -5,11 +5,21 @@
 
 define thalia = Character("Thalia", color = "#f27d83")
 
+define friend = Character("Thalia's Friend")
+
 define ailon = Character("Ailon")
 
 define ivania = Character("Ivania")
 
 define phobion = Character("Phobion")
+
+#flags
+
+default phobianJealosly = False
+
+default meetIvania = False
+
+#image control
 
 layeredimage ailon :
     always: 
@@ -49,8 +59,23 @@ layeredimage ailon :
         attribute worry:
             "ailon_worry"
 
+layeredimage friend :
+    always: 
+        "friend_a"
 
+    group expressions:
+        attribute smile default:
+            "friend_smile"
+        attribute blush:
+            "friend_blush"
+        attribute surprise:
+            "friend_surprise"
+        attribute tired:
+            "friend_tired"
+        attribute worry:
+            "friend_worry"
 
+#transforms
 
 transform smaller: #you can call it what ever you want 
     zoom 0.90
@@ -58,68 +83,59 @@ transform smaller: #you can call it what ever you want
 
 label start:
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
-
+    #======================== part 1 ================================
     scene bg coffeeshop
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
+    play music "Buy Something!.mp3"
 
-    default phobianJealosly = False
 
-    default meetIvania = False
-
-    # These display lines of dialogue.
-    "The day is just perfect, clear skies, a mild weather to wear any mix of either winter or summer wear."
+    "The day is just perfect, clear skies and mild weather to wear any mix of either winter or summer wear."
 
     "The morning in this particular store was slow, but for the two friends gossiping at the table."
     
     show thalia idle at left, smaller
-
-    show friend template at right
+    show friend at right
+    with dissolve
     
-    "Friend A" "Anyhow, you still haven’t told me how the date was…"
+    friend "Anyhow, you still haven’t told me how the date was…"
 
     show thalia sparkle
 
-    thalia "I was so great! Like amazing great, he is pretty quiet, but those eyes~ dreamy."
+    thalia "I was so great! Like, amazing, he is pretty quiet, but those eyes~ dreamy."
 
     show thalia uwu
 
-    thalia "He was very quiet, but truly I couldn’t get enough for just one date, especially his eyes, I wanna look at them again."
+    thalia "He was very quiet, but truly I couldn’t get enough for just one date, especially his eyes. I wanna look at them again."
 
-    "Friend A" "Sounds like he has you hooked…"
+    friend "Sounds like he has you hooked…"
 
     show thalia convencida
 
     thalia "On the other way around, I have him hooked!"
 
-    "Friend A" "It’s not what it sounds like it…"
+    friend "It’s not what it sounds like it…"
 
     show thalia thinkblush
 
-    thalia "Oh shut up… I played it cool" #See reference in novel for narration in the same bubble as speech (Overall its weird to read a novel with so little inner tought for a character)
+    thalia "Oh shut up… I played it cool"
 
-    "Outside a well dressed man, with a calm serene expression walks towards the store. Thalia quickly hides their face and whispers."
+    "Outside a well-dressed man with a calm, serene expression walks towards the store. Thalia quickly hides their face and whispers."
 
     show thalia 0
     
-    thalia "Omg it’s him! He is coming to this store!"
+    thalia "OMG, it’s him! He is coming to this store!"
 
-    "Friend A" "Did you invite him?"
+    friend "Did you invite him?"
 
-    thalia "No… do you think it’s like fate?! We meet again like boom! Sparks!"
+    thalia "No… do you think it’s like fate?! We meet again, like boom! Sparks!"
 
-    "Friend A" "Calm down, you have to play it cool, you gonna talk to him?"
+    friend "Calm down, you have to play it cool. You're going to talk to him?"
 
     show thalia thinking
 
     thalia "Maybe…"
 
-    show friend template at center
+    show friend at center
 
     show ailon idle at right
 
@@ -127,17 +143,17 @@ label start:
 
     ailon "One coffee, black, large with cream."
 
-    "His voice sounded like a gentle breeze when spoken, clear to understand and pleasant. He seemed blissfully unaware and ultimately he simply stood patiently for his order."
+    "His voice sounded like a gentle breeze when spoken, clear to understand and pleasant. He seemed blissfully unaware, and ultimately he simply stood patiently for his order."
     
     hide ailon
 
-    show friend template at right
+    show friend at right
 
     show thalia convencida
 
     thalia "I’m gonna go talk to him."
 
-    "Friend A" "Don’t look to desperate you might scare him."
+    friend "Don’t look too desperate you might scare him."
 
     hide friend
 
@@ -155,14 +171,14 @@ label start:
 
     show thalia 0
 
-    thalia "I know right, we just just saw this cafe we’ve never been before and wanted to try."
+    thalia "I know right, we just saw this café we’ve never been before and wanted to try."
     
     ailon "Well I come here almost every day it’s a nice place."
 
-
     show thalia satisfied
 
-    thalia "Oh really that’s so nice… than I’m glad I chose to come here "
+    thalia "Oh really that’s so nice… than I’m glad I chose to come here."
+
 
     show thalia nervous
 
@@ -188,9 +204,9 @@ label start:
 
         ailon "No no, it was simply a bit of nostalgia." 
 
-        "His smile is clear of an old memory but hides a slight sadness"
+        "His smile is clear of an old memory but hides a slight sadness."
 
-        ailon "But it was fortunate to meet you again today… I was was thinking if you wanted to go somewhere again… if u want to"
+        ailon "But it was fortunate to meet you again today… I was thinking if you wanted to go somewhere again… if you want to"
 
         show thalia shock
 
@@ -208,13 +224,13 @@ label start:
 
         thalia "After this, are you doing anything? If you are not, I’d love for a… second date maybe…"
 
-        "He looks puzzled the surprised, a smile comes around his features lighting up the room"
+        "He looks puzzled the surprised, a smile comes around his features lighting up the room."
 
         ailon "I’m glad you asked, I would be willing yes."
 
         show thalia happy
 
-        thalia "Are you free today maybe? I wasn’t doing much so I could go out this afternoon even!"
+        thalia "Are you free today maybe? I wasn’t doing much, so I could go out this afternoon even!"
 
         ailon"Well… (his thoughts seem to drift for a moment but sure enough he returns with an awnser) I could yes."
 
@@ -226,28 +242,31 @@ label start:
 
     label choice1_END:
         
-        ailon "There is an amusement park here, Foreverlands, I happen to, well work there… and can get us in no problem"
+    ailon "There is an amusement park here, Foreverlands, I happen to, well work there… and can get us in no problem."
 
-        show thalia happy
+    show thalia happy
 
-        thalia "That sounds so cool, who knew I would know someone that well connected"
+    thalia "That sounds so cool, who knew I would know someone that well connected."
 
-        ailon "Then when?"
+    ailon "Then when?"
 
-        show thalia idle
+    show thalia idle
 
-        thalia "Oh right right… (she glances at her friend) maybe two hour in the main gate? I don’t wanna leave my friend just like this."
+    thalia "Oh right right… (she glances at her friend) maybe two hour in the main gate? I don’t wanna leave my friend just like this."
 
-        ailon "That is is thoughtful of you… I do think however she might be a bit upset already"
+    ailon "That is is thoughtful of you… I do think however she might be a bit upset already."
 
-        "Friend A has a sweet facade and gives a wave in response but Thalia know she will get an earful for ditching her over a date."
+    "Friend A has a sweet facade and gives a wave in response but Thalia know she will get an earful for ditching her over a date."
 
-        thalia "I’ll see you there if I live through this"
+    thalia "I’ll see you there if I live through this."
 
-        ailon "I sure hope u do"
+    ailon "I sure hope you do."
    
+    #======================== part 2 ================================
 
     scene bg parknoon
+
+    play music "one_0.mp3"
 
     show thalia at smaller
 
