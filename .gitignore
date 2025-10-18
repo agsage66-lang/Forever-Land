@@ -1,0 +1,6 @@
+*.save
+*.rpyb
+/game/cache
+*.py
+log.txt
+*.json

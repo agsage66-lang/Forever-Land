@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 97: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    with dissolve
-    ^
-
-File "game/script.rpy", line 99: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    with dissolve
-    ^
+File "game/screens.rpy", line 147: style property xpos appears twice.
+    xpos 20
+        ^
 
 Ren'Py Version: Ren'Py 8.4.1.25072401
-Fri Oct 17 22:04:56 2025
+Fri Oct 17 23:03:11 2025
