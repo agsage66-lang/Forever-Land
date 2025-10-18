@@ -5,13 +5,13 @@
 
 define thalia = Character("Thalia", color = "#f27d83")
 
-define friend = Character("Thalia's Friend")
+define friend = Character("Thalia's Friend", color = "#846FB7")
 
-define ailon = Character("Ailon")
+define ailon = Character("Ailon", color = "#A0B3BA")
 
 define ivania = Character("Ivania")
 
-define phobion = Character("Phobion")
+define phobion = Character("Phobion", color = "#316374")
 
 #flags
 
@@ -58,6 +58,10 @@ layeredimage ailon :
             "ailon_veryworry"
         attribute worry:
             "ailon_worry"
+        attribute smile:
+            "ailon_smile"
+        attribute o:
+            "ailon_o"
 
 layeredimage friend :
     always: 
@@ -79,7 +83,6 @@ layeredimage friend :
 
 transform smaller: #you can call it what ever you want 
     zoom 0.90
-    yalign 1.0
 
 label start:
 
@@ -107,11 +110,15 @@ label start:
 
     thalia "He was very quiet, but truly I couldn’t get enough for just one date, especially his eyes. I wanna look at them again."
 
+    show friend blush
+
     friend "Sounds like he has you hooked…"
 
     show thalia convencida
 
     thalia "On the other way around, I have him hooked!"
+
+    show friend worry
 
     friend "It’s not what it sounds like it…"
 
@@ -125,6 +132,8 @@ label start:
     
     thalia "OMG, it’s him! He is coming to this store!"
 
+    show friend surprise
+
     friend "Did you invite him?"
 
     thalia "No… do you think it’s like fate?! We meet again, like boom! Sparks!"
@@ -135,7 +144,7 @@ label start:
 
     thalia "Maybe…"
 
-    show friend at center
+    show friend tired
 
     "The man walks in the store, his calm demeanor and presence seem to fill the room with ease, slowly he makes his way to the cashier."
 
@@ -143,28 +152,33 @@ label start:
 
     "His voice sounded like a gentle breeze when spoken, clear to understand and pleasant. He seemed blissfully unaware, and ultimately he simply stood patiently for his order."
     
-
-    show friend at right
-
     show thalia convencida
 
     thalia "I’m gonna go talk to him."
 
-    friend "Don’t look too desperate you might scare him."
+    show friend tired
 
-    hide friend with dissolve
+    friend "Don’t look too desperate you might scare him."
 
     "Thalia took a few steps closer to where the man stood."
 
     show thalia idle
 
-    show ailon idle at right, with dissolve
+    hide friend
+    show ailon idle at right
+    with dissolve
     
     thalia "Ailon?"
 
+    show ailon surprise
+
     "He turned his head around and his calm expression changed to a soft smile, his eyes were the most attractive feature, like a pool of silver hinting blue they almost seemed unnatural, but mesmerizing."
 
+    show ailon sweetsmile
+
     ailon "Hello Thalia, how unexpected."
+
+    show ailon smile
 
     show thalia 0
 
@@ -175,7 +189,6 @@ label start:
     show thalia satisfied
 
     thalia "Oh really that’s so nice… than I’m glad I chose to come here."
-
 
     show thalia nervous
 
@@ -190,6 +203,8 @@ label start:
         thalia "But hey… is there a reason you like this shop in particular?"
         
         show thalia o
+
+        show ailon sad
         
         ailon "Well someone I knew opened this store, a long time ago, it reminds me of them…"
 
@@ -201,7 +216,11 @@ label start:
 
         ailon "No no, it was simply a bit of nostalgia." 
 
+        show ailon smile
+
         "His smile is clear of an old memory but hides a slight sadness."
+
+        show ailon o
 
         ailon "But it was fortunate to meet you again today… I was thinking if you wanted to go somewhere again… if you want to"
 
@@ -210,6 +229,7 @@ label start:
         thalia "Oh… oh… oh!!!!"
 
         show thalia shockblush
+        show ailon sweet
 
         thalia "Yes I’d like to very much, I’m free even!"
         
@@ -221,13 +241,19 @@ label start:
 
         thalia "After this, are you doing anything? If you are not, I’d love for a… second date maybe…"
 
+        show ailon surprise
+
         "He looks puzzled the surprised, a smile comes around his features lighting up the room."
+
+        show ailon smile
 
         ailon "I’m glad you asked, I would be willing yes."
 
         show thalia happy
 
         thalia "Are you free today maybe? I wasn’t doing much, so I could go out this afternoon even!"
+
+        show ailon sweetsmile
 
         ailon"Well… (his thoughts seem to drift for a moment but sure enough he returns with an awnser) I could yes."
 
@@ -238,6 +264,8 @@ label start:
         jump choice1_END
 
     label choice1_END:
+
+    show ailon smile    
         
     ailon "There is an amusement park here, Foreverlands, I happen to, well work there… and can get us in no problem."
 
@@ -245,11 +273,15 @@ label start:
 
     thalia "That sounds so cool, who knew I would know someone that well connected."
 
+    show ailon o
+
     ailon "Then when?"
 
     show thalia idle
 
-    thalia "Oh right right… (she glances at her friend) maybe two hour in the main gate? I don’t wanna leave my friend just like this."
+    thalia "Oh right right… (she glances at her friend) maybe two hours in the main gate? I don’t wanna leave my friend just like this."
+
+    show thalia nervous
 
     ailon "That is is thoughtful of you… I do think however she might be a bit upset already."
 
@@ -257,11 +289,16 @@ label start:
 
     thalia "I’ll see you there if I live through this."
 
+    show ailon sweetsmile
+
     ailon "I sure hope you do."
    
     #======================== part 2 ================================
 
     scene bg parknoon
+
+    stop music fadeout 1.0
+
     show thalia convencida at left, smaller
     
     play music "one_0.mp3"
@@ -437,7 +474,7 @@ label start:
 
         ailon "Yes, her name was Ivania"
 
-        thalia "I thought tribal readers did like with bones and smoke not cards (she laughs)"
+        thalia "I thought tribal readers did like with bones and smoke no\t cards (she laughs)"
 
 
         thalia "I’m gonna give it a try anyway, come on!"
@@ -446,9 +483,12 @@ label start:
 
         scene bg tent
 
-        show thalia at smaller
+        stop music fadeout 1.0
 
-        show thalia satisfied
+        show thalia satisfied at smaller
+        with dissolve
+
+        play music "wind_chimes_loop_3.ogg"
 
         "There is a faint smell of oil, and a small pillow to kneel on, so she does and looks at the woman"
 
