@@ -155,6 +155,20 @@ layeredimage friend :
 
 transform smaller: #you can call it what ever you want 
     zoom 0.90
+transform lightFilter:
+    matrixcolor TintMatrix("#7FA5F2")
+
+transform cardRight:
+    yalign 0
+    xalign 0.675
+
+transform cardLeft:
+    yalign 0
+    xalign 0.325
+
+transform flip:
+    xzoom -1
+
 
 label start:
 
@@ -513,6 +527,8 @@ label start:
 
     show thalia shout
 
+    show ailon surprise
+
     thalia "Sorry I’ll make it up to you!"
 
     menu choice2: #Carnival-Choice
@@ -538,6 +554,8 @@ label start:
 
         show thalia happy
 
+        show ailon smile
+
         thalia "This is so cool, it’s like miniature museums in here (she looks around trying to decide where she wants to go first)."
 
         thalia "Do you have any favorites?"
@@ -548,11 +566,17 @@ label start:
 
         thalia "Oh? Are you really into history?"
 
+        show ailon side
+
         ailon "You could say that yes, all of those places once were the worlds to various civilizations and different cultures."
+
+        show ailon smile
 
         ailon "They each had even their own way of seeing our world never mind the language, most are unique in their respective ways."
 
-        "Ailon stops as he sees Thalia is starring at him"
+        "Ailon stops as he sees Thalia is starring at him."
+        
+        show ailon worry blush
 
         ailon "Sorry did I say something to boring?"
 
@@ -560,7 +584,9 @@ label start:
 
         thalia "It was the most I seen you speak I was very interested!"
 
-        thalia "You almost like a teacher… say I never asked but how old are u? To be all like a grandpa on history"
+        thalia "You almost like a teacher… say I never asked but how old are you? To be all like a grandpa on history"
+
+        show ailon smile -blush
 
         ailon "(He puts a finger on his lips) Can’t say, I stoped counting"
 
@@ -568,9 +594,11 @@ label start:
 
         thalia "But birthday’s are so fun! (She pouts)."
 
+        show ailon sweet
+
         show thalia happy
 
-        "They both laugh at this "
+        "They both laugh at this."
 
         "Something cached Thalia's attention, in a tribal tent there was this comical, likely costume lady, with cards and lots of feathers."
 
@@ -578,12 +606,19 @@ label start:
 
         thalia "Is that a card reader?"
 
-        ailon "Yes, her name was Ivania"
+        show ailon smile
 
-        thalia "I thought tribal readers did like with bones and smoke no\t cards (she laughs)"
+        ailon "Yes, her name was Ivania."
 
+        show thalia smile
+
+        thalia "I thought tribal readers did like with bones and smoke,not cards."
+
+        show ailon surprise
 
         thalia "I’m gonna give it a try anyway, come on!"
+
+        show ailon worry
  
         "Ailons seems to try and grab her hand, but Thalia slips and goes straight inside the tent"
 
@@ -591,12 +626,14 @@ label start:
 
         stop music fadeout 1.0
 
-        show thalia satisfied at smaller
+        show thalia satisfied at smaller, left
         with dissolve
 
         play music "wind_chimes_loop_3.ogg"
 
         "There is a faint smell of oil, and a small pillow to kneel on, so she does and looks at the woman"
+
+        show ivania idle at right with dissolve
 
         "The woman named ivania seems just a bit older then her, she is in a full costume, making her features a bit stiff, and her whole body slightly bigger"
 
@@ -610,27 +647,39 @@ label start:
 
         ivania "I can also tell you about your future, do you want to unmask your destiny?"
 
+        #referencia Ivania
+
         thalia "I do!"
+
+        show thalia o
 
         ivania "Ivania pull out from the side five cards, but they weren’t the size of normal playing cards, they were slightly bigger then a hand."
 
         ivania "She then laid them in front of Thalia, a bit of smoke rose from the corners."
 
-        "Ailon walked up to the corner of the tent but stood outside, Thalia was to focus to notice his face, as he seemed uneasy."
+        "Ailon walked up to the corner of the tent but stood outside, Thalia was to focused to notice his presence, as he seemed uneasy."
 
-        ivania "I will now begin with a sight of the past"
+        ivania "I will now begin with a sight of the past."
 
         "She took the first card and put it in a pot, with one finger she seemed to draw inside."
 
-        ivania "Time itself follows you, closer then u think"
+        show thalia at lightFilter , left
 
-        " she puts down a card with a sketch of a clock over a feminine figure in a red tinture"
+        show ivania at lightFilter
+
+        show cards time at top, smaller with dissolve
+
+        ivania "Time itself follows you, closer thenyoy think."
+
+        "She puts down a card with a sketch of a clock over a feminine figure in a red tinture"
 
         ivania "Now for the sight of your present"
 
         "(She does the same thing with the second card)"
 
         "(She puts down a big heart and many arrows)"
+
+        show cards heart
 
         ivania "Love is pulling in either direction it either be your piety or kindness that will take you forward."
 
@@ -639,9 +688,9 @@ label start:
 
         ivania "You will see the end of your current world."
 
-        "(The card shows a broken bridge overlooking a view)"
+        show cards bridge
 
-        show thalia o
+        "(The card shows a broken bridge overlooking a view)"
 
         thalia "Is that bad?"
 
@@ -651,11 +700,32 @@ label start:
 
         "(She shows almost identical cards, on one is a woman one is man, and a black dagger is embedded in both)"
 
+        show cards woman at cardRight
+        show anothercards man at top, smaller, cardLeft with dissolve
+
         "Thalia has only a second to see both cards, before she is pulled by Ailon."
 
-        show thalia shockblush
+        hide cards 
+
+        hide anothercards
+
+        with dissolve 
+
+        hide thalia
+
+        hide ivania
+
+        show ailon worry at left, flip 
+
+        show thalia bigopen bigBlush at center , smaller
+
+        show ivania idle at right
+
+        with dissolve
 
         ailon "She is playing to make you believe disaster, it alwaysallways to make a shock, she did that all the time!"
+
+        show thalia uwu
 
         "Thalia let her self be pulled for two reasons, the cards and words danced in her mind but so did the fact the Ailon was holding her hand, she blushed."
         
@@ -893,9 +963,7 @@ label start:
 
     scene bg parknigth
 
-    show thalia at small
-
-    show thalia idle at left
+    show thalia idle at left, smaller
 
     show ailon at right
 
