@@ -21,9 +21,82 @@ default meetIvania = False
 
 #image control
 
+layeredimage thalia:
+    always:
+        "thalia_base"
+
+    group extras:
+        attribute noeffect default:
+            null
+        attribute smallBlush:
+            "thalia_blush2"
+        attribute bigBlush:
+            "thalia_blush"
+
+    group expressions:
+        attribute idle default:
+            "thalia_idle"
+        attribute bigopen:
+            "thalia_bigopen"
+        attribute bignoblush:
+            "thalia_bignoblush"
+        attribute angry:
+            "thalia_angry"
+        attribute confused:
+            "thalia_confused"
+        attribute convencida:
+            "thalia_proud"
+        attribute cutesmile:
+            "thalia_cutesmile"
+        attribute disgust:
+            "thalia_disgust"
+        attribute bigDisgust:
+            "thalia_disgust2"
+        attribute embarrased:
+            "thalia_vergonha"
+        attribute happy:
+            "thalia_happy"
+        attribute o:
+            "thalia_littleopen"
+        attribute nervous:
+            "thalia_sideeye"
+        attribute  pouts:
+            "thalia_pouts"
+        attribute satisfied:
+            "thalia_smile"
+        attribute shinyeyes:
+            "thalia_shineeyes"
+        attribute shout:
+            "thalia_shout"
+        attribute sparkle:
+            "thalia_sparkle"
+        attribute surprise:
+            "thalia_surprise"
+        attribute surpriseblush:
+            "thalia_surpriseblush"
+        attribute thinking:
+            "thalia_think"
+        attribute verysurprise:
+            "thalia_verysurprise"
+        attribute uwu:
+            "thalia_uwu"
+        
+        
+
+
+
 layeredimage ailon :
     always: 
         "ailon_base"
+
+    group extras:
+        attribute noeffect default:
+            null
+        attribute blush :
+            "ailon_blush"
+        attribute shadow :
+            "ailon_shadow"
+
 
     group expressions :
         attribute idle default:
@@ -34,17 +107,13 @@ layeredimage ailon :
             "ailon_surpriserosto"
         attribute smug:
             "ailon_smug"
-        attribute blush:
-            "ailon_blush"
         attribute sad:
             "ailon_sad"
-        attribute shadow:
-            "ailon_shadow"
         attribute side:
             "ailon_side"
         attribute smug:
             "ailon_smug"
-        attribute strees:
+        attribute stress:
             "ailon_stress"
         attribute sweet:
             "ailon_sweet"
@@ -62,6 +131,9 @@ layeredimage ailon :
             "ailon_smile"
         attribute o:
             "ailon_o"
+
+
+
 
 layeredimage friend :
     always: 
@@ -90,7 +162,6 @@ label start:
     scene bg coffeeshop
 
     play music "Buy Something!.mp3"
-
 
     "The day is just perfect, clear skies and mild weather to wear any mix of either winter or summer wear."
 
@@ -122,13 +193,12 @@ label start:
 
     friend "It’s not what it sounds like it…"
 
-    show thalia thinkblush
-
+    show thalia thinking smallBlush
     thalia "Oh shut up… I played it cool"
 
     "Outside a well-dressed man with a calm, serene expression walks towards the store. Thalia quickly hides their face and whispers."
 
-    show thalia 0
+    show thalia bigopen
     
     thalia "OMG, it’s him! He is coming to this store!"
 
@@ -140,7 +210,7 @@ label start:
 
     friend "Calm down, you have to play it cool. You're going to talk to him?"
 
-    show thalia thinking
+    show thalia thinking bigBlush
 
     thalia "Maybe…"
 
@@ -152,7 +222,7 @@ label start:
 
     "His voice sounded like a gentle breeze when spoken, clear to understand and pleasant. He seemed blissfully unaware, and ultimately he simply stood patiently for his order."
     
-    show thalia convencida
+    show thalia convencida -bigBlush
 
     thalia "I’m gonna go talk to him."
 
@@ -180,7 +250,7 @@ label start:
 
     show ailon smile
 
-    show thalia 0
+    show thalia bigopen
 
     thalia "I know right, we just saw this café we’ve never been before and wanted to try."
     
@@ -208,7 +278,7 @@ label start:
         
         ailon "Well someone I knew opened this store, a long time ago, it reminds me of them…"
 
-        show thalia shock
+        show thalia verysurprise
 
         thalia "Oh im sorry, was it a bad memory?"
 
@@ -224,11 +294,11 @@ label start:
 
         ailon "But it was fortunate to meet you again today… I was thinking if you wanted to go somewhere again… if you want to"
 
-        show thalia shock
+        show thalia verysurprise
 
         thalia "Oh… oh… oh!!!!"
 
-        show thalia shockblush
+        show thalia verysurprise bigBlush
         show ailon sweet
 
         thalia "Yes I’d like to very much, I’m free even!"
@@ -269,7 +339,7 @@ label start:
         
     ailon "There is an amusement park here, Foreverlands, I happen to, well work there… and can get us in no problem."
 
-    show thalia happy
+    show thalia happy -bigBlush
 
     thalia "That sounds so cool, who knew I would know someone that well connected."
 
@@ -304,9 +374,9 @@ label start:
     play music "one_0.mp3"
 
     with dissolve
-
-    "The entrance to the park isnt as packed as in the mornings, most people already went in earlier in the day, however it doesn't stop a line from forming."   
     
+    "The entrance to the park isn't as packed as in the mornings; most people already went in earlier in the day, however, it doesn't stop a line from forming."
+
     "Beyond the painted walls and decorated fences one can see the rollercoasters tracks, fabricated mountains and one of the largest ferries wheel."
 
     "There are various sounds of laughter and chatter that mix around the smell of fresh cooked popcorn and baked sweet that can make one flutter with anticipation."
@@ -316,78 +386,110 @@ label start:
     "She can barely contain the smile across her face, even after getting a bi of scolding by her friend, she more than wished her luck on this date."
 
     "She was in the middle of talking to herself as if practicing flirts."
-
+    
     show thalia sparkle
 
     thalia "So are you bringing me to the park because you wanted to do funny business with me?!"
 
-    show thalia thinkblush
+    show thalia thinking bigBlush
 
     thalia "no no… thats to forward and too weird."
 
     show ailon idle at right, with dissolve
 
-    "Ailon comes into her field of view from the crowd close to the gate"
+    "Ailon comes into her field of view from the crowd close to the gate."
 
-    show thalia shockblush
+    show thalia verysurprise
 
-    "Thalia tries to hide a bit of the embarrassment from the attempted flirt as he approaches"
-
+    "Thalia tries to hide a bit of the embarrassment from the attempted flirt as he approaches."
+    
     show thalia o
 
-    ailon "I hope you didn't wait long in this sun… you looked like you were talking to someone did i interrupt?"
+    show ailon smile
 
-    show thalia nervous
+    ailon "I hope you didn't wait long in this sun… You looked like you were talking to someone. Did I interrupt?"
 
-    thalia "No… i … was… well… just talking a bit to myself you know? making some mental notes… I remenber things better when i say them outloud!"
+    show thalia nervous -bigBlush
+
+    thalia "No… I… was… well… just talking a bit to myself, you know? Making some mental notes… I remember things better when I say them outloud!"
 
     show thalia shock
 
+    show ailon sweetsmile
+
     ailon "Should I speak the whole day so you will remember?"
 
-    show thalia shockblush
+    show thalia verysurprise bigBlush
 
     "Thalia blushes with the unexpected comeback, and his calm way of saying it, just made her feel fluttery."
 
+    show thalia thinking bigBlush
+
+    show ailon smile
+
     ailon "But then come on we should head in, it might not look like it but its cooler in the park."
 
-    show thalia happy
+    show thalia happy smallBlush
 
     thalia "Right!"
 
-    "Thalia follows close to Ailon, as they both walk to the entrance, one of the employees open a side gate and he gestures so she follows, and they step into the park."
+    show thalia happy
 
-    "When they walk in she can feel a cooler breeze, and inside is full of color and people, most are just chatting from one ride to next, some are looking at the stores."
+    "Thalia follows close to Ailon as they both walk to the entrance; one of the employees opens a side gate, and he gestures so she follows, and they step into the park."
 
-    "this part of the park looks like a small village, foreverlands, is mostly this medieval western fantasy themed, even the staff are either dressed as knights or peasants."
+    "When they walk in, she can feel a cooler breeze, and inside is full of color and people; most are just chatting from one ride to the next, and some are looking at the stores."
+
+    "This part of the park looks like a small village. Foreverlands is mostly this medieval western fantasy theme; even the staff are either dressed as knights or peasants."
 
     "Thalia had been there before but not enough to remember most of it."
 
-    show thalia o
+    show thalia o -smallBlush
 
-    thalia "Oh my god it does feel so fresh in here, how did u know."
+    thalia "Oh my god, it does feel so fresh in here. How did you know?"
 
-    "We keep so fan well positioned to help the airflow."
+    show ailon o
 
-    show thalia 0
+    ailon "We keep the fan well positioned to help the airflow."
+
+    show thalia bigopen
+
+    show ailon surprise
 
     thalia "We… wait you work here?! is that why they let us in on the side?"
+
+    show ailon worry
 
     ailon "Well… that’s…"
 
     "Thalia had a moment of shock as she thinks of the possibility and loudly asks."
 
-    show thalia shock
+    show ailon surprise
+
+    show thalia verysurprise
 
     thalia "Wait, do you OWN FOREVERLANDS?!"
 
-    ailon "Shhhhhh (he gets closer as if to gesture her to bit less scandalous about it)"
+    show ailon stress at center
+
+    show thalia o
+
+    ailon "Shhhhhh!"
+
+    show thalia confused
+
+    show ailon verysurprise blush at right
     
-    ailon "I don’t own, per say… I am just the major shareholder"
+    ailon "I don’t own it, per say… I am just the major shareholder."
+
+    show thalia bigopen
+
+    show ailon idle -blush at right
 
     thalia "You say that like it isn’t any less amazing!!"
 
     show thalia shinyeyes
+
+    show ailon smile
 
     thalia "Do you get to go on the rides whenever you want? Do you have an infinite supply of popcorn? Can you close the park if you wanted to?"
 
@@ -395,15 +497,19 @@ label start:
 
     thalia "Oh… am I talking to much…"
 
-    "Ailon had to hold a bit of his laughter but he managed to be composed enough to say "
+    "Ailon tried and failed to hold back his laughter, but he managed to be composed enough to say."
+
+    show ailon sweetsmile
 
     ailon "No but you are very loud."
-    
-    "Thalia looked around to see some people confused by all the noise and some curious, is not everyday you see the owner of the park"
 
-    "She gets slightly flustered but also guilty"
+    "Thalia looked around to see some people confused by all the noise and some curious; it is not every day you see the owner of the park."
 
-    "Thalia grabs Ailons hand dragging him, he almost trips and running she says"
+    "She gets slightly flustered but also guilty."
+
+    show ailon surprise blush
+
+    "Thalia grabs Ailon's hand, dragging him; he almost trips, and while running, she says."
 
     show thalia shout
 
@@ -426,7 +532,7 @@ label start:
 
         "Various thematic areas are skillful placed to each be their own separate area, there are, western, eastern, egipician, Nordic and even some pre historic theme"
 
-        show thalia  o
+        show thalia o
 
         "Thalia's stops to look around an intersection of these areas"
 
