@@ -9,9 +9,11 @@ define friend = Character("Thalia's Friend", color = "#846FB7")
 
 define ailon = Character("Ailon", color = "#A0B3BA")
 
-define ivania = Character("Ivania")
+define ivania = Character("Ivania", color = "#316374")
 
 define phobion = Character("Phobion", color = "#316374")
+
+define harry = Character("Harry", color = "#E5AE6E")
 
 #flags
 
@@ -19,19 +21,15 @@ default phobianJealosly = False
 
 default meetIvania = False
 
+default harryNapped = False
+
+default harryFriend = False
+
 #image control
 
 layeredimage thalia:
     always:
         "thalia_base"
-
-    group extras:
-        attribute noeffect default:
-            null
-        attribute smallBlush:
-            "thalia_blush2"
-        attribute bigBlush:
-            "thalia_blush"
 
     group expressions:
         attribute idle default:
@@ -80,23 +78,18 @@ layeredimage thalia:
             "thalia_verysurprise"
         attribute uwu:
             "thalia_uwu"
-        
-        
-
-
-
-layeredimage ailon :
-    always: 
-        "ailon_base"
 
     group extras:
         attribute noeffect default:
             null
-        attribute blush :
-            "ailon_blush"
-        attribute shadow :
-            "ailon_shadow"
+        attribute smallBlush:
+            "thalia_blush2"
+        attribute bigBlush:
+            "thalia_blush"
 
+layeredimage ailon :
+    always: 
+        "ailon_base"
 
     group expressions :
         attribute idle default:
@@ -132,8 +125,21 @@ layeredimage ailon :
         attribute o:
             "ailon_o"
 
+    group extras:
+        attribute noeffect default:
+            null
+        attribute blush :
+            "ailon_blush"
+        attribute shadow :
+            "ailon_shadow"
 
 
+layeredimage harry:
+    always:
+        "harry_idle"
+    group expressions:
+        attribute smile:
+            "harry_smile"
 
 layeredimage friend :
     always: 
@@ -155,8 +161,12 @@ layeredimage friend :
 
 transform smaller: #you can call it what ever you want 
     zoom 0.90
+
 transform lightFilter:
     matrixcolor TintMatrix("#7FA5F2")
+
+transform shadowFilter:
+    matrixcolor TintMatrix("#000000")
 
 transform cardRight:
     yalign 0
@@ -168,6 +178,9 @@ transform cardLeft:
 
 transform flip:
     xzoom -1
+
+transform reverseFlip:
+    xzoom 1
 
 
 label start:
@@ -647,8 +660,6 @@ label start:
 
         ivania "I can also tell you about your future, do you want to unmask your destiny?"
 
-        #referencia Ivania
-
         thalia "I do!"
 
         show thalia o
@@ -736,27 +747,33 @@ label start:
         jump choice2_END
 
     label choice2_B:
-        "It isn’t very far off from the first roller coaster, there is a bit of line."
+        "It isn’t very far off from the first roller coaster; there is a bit of a line."
 
         show thalia idle
 
-        thalia "So have you already gone in all the rides?"
+        thalia "So have you already gone on all the rides?"
+
+        show ailon smile
 
         ailon "I have, yes."
 
         show thalia pouts
 
-        thalia "(She pouts) oh so it won’t be so fun if you already know… but do you still want to?"
+        thalia "(She pouts) Oh, so it won’t be so fun if you already know… but do you still want to?"
 
-        ailon "They are made to be fun, I don’t mind going again if that’s what you want. (He smiles gently)"
+        ailon "They are made to be fun; I don’t mind going again if that’s what you want. (He smiles gently.)"
 
         show thalia uwu
 
         "The smile feels Protagonist with some butterflies, his smile is so composed, that you could take a picture from any angle and it would look great, she thinks that at least."
 
-        show thalia shock
+        show thalia verysurprise
+
+        show ailon idle -blush
 
         thalia "Say, since you own this place… could we skip ahead? (She says in a bit of a whisper)"
+
+        show ailon sweetsmile
 
         ailon "I did not take for a rule breaker miss protagonist…"
 
@@ -766,7 +783,7 @@ label start:
 
         ailon "I guess a bit of bending can’t hurt."
 
-        show thalia uwu
+        show thalia convencida
 
         "Ailon takes protagonist by the hand up towards the front of the line"
 
@@ -774,15 +791,21 @@ label start:
 
         show thalia idle
 
-        "He talked real quick to one of the employees, they let both walk in, some people looked at them weird but perhaps they just had a fast pass"
+        show ailon o
 
-        show thalia happy
+        "He talked real quick to one of the employees, they let both walk in, some people looked at them weird but perhaps they just had a fast pass."
+
+        show thalia satisfied
+
+        show ailon sweetsmile
 
         "The ride was fast, it was supposed to be like eletricity traveling across lightbulbs."
 
         "They both made it out and Thalia said."
 
         thalia "It was almost a light show, everything was so fast!"
+
+        show ailon smile
 
         ailon "So it was fun?"
 
@@ -798,21 +821,25 @@ label start:
         
         hide ailon
 
+        with dissolve
+
         "They both spend some time from ride to ride."
-
-        show thalia idle
-
-        show ailon idle
 
         "Eventually Ailon asks for a moment to go to the toilet, so protagonist waits."
 
+        hide ailon
+
         "While she waits one of the characters, a figure that resembles a mosquetire approaches and says."
 
-        show thalia 0
+        show thalia o at smaller, left with dissolve
 
         "???" "Are you a fine lady on your own?"
 
         show thalia happy
+
+        show phobion idle at right
+
+        with dissolve
 
         thalia "It seems not any more sir (she makes a fancy gesture)"
 
@@ -864,23 +891,35 @@ label start:
 
             thalia "I don’t much care about his Exs, I have a few too."
 
-            phobion "But they never left him, for this is land is forever"
+            phobion "But they never left him, for this is land is forever."
 
-            show thalia shockblush
+            show thalia bigopen bigBlush at center 
 
-            "A hand crosses around her and it’s Ailon hugging her from behind"
+            show thalia at smaller
+
+            show ailon o at left, flip
+
+            "A hand crosses around her and it’s Ailon hugging her from behind."
 
             show thalia uwu
 
-            "Thalia had to concentrate not no melt in a puddle, but she couldn’t contain her smile, to her he was distant but now so close"
+            "Thalia had to concentrate not no melt in a puddle, but she couldn’t contain her smile, to her he was distant but now so close."
 
-            ailon "Phobion we talked before and you can’t scare my dates like this"
+            show thalia o -bigBlush
+
+            show ailon sad
+
+            ailon "Phobion we talked before and you can’t scare my dates like this."
+
+            show thalia satisfied smallBlush
 
             thalia "You said date… (she whispers softly)"
 
             phobion "You are right my loved Ailon, I was not chivalrous with lady, I’ll be of leave"
 
-            show thalia confused
+            show thalia confused -smallBlush
+
+            show ailon o
 
             ailon "But get your suit checked out, I see some errors."
 
@@ -888,11 +927,21 @@ label start:
 
             "Phobion walks away."
 
+            hide phobion idle with dissolve
+
+            show ailon at right, flip
+
+            show thalia at left
+
+            with dissolve
+
             "He than turns protagonist around, his face a mixture of worry and embarrassment."
 
-            ailon "I bet he said some weird things… he never really got over"
+            show ailon sad at right, reverseFlip
 
-            show thalia o
+            ailon "I bet he said some weird things… he never really got over."
+
+            show thalia o - bigBlush -bigBlush
 
             thalia "So he was an Ex…"
 
@@ -904,9 +953,9 @@ label start:
 
             show thalia confused
 
-            "When the initial shock wore off she looked to see if there was a trace of Phobion, she didn’t" 
+            "When the initial shock wore off she looked to see if there was a trace of Phobion, she didn’t." 
 
-            "Though outside she was happy as a butterfly she also thought it was very weird and she wanted to talk more to Phobion"
+            "Though outside she was happy as a butterfly she also thought it was very weird and she wanted to talk more to Phobion."
 
             jump choice3_END
 
@@ -914,7 +963,7 @@ label start:
 
             $ phobianJealosly = True
 
-            show thalia incomodada
+            show thalia disgust
 
             thalia "Oh so you jealous of us?"
 
@@ -922,31 +971,48 @@ label start:
 
             show thalia angry
 
-            thalia "What to ruin a date? (She says a bit angry) I finally got him to enjoy a good time and u come between? I can make him happy enough thank you very much!"
+            thalia "What to ruin a date? (She says a bit angry) I finally got him to enjoy a good time and you come between? I can make him happy enough thank you very much!"
 
             phobion "(Lifts up a hand as if to talk back) I… will let you threat thy path."
 
+            hide phobion idle with dissolve
+
             "Phobion walks away, and soon Ailon comes around looking at Phobion."
+
+            show ailon idle at right
+            with dissolve
 
             ailon "Did he come talk you?"
 
-            "Yeah he was being mean… you shouldn’t hire your exs you know? (She laughs a bit)"
+            thalia "Yeah he was being mean… you shouldn’t hire your exs you know? (She laughs a bit)"
 
-            show thalia incomodada
+            show thalia thinking
 
-            ailon "I… well… I’m glad you think so… I’ll have to talk to him afterwards."
+            show ailon worry
+
+            ailon "I… Well… Sorry about that… I’ll have to talk to him afterwards."
 
             show thalia sparkle
+           
+            show ailon o
 
             thalia "I wouldn’t worry too much (she grabs his hand and looks with sparkling eyes) I know I like you I just have to make sure you like me back~"
 
+            show ailon blush
+            
+            show thalia convencida
+
             "Protagonist begging screaming internally, asking if she was to forwards, maybe to cringe?! Could he like her back."
+
+            show ailon sweetsmile
 
             "Ailon gave in return smile and blushed cheeks."
 
-            ailon "Well I won’t tell u yet…"
+            ailon "Well I won’t tell you yet…"
 
             show thalia happy
+
+            show ailon smile 
 
             "There is a sweet air between the two"
 
@@ -958,14 +1024,22 @@ label start:
 
         label choice3_END:
             jump choice2_END
-    
+
+
+# =========================part 3==================================
     label choice2_END:
 
+    stop music fadeout 1.0
+    
     scene bg parknigth
+
+    play music "Contemplation.mp3"
 
     show thalia idle at left, smaller
 
     show ailon at right
+
+    with dissolve
 
     if (phobianJealosly):
         jump part3b
@@ -976,13 +1050,21 @@ label start:
 
     "There were still many people around, but perhaps now most were tired from a day of playing around so it seemed more slow and calm."
 
+    show thalia shinyeyes
+
     thalia "This place is so cool! It’s so different at night right?"
+
+    show ailon smile
 
     "She was more stating than asking so Ailon kept quite, he didn’t seem tired but a bit distracted."
 
     thalia "Where did this come from anyway?"
 
+    show ailon o
+
     ailon "(He was a bit confused) what you mean?"
+
+    show thalia bigopen
 
     thalia "This park, its theme park, where did the ideia come from? Was it yours?… maybe your dad’s? This park has been here a while right?"
 
@@ -990,40 +1072,66 @@ label start:
 
     thalia "That’s so cool! So it does belong to your family who had the ideia?"
 
+    show ailon side
+
     "Ailon seemed to shift a bit as if thinging, maybe a little to hard on the subject but then he spoke."
 
     ailon "My grandpa… he wanted to make a place for people he knew."
 
+    show thalia o
+
     thalia "So he made a theme park? Not a hotel or maybe even a bar where he could have them around?"
+
+    show ailon sad
 
     ailon "He… wanted to make them feel at home, that’s why he… made all these different areas."
 
     thalia "Oh! So there were all foreigners?"
 
+    show ailon side
+
     ailon "Something like that…"
+
+    show thalia happy
 
     thalia "Your grandad seems sweet then."
 
+    show ailon sweetsmile
+
     ailon "(Playfully he said) so you were after my grandad not me? How scandalous!"
 
-    thalia "(Joking) oh now I have been exposed! (She holds her hands to her chest)"
+    show thalia convencida
+
+    thalia "(Joking) Oh now I have been exposed! (She holds her hands to her chest)"
 
     ailon "Should have known you like them old!"
 
+    show thalia happy
+
     thalia "They do have more experience, so maybe it’s for the best."
+
+    show ailon smile
 
     ailon "Is that why you take a interest on me? Cause you think I’m old?"
 
+    show thalia thinking smallBlush
+
     thalia "(She blushed a bit but said confidently) i don’t know you haven’t told me… but you do feel old…"
 
+    show thalia nervous -smallBlush bigBlush
+
+    show ailon surprise
+
     thalia "(She rapidly tries to save from calling this young man old) old in the good way I mean! Like that is confortable to be around you…"
+
+    show thalia embarrased
 
     "Ailon seems a bit surprised but happy by the statement."
 
     menu part3choice:
         "Thalia blushes a bit while trying desperately to think how to change topics."
 
-        "What do you like about me then? (She asks bluntly)":
+        "What do you like about me then?":
             jump part3choice_a
         "Do you believe in destiny? Like the woman said?" if meetIvania:
             jump part3choice_b
@@ -1032,21 +1140,37 @@ label start:
     
     label part3choice_a:
 
-        "Ailon looked at her  for a moment, his mind seemed to drift a bit "
+        "Ailon looked at her  for a moment, his mind seemed to drift a bit."
+
+        show ailon idle
+
+        show thalia o
 
         ailon "I guess… it would be your forwardness, i haven’t been one to begin things as of late, it’s refreshing."
 
+        show ailon sad
+
         thalia "Everyone has bad times, you don’t need to feel so bad about."
 
-        "Protagonist put a hand in his shoulder as if to comfort him, she saw him as someone older but now he seemed smaller"
+        show thalia smile
+
+        "Thalia put a hand in his shoulder as if to comfort him, she saw him as someone older but now he seemed smaller."
 
         ailon "I am humbled by your words but I don’t know if I can even be in this type of relationship you imagine right now…"
 
         "Even by his words he seemed to lean a bit forward, she saw there was this faint hope in his eyes."
 
+        show ailon  verysurprise blush
+
+        show thalia cutesmile at center
+
         "Thalia leaned a bit closer and gave him a kiss in the cheek "
 
+        show thalia embarrased at left
+
         "He turned his eyes a bit shocked so she backed slightly embarrassed"
+
+        show ailon sweet
 
         thalia "(She said nervously) I’m sorry… maybe i shouldn’t have done that…"
 
@@ -1054,19 +1178,29 @@ label start:
 
         thalia "(She was shocked) then… maybe I should go home…"
 
+        show ailon sad blush
+
         ailon "No no, stay… i just need a minute to get my mind in order… here."
 
+        show thalia o bigBlush
+
         "He approached her, pulled her hand and gave her a card."
+
+        show ailon smile -blush
 
         ailon "You can use it to get something to eat around here if you are hungry… I’ll be back… just… don’t leave?"
 
         "He seemed genuinely confused in his feeling but his words seemed true"
 
+        show thalia embarrased
+
         thalia "Okay… I’ll stay a bit."
 
         "He seemed relaxed and then nodded and walked away."
 
-        "Protagonist sat in a bench close by the put her hands in her hair embarrassed mumbling. "
+        hide ailon with dissolve
+
+        "Thalia sat in a bench close by the put her hands in her hair embarrassed mumbling. "
 
         thalia "Oh no… now I messed it up… I shouldn’t have… but he looked so sad…"
 
@@ -1076,25 +1210,49 @@ label start:
 
     label part3choice_b:
         
+        show thalia o
+
         thalia "You know… like what Ivania said."
+
+        show ailon verymad
 
         ailon "(He seemed a little frustrated when he heard the name) she was trying to scare you like I said, it a bad habit she has."
 
+        show thalia thinking
+
         thalia "But aren’t card readers supposed to tell truth on their cards."
+
+        show ailon side
 
         ailon "But she exaggerated, it’s a park afterall, it has to bring some emotion."
 
-        thalia "(Doubtful) then why are you so mixed up trying to dismiss what she said?"
+        show thalia angry
+
+        thalia "Then why are you so mixed up trying to dismiss what she said?"
+
+        show ailon verymad
+
+        show thalia bigopen
 
         ailon "Because I don’t wanna hurt you!"
+
+        show thalia o
+
+        show ailon worried
 
         "She was shocked, it the first time she saw him raise his voice, it wasn’t a scream per say, but as low as he talked it was loud."
 
         ailon "Oh I’m sorry… i didn’t mean to scream."
 
+        show thalia convencida
+
         thalia "So you have a sensible side too… a bit childish too at that (she said smug)"
 
+        show ailon surprise
+
         ailon "What?"
+
+        show thalia thinking
 
         thalia "Every relationship is complicated, and sometime you hurt each other… you maybe older then me but I not naive like that."
 
@@ -1102,38 +1260,67 @@ label start:
 
         thalia "So? You still wanna tell me the same?"
 
+        show ailon sad
+
+        show thalia angry
+
         ailon "It’s more complicated then that…"
 
         thalia "(She sighs) and they say woman are complicated…"
+
+        show thalia at center
+
+        show ailon surprise blush
 
         "She walks up to Ailon pulls him and gives him a fast kiss on the lips."
 
         "Inside she was so nervous she could be shaking, but she was also a bit angry, and wanted to show him her commitment."
 
+        show thalia embarrased at left
+
         "Ailon looked shocked, then embarrassed, then the embarrassment came back to protagonist as well, She turned around and said."
+
+        show ailon idle
 
         thalia "There… you either liked it… or didn’t."
 
+        show ailon sad
+
         "There a strange moment of silence, but it felt longer for both."
+
+        show thalia o bigBlush
 
         "Protagonist got even more embarrassed and she felt like she wanted to disappear she was getting ready to run off when Ailon grabbed her hand."
 
         ailon "I need a minute… and I think you do to… meet at the central plaza later… and have this, anything you want. Its is my treat."
 
+        show thalia confused
+
         "He handed protagonist a small card, then walked away."
+
+        hide ailon with dissolve
 
         "She was very shocked still, was that a good sing? A bad one?"
 
         "She stood there a bit giddy and did not see a man approach her."
+
         "He was wearing a hood and said in a soft voice."
 
         jump harryNapped
-
-
         
     label harryNapped:
 
+        $ harryNapped = True
+        
+        show thalia at center
+
+        show harry at shadowFilter,left, flip
+
+        with dissolve
+        
         "???" "Hey did he gave you a card?"
+
+        show thalia confused -bigBlush at flip
 
         thalia "What…"
 
@@ -1141,7 +1328,15 @@ label start:
 
         thalia "Yeah he did…"
 
+        hide harry
+
+        show harry at left, flip
+
+        show thalia verysurprise
+
         "She stopped when she saw him pulling a gun, she thought about screaming there weren’t many people around but it was sure to draw attention."
+
+        show thalia surprise
 
         "But she was so surprised it was like her body froze in fear."
 
@@ -1155,13 +1350,19 @@ label start:
 
         "???" "I want you to fucking live, now walk to that employee exit on the left."
 
+        show thalia thinking at reverseFlip
+
         "She was confused but did as she was told."
 
         "Protagonist walked and he followed right up to the door."
 
         "???" "Use the card to open the door."
 
+        show thalia angry
+
         "Still scared she pulled out the card, passed on the scanner beside the door, and to her surprise it worked."
+
+        show harry smile
 
         "She heard a sight of relief, not from her but from the man he mumbled (it does work)."
 
@@ -1170,56 +1371,98 @@ label start:
         jump part3end
 
     label part3choice_c:
-    
+        
+        show thalia o
+        
         ailon "Who do you mean?"
+
+        show thalia o
 
         thalia "The one in the musketeer costume… Phobion I think seemed very well… you know."
 
+        show ailon verymad
+
         ailon "He was just jealous and a bit confused I’m sure."
 
-        ailon "Why do you keep him in the park?"
+        show thalia confused
+
+        thalia "Why do you keep him in the park?"
+
+        show ailon surprise
 
         "Ailon seemed puzzled by the question, not as if he did know the answer but that he didn’t know how to tell her."
 
+        show thalia o
+
         thalia" Maybe I should talk to him? Get him to understand that he can’t butt in like that."
+
+        show ailon side
 
         ailon "You would stand up like that?"
 
+        show thalia thinking
+
         thalia "Only because he didn’t seem to want to be mean about it… I mean he wasn’t mean, he was trying to tell me something."
+
+        show ailon o
 
         ailon "Like what?"
 
+        show thalia confused
+
         thalia "Just that you loved the people here… I think I was a bit confused too."
+
+        show ailon idle
 
         "Ailon looked confused but then his face had a little more serious look, not in the threatening way but the determined look."
 
-        ailon "Say Protagonist do you still wanna talk to him?"
+        show ailon sad
+
+        ailon "Say Thalia do you still wanna talk to him?"
 
         thalia "Maybe I mean… he seemed to want to say things, it’s important to listen to people."
 
         ailon "Then would you listen to this?"
 
-        "Ailon pulls her a bit closer, protagonist gets flustered and he leans in as if asking"
+        show ailon idle blush at center
 
-        "She what, asking for a kiss, her heart beat real fast and she agreed "
+        "Ailon pulls her a bit closer, Thalia gets flustered and he leans in as if asking."
 
-        "He kissed her for only o moment, leaving her dovey with love, he too was somewhat flustered"
+        show thalia bigopen bigBlush
+
+        "Seing that, him asking for a kiss; Her heart was beating real fast and she agreed."
+
+        show ailon sweet at right
+
+        show thalia uwu
+
+        "He kissed her for only o moment, leaving her dovey with love, he too was somewhat flustered."
 
         ailon "I… would you rather think of this instead… I should prepare something then."
 
         "He a bit clumsy searched his clothes and pulled a card."
 
+        show ailon smile blush
+
         ailon "Have this to buy something if you are hungry, or show that to the employees, if ya need me, I’m gonna need a moment."
 
-        "He ran off before she could respond "
+        hide ailon
+
+        "He ran off before she could respond."
 
         "Her heart was beating so loud she could barely hear her own thoughts, but she could feel, besides the embarrassment and uneasiness."
 
+        show thalia thinking
+
         "She took a long breath, looked around and went to talk to one of the employees."
+
+        show thalia o -bigBlush
 
         thalia "Excuse me… I… I need to talk to Phobion."
 
         "I’m sorry Ma’am I don’t know what you mean."
+
+        show thalia confused
 
         thalia "The musketeer Phobion… (she showed him the card) here can you take me to him."
 
@@ -1227,19 +1470,19 @@ label start:
 
         "She kept thinking about the kiss but this curiosity also was consuming her, so she was convicted to try her own path."
 
-        "Both the employee and protagonist failed to notice a man following both, and he had been there a while."
+        "Both the employee and Thalia failed to notice a man following both, and he had been there a while."
         
         jump part3end
     
     label part3b:
 
-        "Both Ailon and Protagonist go on a lot of rides, they almost get to ride all of them before they stop to rest a while"
+        "Both Ailon and Thalia go on a lot of rides, they almost get to ride all of them before they stop to rest a while."
 
-        "Protagonist was feeling really happy but she didn’t know if Ailon was having the same amount of fun"
+        "Thalia was feeling really happy but she didn’t know if Ailon was having the same amount of fun."
 
-        "She saw him smile, talked to him, to her he did look handsome but it was making her somehow uncomfortable "
+        "She saw him smile, talked to him, to her he did look handsome but it was making her somehow uncomfortable."
 
-        "She also kept thinking back to that weird guy in the costume Phobion"
+        "She also kept thinking back to that weird guy in the costume Phobion."
 
         thalia  "Ailon, why would you keep an Ex you have working here?"
 
@@ -1269,23 +1512,39 @@ label start:
 
     label phobionHurtA:
 
+        show ailon side
+
         ailon "I’m just gonna talk to him not beat him."
+
+        show thalia angry
 
         thalia "I know… but I’ll be bored without you here (she blinks her eyes as if making a charm)."
 
+        show ailon smile
+
         ailon "Okay… then to make it up… this?"
+
+        show thalia confused
 
         "He hands her a card."
 
         ailon "You should be able to get yourself anything you want."
 
+        show thalia angry
+
         thalia "So you are buying me…?"
 
+        show ailon o
+
         "Ailon seemed to be upset by her words, he meant to take the card but she backed a bit."
+
+        show ailon sad
 
         "Inside her she began to dislike that off the ground side of him, that arrogance he knew better."
 
         "She wanted to be petty."
+
+        show thalia thinking
 
         thalia "I didn’t say I wouldn’t take it."
 
@@ -1293,15 +1552,25 @@ label start:
 
         "He than turned his back and walked away."
 
-        "Protagonist was left to think and began talking to herself ."
+        hide ailon with dissolve
+
+        "Thalia was left to think and began talking to herself ."
+
+        show thalia embarrased
 
         thalia "I like him… but now he just seemed weird, I don’t know if I like that."
 
+        show harry at right ,shadowFilter
+
         "???" "Maybe you should find out what he is really doing."
+
+        show thalia surprise
 
         "She hadn’t noticed but a man in a hoodie was juts next to her."
 
         "She jumped at his sudden appearance."
+
+        show thalia o
 
         thalia "I’m sorry… do i know you?"
 
@@ -1309,15 +1578,19 @@ label start:
 
         "???" "He is hiding things from you."
 
-        thalia "(She was curious enough to ask) like what?"
+        show thalia confused
+
+        thalia "Like what?"
 
         "???" "That card does more than buy ya things, he just didn’t tell you."
 
-        "The strange man gestures to an employee door"
+        "The strange man gestures to an employee door."
 
-        "Protagonist feels really skeptical, and a bit scared so she does as she is told"
+        "Thalia feels really skeptical, and a bit scared so she does as she is told."
 
-        "To her surprise after passing the card the door opens and inside her suspicion sets"
+        "To her surprise after passing the card the door opens and inside her suspicion sets."
+
+        show thalia surprise
 
         thalia "What now then?"
 
@@ -1325,71 +1598,130 @@ label start:
 
         "She goes in and the man follows closing the door behind."
 
-        "Harry" "The name is Harry, lady… and u might need this."
+        show thalia thinking
+
+        hide harry
+        show harry at right
+
+        with dissolve
+
+        harry "The name is Harry, lady… and you might need this."
+
+        show thalia verysurprise
 
         "From under his hood he hands Thalia a gun."
+
+        $ harryFriend = True
 
         jump part3end
 
     label phobionHurtB:
 
+        show ailon sad
+
         ailon "It’s a long story… (he seemed sad)"
+
+        show thalia o
 
         "She saw a slight pain in his eyes, she walked to a bench and gestured."
 
+        show thalia idle
+
         thalia "Well luckily we got time."
 
-        "He looked at the bench next to her and hesitantly sat down"
+        "He looked at the bench next to her and hesitantly sat down."
 
-        thalia "I was… maybe a bit mean… but I was upset but look sad did you too had a long time together."
+        thalia "I was… maybe a bit mean… I was upset; but you look sad, did you two had a long time together?"
 
-        ailon "Yeah you could say that… but wasn’t the only one."
+        show ailon worry
+
+        ailon "Yeah you could say that… but he wasn’t the only one."
+
+        show thalia thinking
 
         "Thalia began to see that he seemed pained talking about it, perhaps way more the she expected."
 
+        show thalia bigopen
+
         thalia "Maybe it’s still not the right moment to talk about it… but I’m glad you have shown it to me?"
+
+        show ailon sad
 
         ailon "That I’m a mess."
 
         thalia "That you are human."
 
+        show thalia  cutesmile
+
+        show ailon surprise
+
         "(She laughs a bit akward)"
 
         "I think… honestly that you are very handsome… but it’s good to see that you are soft."
 
+        show ailon idle
+
         "Ailon looked at her still a bit hurt but slightly more composed and looking up to her in a soft tender look, almost inviting."
 
+        show ailon verysurprise blush
+
+        show thalia at center
+
         "She leaned in and gave him a kiss."
+
+        show thalia o bigBlush
 
         "I can be here for you… if you let me…"
 
         "Ailon didn’t say anything he seemed aloft and he blushed."
 
+        show ailon idle
+
         "He stood up after a moment and handed her back a card."
+
+        show ailon side
 
         ailon "Buy something to eat… I’ll be back in a bit I need to clear my head."
 
+        show thalia embarrased
+
         thalia "Did I…"
+
+        show ailon sad
 
         ailon "No no… it’s more me you can rest easy, I’ll be back if you still here."
 
         "She hesitate but took the card."
 
+        hide ailon with dissolve
+
         "Before she could say anything he left."
+
+        show thalia thinking
 
         "Thalia felt slightly awkward but relived she got to see a gentle and timid saúde of him, one that needed caring."
 
+        show harry at shadowFilter, flip with dissolve
+
         "She didn’t notice a man in a hood getting close to her till he spoke."
+
+        show thalia confused
         
         "???" "Do not scream… or you die."
+
+        show thalia verysurprise
 
         "She looked and saw that the figure was holding a gun up to her, there were people around but in the quiet corner no one paid much attention."
 
         "Protagonist was shocked she couldn’t scream if she wanted to, so she just held the card firmly. "
 
+        show thalia surprise
+
         "???" "You are going to get up, you won’t run or I’ll kill you… you are gonna come with me to that door, and you are gonna play it cool…. Nod if u understand."
 
         "Protagonist nooded, she wanted to run, she did want to scream, but what if he shot she thought."
+
+        show thalia thinking
 
         "She did as he told her, got up, next to him, she felt the gun touch her back, as he hid it between them, and he whispered."
 
@@ -1399,11 +1731,658 @@ label start:
 
         "When she reached the door, there was a beep, the door opened, he pushed her inside and lock the door behind them, no one saw a thing."
 
+        $ harryNapped = True
+
         jump part3end
 
 
 
     label part3end:
+
+    label loveRoute:
+
+        #Happens if Thalia never asked about Phobion 
+        #Even if they met
+        #This does not happen if she was rude to him
+
+    Narrador
+    The hallway is obscure, clean, but very unsettling, there are few light lining the walls and the air is still and dry
+
+    Some noises can be heard like machine working, water flowing in pipes. Only some talk could be heard in the far distance, probably from the park
+
+    Thalia felt as the man behind her pressed the gun on her back and said
+
+    ???
+    Now down the stairs
+
+    Narrador
+    She was scared enough to want to cry, but also to nervous to break down, as adrenaline also made her hyper aware, she managed to walk
+
+    They were in a catwalk that oversaw the hallways, they went down and surprisingly only the sound of machinery could be heard
+
+    He made her walk up to a junction. An automated maintenance car drove by the junction, it was so silent she couldn’t hear unto it passed right In front of her
+
+    Thalia
+    (She mustered up courage to speak)
+    What do you want from me…?
+
+    ???
+    Like I said for you to live, now tell me where the other people are
+
+    Thalia
+    What? Who? 
+
+    ???
+    The man and woman that monster keeps down here, it’s the only to hide that many people take me to them!
+
+    Thalia
+    Mister (she said scared) I don’t even know who you are honestly… please don’t hurt me…
+
+    Narrador
+    She started to think he was crazy, he pushed her so she was facing him and said 
+
+    Harry
+    The name is Harry… Harry Kepleer and you lady?
+
+    Narrador
+    He also took his hood off, to her surprise it was an older man, she expected a mean looking thug, but not a grandpa, he looked well over sixty.
+
+    Thalia
+    It’s Thalia… (she was confused and manages to answer only because her expectations were thrown off)
+
+    Harry
+    Look, I don’t wanna kill you okay, just that bastard… so I need you to tell me where his people are
+
+    Thalia
+    His… who?
+
+    Harry
+    Ailon’s, the people he has kidnapped and imprisoned 
+
+    Thalia 
+    What?!
+
+    Narrador
+    Thalia was hit with a mixture of shock and fear, could Ailon be some sort of psychopath, she thought
+
+    She could only think about his smile and his face, how friendly he was, could it be she was wrong about him
+
+    Thalia 
+    That can’t be… he is a sweet person… and a bit sad but he couldn’t be kidnapping… people…
+
+    Harry
+    You don’t know… (he looked disappointed and tired) but he gave you that card… he must trust you
+
+    Thalia 
+    He just gave me to buy something… i thought it was a gift card to the park 
+
+    Harry
+    It indeed is, but it’s one that belongs to him so it must grant access to theses levels and much more around the park
+
+    Thalia
+    Why would he give it to me then?
+
+    Harry 
+    You didn’t know it could be used like that maybe…
+
+    Narrador
+    He seemed confused, Thalia saw maybe an opportunity to run away but she didn’t know where to
+
+    That’s when from one of the door came one of the parks full suits, it was a man dressed like a pirate
+
+    Pirate man
+    Hey mateys… you cannot be in this boat
+
+    Narrador
+    Thalia saw as an opportunity to scream for help
+
+    Thalia
+    Please help he has a gun!
+
+    Narrador
+    The man looked at her angry, he pointed the gun at the full suit mascot
+
+    Pirate man
+    If this is a munity you will walk the plank mat….
+
+    Narrador 
+    He didn’t finish the sentence and the loud bang of a gun shot hit the mascot straight in the chest
+
+    Thalia watched horrified, but to her surprise the man did not fall, and no blood formed in the whole
+
+    The pirate man simply lunged forward without saying anything, as Harry fired three more shots each hitting a part
+
+    Thalia tried to run but she hit a maintenance cart that was waiting right behind her to pass, she tripped and fell
+
+    The pirate man also fell in the ground, she then felt the man grab her arm
+
+    Thalia
+    Please… please don’t kill me ( this time she cried a bit)
+
+    Harry
+    Look for yourself he ain’t human!
+
+    Narrador
+    He dragged her closer to the body, she was too nervous and scared to fight back so he showed her
+
+    The suit was half open on the back, and inside the suit there were machine pieces fused with flesh, it barely spewd blood, it was grotesque to look so she looked away
+
+    Harry
+    I don’t know if they are alive… but they sure ain’t living.
+
+    Pirate man
+    Thalia matey… (the voice said a mix of robotic cracking) the captain will be here…
+
+    Harry 
+    Shit!
+
+    Narrador
+    Harry dragged Thalia away
+
+    As she was being dragged she saw the suit still try to move in her direction but right there was nothing she could do
+
+    The man dragged her only up to the next corner, then forced her to walk the hallways
+
+    Thalia cried, she kept thinking what was going on, people fused with machines, was that really all Ailon?
+
+    Harry was lost, he wandered the hall, many door had weird symbols?, he tried opening some of them, but they were mostly empty except for some strange surgical equipment he refused to touch, but took some pictures
+
+    They finally came across a stranger door it had a bridge simbol
+
+    ———-
+    1 . If Thalia had the tarot cards read
+
+    Narrador
+    The door had the simbol of the bridge like the the reader drew for her earlier in the day
+
+    Thalia
+    I’ve seen this…
+
+    Harry 
+    What?
+
+    Thalia
+    The card reader Ivania… she showed me this bridge
+
+    Narrador
+    Harry took the card from her hands and swiped on the door himself
+
+    2. If Thalia didn’t read the tarot cards read
+
+    Narrador
+    Harry was frustrated and he stopped and looked at the door for a moment 
+
+    Harry
+    Better this than anything else. Open it
+
+    Narrador
+    Thalia walked to the door and swiped the card
+
+    ——-
+
+    Narrador
+    The door opened revealing a larger room, in much the same style of the hallways, but in its center up on a pedestal rested what looked like an obsidian dagger
+
+    Maybe blacked from time, it was a crude piece, just like something out of the pre-historic times
+
+    Harry
+    What the fuck…
+
+    Stay here…
+
+    Narrador
+    Harry walked up to the pedestal, it had a glass dome on top of it
+
+    He pointed the gun a took a shot, the glass exploded and Thalia put her hands in her ears, she thought about running
+
+    Just then two hands around her shoulder calmly, she looked and saw Ailon
+
+    It was mixed feeling relief but also scared, who was this man next to me now she thought, and he had somewhat scary expression 
+
+    Harry then turned around
+
+    Harry 
+    You fucker!
+
+    Narrador
+    He pointed the gun at Ailon
+
+    Harry 
+    I saw the messed up shit here you did, you pick up people and turn them into monsters!
+
+    Ailon
+    I do no such thing… (Ailon sounded angry, yet bored)
+
+    Harry 
+    I saw them don’t deny it, I’m going to expose you and your sick family
+
+    Ailon
+    I don’t have a family it’s all me Harry…
+
+    Harry
+    How do you… you know what fuck you!
+
+    Narrador
+    Harry pulls the trigger, Thalia watched horrified as a bullet wound opened straight into Ailons head and he fell in the ground
+
+    She screamed horrified and confused but she was even more confused when he stood up
+
+    Ailon simply got up, the bullet wound expelled out the metal pellet and he asked sete
+
+    Ailon
+    Happy?
+
+    Harry
+    You are a monster
+
+    Narrador
+    Harry shot him two more time but Ailon Barr even fell into the ground
+
+    Thalia fell on her knees scared, her mind running surprise after surprise she felt like she would faint.
+
+    Harry picked up the knife and tried to charge at Ailon 
+
+    Ailon for the first time seem genuinely angry as he also charged the man
+
+    Ailon
+    Let go of that knife!
+
+    Narrador
+    Not only was a man in his prime against an old man, but also seemed like a warrior against a child, as Ailon simply dogged the thrust, flipped the man’s arm and trip him down
+
+    The sound of the man hitting the ground was heavy and likely broke a bone or two
+
+    Some people in the full suits came in and grabbed the man
+
+    And Thalia from full exhaustion also fainted
+
+    Narrador
+    When she woke up it was on a mattress laid out in the main plaza of the park
+
+    She thought she was dreaming, there was no people around but sitting by a bench was Ailon quite and looking sad
+
+    He still held the black knife in his hands. Thalia sat up on the mattress, her head a mess full of thoughts and fears
+
+    Thalia
+    Who are you?
+
+    Narrador
+    Ailon looked at her, and she could almost feel a weight on him, like he was dragging himself to every action she could fear him but also pity him
+
+    He got up leaving the knife where it was, he sat just a bit away from her and said
+
+    Ailon
+    I’m Ailon… and I can’t die…
+
+    Narrador
+    Thalia was confused and bewildered, but if she saw what she saw, him getting shot and shrugging it off like some super hero she couldn’t lie to herself 
+
+    She struggled to find out what to say, but could still see Ailons sadness
+
+    ——-
+
+    1 Thalia 
+    tell me more… what was all that I saw down there?
+
+    2 Thalia (only ask if met Ivania)
+    Those cards… they did have that knife in them… what does this all mean?
+
+    3 Thalia (only if met Phobion)
+    Is this the secret Phobion tried to tell me?… are all of them.. people?
+
+    ———-
+
+    <<<<<1>>>>>
+
+    Ailon
+    I can’t even think where to start…
+
+    Thalia
+    Maybe tell me… what is going on… who was that man who are u really?
+
+    Narrador
+    Ailon looked bitter and sad but he seemed trufull in his words
+
+    Ailon
+    My name is Ailon…
+
+    I have been cursed Thalia… to live forever, I have since a very long time
+
+    That man… Harry… his grandfather was involved in trying to pin me on vengeance because years ago his wife left his grandfather and he, beloved my family were criminals 
+
+    Only it was me… 
+
+    Thalia (scared)
+    Did you… kill…
+
+    Ailon
+    No no… I’ll think about what to do with him later, i don’t really wanna hurt an old man like him
+
+    Thalia
+    I see… that’s reasonable 
+
+    What… were those things… I saw down there
+
+    Narrador
+    There was hesitation in her voice to ask, like she feared the answer it self
+
+    <<<<<2>>>>>
+
+    Narrador
+    Ailon breathed heavy with the question, like the answer itself weighted a ton 
+
+    Ailon
+    It was part of a prophecy…
+
+    I am… immortal, I have been cursed to be so till I have found a true selfless love…
+
+    But I have lived thousands of years… it has yet to happen
+
+    To be honest I lost hope…
+
+    Narrador
+    He looked down as if saddened by his own fate
+
+    Thalia felt deep inside her some empathy, but many questions and fears still lingered in her
+
+    Thalia
+    Did that man Harry? Did u kill…
+
+    Ailon
+    No no… I’m still thinking what to do with him…
+
+    Narrador
+    Ailon seemed to be absolutely honest in his answers, she could feel it too, it didn’t help him take off this unseen pain, but was helping her understand 
+
+    Thalia 
+    Can you tell me about the suits… there seemed to be people in them…
+
+    <<<<<3 >>>>>
+
+    Narrador
+    There was laughter, albeit a sad one from Ailon
+
+    Ailon
+    Phobion really caught your attention… don’t worry he is fine…
+
+    I mean all of them could be better
+
+    Thalia 
+    What you mean?
+
+    Ailon
+    It’s very complicated, but to tell you first
+
+    I have been cursed… to live forever… and unfortunately It can spread
+
+    Thalia 
+    Spread? What does that have to do with the… people, in the suits…
+
+    ——————
+
+
+    Ailon
+    Do you see the knife? The black one
+
+    Narrador
+    Thalia saw from afar the rustic dagger still on bench 
+
+    Thalia
+    Yeah…
+
+    Ailon
+    It was used to kill me a long time ago… I don't know why but i survived, or came back…
+
+    Since then I haven’t aged and can’t be killed
+
+    Also anyone that is stabbed with it… if their love is selfish they’ll be immortal too…
+
+    Thalia 
+    I… don’t get it
+
+    Ailon
+    Me either, but I have been told it is such… should I be stabbed and their love be selfless I will die… 
+
+    And their granted immortality is unfortunately not good either…
+
+    Thalia
+    Is it bad?
+
+    Ailon
+    Unfortunately yes… the world is unfair…
+
+    I don’t know if you knew but the human brain can only retain so much information
+
+    After about 120 years you brain literally can’t hold anymore information
+
+    Narrador
+    Thalia looked confused but paid attention to his words
+
+    Ailon
+    So people that became immortal like that eventually can’t hold anymore information
+
+    They go insane Thalia
+
+    There have been hundreds of men and women I loved… that said they loved me… but just…
+
+    Narrador
+    A few tears rolled on his cheeks 
+
+    Ailon
+    They went insane! I’m fine but they love their minds…
+
+    So those suits… is how I keep them alive and safe…
+
+    The areas in the park work to much the same… to feel like they are in their own time, makes them docile
+
+    Thalia 
+    But aren’t they insane?! What if they hurt someone 
+
+    Ailon
+    That’s what the suit is for… their body… I fused it with the suit, and their brains are lobotomised so they can be docile
+
+    Narrador
+    Thalia was horrified, they were people after all.
+
+    Thalia
+    How could you…? To them? Didn’t you love them?
+
+    Ailon
+    I DID!
+
+    But if I let them lose?! What then?
+
+    They can’t die! They either be Aimesley ruining around hurting people or kept in lab!
+
+    Here they have what little… what little comfort I can give!!!
+
+    Narrador
+    To Thalia what he said was still insane, but it could be true, he seemed genuine 
+
+    Both in his sadness and his logic
+
+    Looking at it if they truly were insane, as cruel as his method was he was keeping them from being used by other people 
+
+    Ailon seemed to shake, tears still flowed, they were genuine and to her that made it clear he at least was trying to be good
+
+    Thalia
+    You… what do you want then?
+
+    Ailon 
+    What I want 
+
+    (His answer was part anger part sadness)
+
+    I want to die Thalia! I want this to end
+
+    I have seen cities raised in the name of conquest and then torn down and fade in the dust
+
+    I have watched men go from wearing pelts to operating machines to reach space
+
+    I have loved and I have hated!
+
+    I have been a king and a beggar I have 
+
+    Done
+
+    It
+
+    All!
+
+    All but have an end to this!
+
+    Thalia
+    Do u want it to end?
+
+    Ailon
+    By every fiber of me yes… the people I loved are gone, walking corpser for all I know, people hunting me for things they can’t understand 
+
+    I seem to have this allure… that makes me wanna claw my own face off but it would just grow back
+
+    I wonder if you humans like this sort of madness 
+
+    Narrator 
+    There was a hint of actual frustration in his tone 
+    But Thalia l listened carefully to his ramble
+
+    She got up and walked closer to him
+
+    Thalia
+    I can say I still feel some atraction… and I can’t tell if you are bad… or just hurt, like anyone would for all this time
+
+    I have asked you to open your heart for me many times and you did… just now you are telling me truth
+
+    Why?
+
+    Ailon
+    I… wish I knew 
+
+    Narrador 
+    Thalia looked at this broken with kindness, she could feel the weight he carried on his shoulders 
+    And deep inside she wanted to help him
+
+    To her what little time they had showed a person hurt by time but of a cruel kindness, a cruelty forced by impossible choices
+
+    She didn’t want to think much anymore about all of that
+
+    She hugged Ailon 
+
+    Thalia
+    I get it… at least part of it, I can’t hate you… even with all of this…
+
+    Ailon
+    You are insane… 
+
+    Thalia
+    Maybe you just passed that to me
+
+    Narrador
+    She got up and walked to bench and picked up the black knife
+
+    It really did look like something that came from the Stone Age 
+
+    Ailon
+    What are you…?
+
+    Thalia 
+    You said that if someone loves you… it will kill you right? Does it hurt to try?
+
+    Narrador
+    He looked shocked and stood up
+
+    Ailon
+    But Thalia you don’t love me… 
+
+    Thalia
+    Love has many faces you dummy…
+
+    I really liked our time… I liked your company… I liked you
+
+    But your suffering… and your eyes I can see your pain
+
+    Ailon
+    It won’t work Thalia… plus I don’t wanna make you do this to me for u to…
+
+    Thalia
+    I’ll just have a few nightmares and it will be over (she was putting a brave face but she too couldn’t believe she was thinking about killing him)
+
+    Ailon
+    You would do this… for me? Why?
+
+    Thalia
+    Because it is what you want right? For your story to end…
+
+    It does make me sad… really really sad but it is your wish right?
+
+    I think I can
+
+    Do something for you 
+
+    Ailon
+    But I haven’t given you anything… you will Be leaving with nothing out of this
+
+    Thalia
+    You make it sound like I need something 
+
+    Ailon I don’t, you told me your wish
+
+    Truthfully 
+
+    And I want to help you
+
+    Narrador
+    Ailon looked baffled and then a laugh so loud she couldn’t believe it came from him
+
+    Ailon
+    I have never seen…. That…. Something I haven’t seen in so many years of life, a girl so lovesick as you!
+
+    Thalia
+    Hey!!
+
+    Narrador
+    From all the tense and sadness they both laughed in a rare moment of joy
+
+    And Thalia knew she felt a little tingly feeling
+
+    She grasped that moment imprinting in her memory and charged with the knife in hand
+
+    She didn’t quite feel as the knife hit Ailon, she closed her eyes before hitting him
+
+    She heard his voice sweet say
+
+    Ailon
+    Ya got me…
+
+    She felt to the ground
+
+    As she looked Ailon was no where in sight
+
+    Only a small pile of ash
+
+    Thalia
+    I hope that made you free… I wish
+
+    I just wished we could have had more dates…
+
+    Such a shame you were such a cutie….
+
+    Narrador
+    She cried a whole bunch
+
+    Time moved on and so did she
+
+    Thalia discovered that all the costumes had turned to dust to, seems that with the curse gone all the immortals were too
+
+    Harry made news trying to spill the beans on Ailon, but he was gone with no trace, and so was half the park
+
+    Even though the park had lost half its people and Ailon, it seems he had everything in place for it to work without him
+
+    Thalia went back to her life, but she carried on her memory those memories with Ailon, she held on to that feeling of kindness despite all the sadness
+
+    She went to the park still every now and then, and went on her life, she looked back at it kindly and moved on.
+
+    The end.
+
 
         
     label end:
