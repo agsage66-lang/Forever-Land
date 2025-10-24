@@ -1895,284 +1895,284 @@ label start:
 
         "She screamed horrified and confused but she was even more confused when he stood up"
 
-        "Ailon simply got up, the bullet wound expelled out the metal pellet and he asked sete"
+        "Ailon simply got up, the bullet wound expelled out the metal pellet."
 
-    ailon "Happy?"
+        ailon "Happy?"
+        
+        harry "You are a monster"
+
+        "Harry shot him two more time but Ailon Barr even fell into the ground"
+
+        "Thalia fell on her knees scared, her mind running surprise after surprise she felt like she would faint."
+
+        "Harry picked up the knife and tried to charge at Ailon "
+
+        "Ailon for the first time seem genuinely angry as he also charged the man"
+
+        ailon "Let go of that knife!"
+
+        "Not only was a man in his prime against an old man, but also seemed like a warrior against a child, as Ailon simply dogged the thrust, flipped the man’s arm and trip him down."
+
+        "The sound of the man hitting the ground was heavy and likely broke a bone or two."
+
+        "Some people in the full suits came in and grabbed the man."
+
+        "And Thalia from full exhaustion also fainted."
+
+        "When she woke up it was on a mattress laid out in the main plaza of the park."
+
+        "She thought she was dreaming, there was no people around but sitting by a bench was Ailon quite and looking sad."
+
+        "He still held the black knife in his hands. Thalia sat up on the mattress, her head a mess full of thoughts and fears."
+        
+        thalia "Who are you?"
+
+        "Ailon looked at her, and she could almost feel a weight on him, like he was dragging himself to every action she could fear him but also pity him"
+
+        "He got up leaving the knife where it was, he sat just a bit away from her and said"
+
+        ailon "I’m Ailon… and I can’t die…"
+
+        "Thalia was confused and bewildered, but if she saw what she saw, him getting shot and shrugging it off like some super hero she couldn’t lie to herself "
+
+        "She struggled to find out what to say, but could still see Ailons sadness"
+        
+        thalia "Tell me more… what was all that I saw down there?"
+
+        ailon "I can’t even think where to start…"
+
+        thalia "Maybe tell me… what is going on… who was that man who are you really?"
+
+        "Ailon looked bitter and sad but he seemed trufull in his words."
+
+        ailon "My name is Ailon…"
+
+        ailon "I have been cursed Thalia… to live forever, I have since a very long time"
+
+        ailon "That man… Harry… his grandfather was involved in trying to pin me on vengeance because years ago his wife left his grandfather and he, belived my family were criminals."
+
+        ailon "Only it was me…"
+
+        thalia "Did you… kill…"
+
+        ailon "No no… I’ll think about what to do with him later, i don’t really wanna hurt an old man like him."
+
+        thalia "I see… that’s reasonable."
+
+        "What… were those things… I saw down there"
+
+        "There was hesitation in her voice to ask, like she feared the answer it self"
+
+        ailon "Do you see the knife? The black one"
+
+        "Thalia saw from afar the rustic dagger still on the bench." 
+
+        thalia "Yeah…"
+
+        ailon "It was used to kill me a long time ago… I don't know why but i survived, or came back…"
+
+        "Since then I haven’t aged and can’t be killed"
+
+        "Also anyone that is stabbed with it… if their love is selfish they’ll be immortal too…"
+
+        thalia "I… don’t get it."
+
+        ailon "Me either, but I have been told it is such… should I be stabbed and their love be selfless I will die… "
+
+        "And their granted immortality is unfortunately not good either…"
+
+        thalia "Is it bad?"
+        
+        ailon "Unfortunately yes… the world is unfair…"
+
+        "I don’t know if you knew but the human brain can only retain so much information."
+
+        "After about 120 years you brain literally can’t hold anymore information."
+
+        
+        "Thalia looked confused but paid attention to his words"
+
+        ailon "So people that became immortal like that eventually can’t hold anymore information"
+
+        "They go insane Thalia"
+
+        "There have been hundreds of men and women I loved… that said they loved me… but just…"
+
+        "A few tears rolled on his cheeks."
+
+        ailon "They went insane! I’m fine but they love their minds…"
+
+        ailon "So those suits… is how I keep them alive and safe…"
+
+        ailon "The areas in the park work to much the same… to feel like they are in their own time, makes them docile"
+
+        thalia "But aren’t they insane?! What if they hurt someone."
+
+        ailon "That’s what the suit is for… their body… I fused it with the suit, and their brains are lobotomised so they can be docile."
+
+        "Thalia was horrified, they were people after all."
+        
+        thalia "How could you…? To them? Didn’t you love them?"
+
+        ailon "I DID!"
+
+        ailon "But if I let them lose?! What then?"
+
+        ailon "They can’t die! They either be Aimesley ruining around hurting people or kept in lab!"
+
+        ailon "Here they have what little… what little comfort I can give!!!"
+
+        "To Thalia what he said was still insane, but it could be true, he seemed genuine."
+
+        "Both in his sadness and his logic."
+
+        "Looking at it if they truly were insane, as cruel as his method was he was keeping them from being used by other people."
+
+        "Ailon seemed to shake, tears still flowed, they were genuine and to her that made it clear he at least was trying to be good."
+
+        thalia "You… what do you want then?"
+
+        ailon "What I want."
+
+        ailon  "I want to die Thalia! I want this to end."
+
+        ailon "I have seen cities raised in the name of conquest and then torn down and fade in the dust."
+
+        ailon "I have watched men go from wearing pelts to operating machines to reach space."
+
+        ailon "I have loved and I have hated!"
+
+        ailon "I have been a king and a beggar!"
+
+        ailon "Done. It. ALL!"
+
+        ailon "All but have an end to this!"
+
+        thalia "Do you want it to end?"
+
+        ailon "By every fiber of me yes… the people I loved are gone, walking corpser for all I know, people hunting me for things they can’t understand."
+
+        ailon "I seem to have this allure… that makes me wanna claw my own face off but it would just grow back."
+
+        ailon "I wonder if you humans like this sort of madness."
+
+        "There was frustration in his tone."
+
+        "But Thalia listened carefully to his ramble."
+
+        "She got up and walked closer to him."
+
+        thalia "I can say I still feel some atraction… and I can’t tell if you are bad… or just hurt, like anyone would for all this time."
+
+        thalia "I have asked you to open your heart for me many times and you did… just now you are telling me truth."
+
+        thalia "Why?"
+
+        ailon "I… wish I knew."
     
-    harry "You are a monster"
+        "Thalia looked at this broken men with kindness, she could feel the weight he carried on his shoulders."
+        
+        "And deep inside she wanted to help him."
 
-    "Harry shot him two more time but Ailon Barr even fell into the ground"
+        "To her what little time they had showed a person hurt by time but of a cruel kindness, a cruelty forced by impossible choices."
 
-    "Thalia fell on her knees scared, her mind running surprise after surprise she felt like she would faint."
+        "She didn’t want to think much anymore about all of that."
 
-    "Harry picked up the knife and tried to charge at Ailon "
+        "She hugged Ailon."
 
-    "Ailon for the first time seem genuinely angry as he also charged the man"
+        thalia "I get it… at least part of it, I can’t hate you… even with all of this…"
 
-    ailon "Let go of that knife!"
+        ailon "You are insane… "
 
-    "Not only was a man in his prime against an old man, but also seemed like a warrior against a child, as Ailon simply dogged the thrust, flipped the man’s arm and trip him down."
+        thalia "Maybe you just passed that to me"
 
-    "The sound of the man hitting the ground was heavy and likely broke a bone or two."
+        
+        "She got up and walked to bench and picked up the black knife."
 
-    "Some people in the full suits came in and grabbed the man."
+        "It really did look like something that came from the Stone Age." 
 
-    "And Thalia from full exhaustion also fainted."
+        ailon "What are you…?"
 
-    "When she woke up it was on a mattress laid out in the main plaza of the park."
+        thalia "You said that if someone loves you… it will kill you right? Does it hurt to try?"
 
-    "She thought she was dreaming, there was no people around but sitting by a bench was Ailon quite and looking sad."
+        "He looked shocked and stood up."
 
-    "He still held the black knife in his hands. Thalia sat up on the mattress, her head a mess full of thoughts and fears."
-    
-    thalia "Who are you?"
 
-    "Ailon looked at her, and she could almost feel a weight on him, like he was dragging himself to every action she could fear him but also pity him"
+        ailon "But Thalia you don’t love me…"
 
-    "He got up leaving the knife where it was, he sat just a bit away from her and said"
+        thalia "Love has many faces you dummy…"
 
-    ailon "I’m Ailon… and I can’t die…"
+        thalia "I really liked our time… I liked your company… I liked you."
 
-    "Thalia was confused and bewildered, but if she saw what she saw, him getting shot and shrugging it off like some super hero she couldn’t lie to herself "
+        thali "But your suffering… and your eyes I can see your pain."
 
-    "She struggled to find out what to say, but could still see Ailons sadness"
-    
-    thalia "Tell me more… what was all that I saw down there?"
+        ailon "It won’t work Thalia… plus I don’t wanna make you do this to me for u to…"
 
-    ailon "I can’t even think where to start…"
+        thalia "I’ll just have a few nightmares and it will be over (she was putting a brave face but she too couldn’t believe she was thinking about killing him)."
 
-    thalia "Maybe tell me… what is going on… who was that man who are you really?"
+        ailon "You would do this… for me? Why?"
 
-    "Ailon looked bitter and sad but he seemed trufull in his words."
+        thalia "Because it is what you want right? For your story to end…"
 
-    ailon "My name is Ailon…"
+        thalia "It does make me sad… really really sad but it is your wish right?"
 
-    ailon "I have been cursed Thalia… to live forever, I have since a very long time"
+        thalia "I think I can... Do something for you."
 
-    ailon "That man… Harry… his grandfather was involved in trying to pin me on vengeance because years ago his wife left his grandfather and he, belived my family were criminals."
+        ailon "But I haven’t given you anything… you will Be leaving with nothing out of this."
+        
+        thalia "You make it sound like I need something"
 
-    ailon "Only it was me…"
+        thalia "I don’t, you told me your wish."
 
-    thalia "Did you… kill…"
+        thalia "Truthfully..." 
 
-    ailon "No no… I’ll think about what to do with him later, i don’t really wanna hurt an old man like him."
+        thalia "And I want to help you."
 
-    thalia "I see… that’s reasonable."
+        "Ailon looked baffled and then a laugh so loud she couldn’t believe it came from him."
 
-    "What… were those things… I saw down there"
+        ailon "I have never seen…. That…. Something I haven’t seen in so many years of life, a girl so lovesick as you!"
 
-    "There was hesitation in her voice to ask, like she feared the answer it self"
+        thalia "Hey!!"
 
-    ailon "Do you see the knife? The black one"
+        "From all the tense and sadness they both laughed in a rare moment of joy."
 
-    "Thalia saw from afar the rustic dagger still on the bench." 
+        "And Thalia knew she felt a little tingly feeling."
 
-    thalia "Yeah…"
+        "She grasped that moment imprinting in her memory and charged with the knife in hand."
 
-    ailon "It was used to kill me a long time ago… I don't know why but i survived, or came back…"
+        "She didn’t quite feel as the knife hit Ailon, she closed her eyes before hitting him."
 
-    "Since then I haven’t aged and can’t be killed"
+        "She heard his voice sweet say."
 
-    "Also anyone that is stabbed with it… if their love is selfish they’ll be immortal too…"
+        ailon "Ya got me…"
 
-    thalia "I… don’t get it."
+        "She felt to the ground."
 
-    ailon "Me either, but I have been told it is such… should I be stabbed and their love be selfless I will die… "
+        "As she looked Ailon was no where in sight."
 
-    "And their granted immortality is unfortunately not good either…"
+        "Only a small pile of ash"
 
-    thalia "Is it bad?"
-    
-    ailon "Unfortunately yes… the world is unfair…"
+        thalia "I hope that made you free… I wish."
 
-    "I don’t know if you knew but the human brain can only retain so much information."
+        "I just wished we could have had more dates…"
 
-    "After about 120 years you brain literally can’t hold anymore information."
+        "Such a shame you were such a cutie…"
 
-    
-    "Thalia looked confused but paid attention to his words"
+        "She cried a whole bunch."
 
-    ailon "So people that became immortal like that eventually can’t hold anymore information"
+        "Time moved on and so did she."
 
-    "They go insane Thalia"
+        "Thalia discovered that all the costumes had turned to dust to, seems that with the curse gone all the immortals were too."
 
-    "There have been hundreds of men and women I loved… that said they loved me… but just…"
+        "Harry made news trying to spill the beans on Ailon, but he was gone with no trace, and so was half the park."
 
-    "A few tears rolled on his cheeks."
+        "Even though the park had lost half its people and Ailon, it seems he had everything in place for it to work without him."
 
-    ailon "They went insane! I’m fine but they love their minds…"
+        "Thalia went back to her life, but she carried on her memory those memories with Ailon, she held on to that feeling of kindness despite all the sadness."
 
-    ailon "So those suits… is how I keep them alive and safe…"
+        "She went to the park still every now and then, and went on her life, she looked back at it kindly and moved on."
 
-    ailon "The areas in the park work to much the same… to feel like they are in their own time, makes them docile"
-
-    thalia "But aren’t they insane?! What if they hurt someone."
-
-    ailon "That’s what the suit is for… their body… I fused it with the suit, and their brains are lobotomised so they can be docile."
-
-    "Thalia was horrified, they were people after all."
-    
-    thalia "How could you…? To them? Didn’t you love them?"
-
-    ailon "I DID!"
-
-    ailon "But if I let them lose?! What then?"
-
-    ailon "They can’t die! They either be Aimesley ruining around hurting people or kept in lab!"
-
-    ailon "Here they have what little… what little comfort I can give!!!"
-
-    "To Thalia what he said was still insane, but it could be true, he seemed genuine."
-
-    "Both in his sadness and his logic."
-
-    "Looking at it if they truly were insane, as cruel as his method was he was keeping them from being used by other people."
-
-    "Ailon seemed to shake, tears still flowed, they were genuine and to her that made it clear he at least was trying to be good."
-
-    thalia "You… what do you want then?"
-
-    ailon "What I want."
-
-    ailon  "I want to die Thalia! I want this to end."
-
-    ailon "I have seen cities raised in the name of conquest and then torn down and fade in the dust."
-
-    ailon "I have watched men go from wearing pelts to operating machines to reach space."
-
-    ailon "I have loved and I have hated!"
-
-    ailon "I have been a king and a beggar!"
-
-    ailon "Done. It. ALL!"
-
-    ailon "All but have an end to this!"
-
-    thalia "Do you want it to end?"
-
-    ailon "By every fiber of me yes… the people I loved are gone, walking corpser for all I know, people hunting me for things they can’t understand."
-
-    ailon "I seem to have this allure… that makes me wanna claw my own face off but it would just grow back."
-
-    ailon "I wonder if you humans like this sort of madness."
-
-    "There was frustration in his tone."
-
-    "But Thalia listened carefully to his ramble."
-
-    "She got up and walked closer to him."
-
-    thalia "I can say I still feel some atraction… and I can’t tell if you are bad… or just hurt, like anyone would for all this time."
-
-    thalia "I have asked you to open your heart for me many times and you did… just now you are telling me truth."
-
-    thalia "Why?"
-
-    ailon "I… wish I knew."
- 
-    "Thalia looked at this broken men with kindness, she could feel the weight he carried on his shoulders."
-    
-    "And deep inside she wanted to help him."
-
-    "To her what little time they had showed a person hurt by time but of a cruel kindness, a cruelty forced by impossible choices."
-
-    "She didn’t want to think much anymore about all of that."
-
-    "She hugged Ailon."
-
-    thalia "I get it… at least part of it, I can’t hate you… even with all of this…"
-
-    ailon "You are insane… "
-
-    thalia "Maybe you just passed that to me"
-
-    
-    "She got up and walked to bench and picked up the black knife."
-
-    "It really did look like something that came from the Stone Age." 
-
-    ailon "What are you…?"
-
-    thalia "You said that if someone loves you… it will kill you right? Does it hurt to try?"
-
-    "He looked shocked and stood up."
-
-
-    ailon "But Thalia you don’t love me…"
-
-    thalia "Love has many faces you dummy…"
-
-    thalia "I really liked our time… I liked your company… I liked you."
-
-    thali "But your suffering… and your eyes I can see your pain."
-
-    ailon "It won’t work Thalia… plus I don’t wanna make you do this to me for u to…"
-
-    thalia "I’ll just have a few nightmares and it will be over (she was putting a brave face but she too couldn’t believe she was thinking about killing him)."
-
-    ailon "You would do this… for me? Why?"
-
-    thalia "Because it is what you want right? For your story to end…"
-
-    thalia "It does make me sad… really really sad but it is your wish right?"
-
-    thalia "I think I can... Do something for you."
-
-    ailon "But I haven’t given you anything… you will Be leaving with nothing out of this."
-    
-    thalia "You make it sound like I need something"
-
-    thalia "I don’t, you told me your wish."
-
-    thalia "Truthfully..." 
-
-    thalia "And I want to help you."
-
-    "Ailon looked baffled and then a laugh so loud she couldn’t believe it came from him."
-
-    ailon "I have never seen…. That…. Something I haven’t seen in so many years of life, a girl so lovesick as you!"
-
-    thalia "Hey!!"
-
-    "From all the tense and sadness they both laughed in a rare moment of joy."
-
-    "And Thalia knew she felt a little tingly feeling."
-
-    "She grasped that moment imprinting in her memory and charged with the knife in hand."
-
-    "She didn’t quite feel as the knife hit Ailon, she closed her eyes before hitting him."
-
-    "She heard his voice sweet say."
-
-    ailon "Ya got me…"
-
-    "She felt to the ground."
-
-    "As she looked Ailon was no where in sight."
-
-    "Only a small pile of ash"
-
-    thalia "I hope that made you free… I wish."
-
-    "I just wished we could have had more dates…"
-
-    "Such a shame you were such a cutie…"
-
-    "She cried a whole bunch."
-
-    "Time moved on and so did she."
-
-    "Thalia discovered that all the costumes had turned to dust to, seems that with the curse gone all the immortals were too."
-
-    "Harry made news trying to spill the beans on Ailon, but he was gone with no trace, and so was half the park."
-
-    "Even though the park had lost half its people and Ailon, it seems he had everything in place for it to work without him."
-
-    "Thalia went back to her life, but she carried on her memory those memories with Ailon, she held on to that feeling of kindness despite all the sadness."
-
-    "She went to the park still every now and then, and went on her life, she looked back at it kindly and moved on."
-
-    "SELFLESS LOVE ENDING"
+        "SELFLESS LOVE ENDING"
 
     jump end
 
