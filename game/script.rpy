@@ -1741,8 +1741,10 @@ label start:
 
     if (harryNapped):
         jump loveRoute
+    
     if (harryFriend):
         jump hateRoute
+    
     jump pityRoute
 
     label loveRoute:
@@ -2104,7 +2106,7 @@ label start:
 
         thalia "I really liked our time… I liked your company… I liked you."
 
-        thali "But your suffering… and your eyes I can see your pain."
+        thalia "But your suffering… and your eyes I can see your pain."
 
         ailon "It won’t work Thalia… plus I don’t wanna make you do this to me for u to…"
 
@@ -2174,7 +2176,495 @@ label start:
 
         "SELFLESS LOVE ENDING"
 
-    jump end
+        jump end
+
+    label hateRoute:
+        jump end
+
+    label pityRoute:
+
+        "The woman took Thalia only a little distance away and pointed out to an employee only entrance."
+
+        "Employee" "Just go through there, down the stairs and to the repair room."
+
+        thalia "Right… the repair room."
+
+        "The woman then gave Thalia a polite nod and walked away."
+
+        "Thalia felt confused, she looked at the door, then to the card in her hands."
+
+        "There was a small console beside the door so she swiped the card and the door unlocked."
+
+        "Hesitant she walked in."
+
+        "It was was a catwalk overlooking a maintenance hallway, the place was filled with pipes and wiring, it was an unsettling."
+
+        "Thalia heard the door close, then open again for a moment, she looked but there was no one, only some soda crate near by."
+
+        thalia "I don’t really think I should be here but oh well…"
+
+        "She shrugged and walked down the stairs the ground floor of the hallway had rails where automated carts delivered goods around the park."
+
+        "She couldn’t hear any noise from the park itself, only some mechanical machine sounds and liquids flowing in the pipes."
+
+        thalia "Right… repair room… but where…"
+
+        "Thalia was uneasy the place was by itself weird, she chose to go left."
+
+        "A cart rushed by her she had to sidestep quickly so it didn’t hit her."
+
+        "She walked to another intersection, she thought to herself she would get lost here before she found the repair zone."
+
+        "Fortunately for her as she looked around the intersection on one side standing in the middle of the hallway was Phobion."
+
+        "Thalia approached carefully."
+
+        thalia "Phobion… you okay?"
+
+        "Phobion turned and it seemed he stood right in front of a cart that darted forward the moment he stepped away, she did too."
+
+        "But back in the intersection a voice complained and the sound of a crash."
+
+        "Thalia backed away towards Phobion and a man made around the corner."
+
+        phobion "Fair lady from earlier the day… who is the farthest gentleman from us."
+
+        thalia "I don’t… know, who are you mister?"
+
+        "The man simply laughed and pulled out a gun."
+
+        "???" "You monsters get down on your knees."
+
+        "Thalia was first shocked her whole body froze in place, at the sight."
+
+        Phobion "This is not a toy to wave around, brave gentleman, put down at once."
+
+        "The man shot the gun in the roof, the loud bang rippled across the halls."
+
+        "In was enough to make Thalia let a scream of panic."
+
+        "So the man pointed the gun at her, until Phobion stepped between both."
+
+        phobion "I warn only once my great gentleman, or I shall Draw my blade against thee."
+
+        "???" "Oh yeah? Fucking creep!"
+
+        "The man shot at Phobion’s leg, Thalia looked horrified as Phobion came to one knee and the man said."
+
+        "???" "Try it now."
+
+        "Thalia kneeled down to try and help but she was surprised to see Phobion get up as if nothing happened."
+
+        "A small blood clot forming on his leg, still Phobion pulled out his rapier, it was this blunt prop that was something you could buy in any store."
+
+        "The man looked surprised under the hood, but it was hard to tell."
+
+        "???" "Try it… and this time I kill you boy."
+
+        Phobion "I fear no failure."
+
+        "And again to Thalia's horror Phobion charged the man."
+
+        "The gun roared fire and lead in response, at least three or four shots, all which hit Phobion."
+
+        "He did not stop, he charged the man no fear, and plunged the prop into the man’s torso."
+
+        "It was a metal still, blunt, yet with enough force, it could hurt someone and that it did."
+
+        "Only when Thalia saw the sword impale the man did she manage to close her eyes in fear."
+
+        "There was the sound of something falling, likely the man’s body, then a few steps followed by a similar yet heavier sound."
+
+        "When she opened her eyes, she saw in the further distance the man impaled, dead, she avoided but saw Phobion close."
+
+        thalia "Oh my… oh my god… oh shit…"
+
+        "She hesitated but walked to him and turned his body around."
+
+        "There were some bullets wounds in his chest, yet very little blood."
+
+        thalia "I need to find help I…"
+
+        "Phobion grabbed her hand as she made the move to stand up."
+
+        phobion "You do not have to, o shall live through this danger."
+
+        thalia "No… you… you were shot! You need help!"
+
+        phobion "Fair lady I will not perish here, but do help me sit, I need but moment of rest."
+
+        "Hesitant Thalia helped him sit, leaning against the wall, she tried not to look at the dead man in the distance."
+
+        thalia "At least… let me take a look at it maybe I can improvise some bandages."
+
+        phobion "There is no need…"
+
+        "She ignored him and she grabbed the suit carefully, pulling clothing."
+
+        "She froze when what she saw was flesh fused with machine parts, there was only a small entry wound of the bullet, no blood was flowing like it had almost healed already."
+
+        "Yet it was a horrific sigh, his flesh was cut where cables and metallic joints met flesh and muscle."
+
+        "Thalia jumped back and screamed horrified."
+
+        "Phobion grabbed the torn clothing and covered the exposed inside." 
+
+        phobion  "Fear not, I am fine."
+
+        thalia "Who… who did this to you?!"
+
+        phobion "Beloved Ailon has seen it so."
+
+        thalia "What… why!? "
+
+        "Thalia felt her heart drop, could sweet Ailon hurt people like this, could she be next?"
+
+        phobion "He did so to help myself."
+
+        thalia  "How is that helping?!"
+
+        "There were sounds of small pellets hitting the ground, she looked and saw the bullets had been expelled from his body."
+
+        phobion "My life is one to be forever lady, shots will not kill me! Neither will blades or time!"
+ 
+        "Her mind began racing many questions, but mostly she was happy he seemed okay."
+
+        thalia "But… why are you in this state."
+
+        phobion "Oh unfortunately that is something beyond my knowledge hoho! Only Ailon can say."
+
+        thalia "So you don’t know why?"
+
+        phobion  "Only that I have been here a long time!"
+
+        thalia "And you can’t leave?"
+
+        phobion "I choose to stay to for Ailon, he be lonely if no one was near."
+
+        "Thalia remember how sad and lonely he looked, now she wanted to talk to him and ask personally."
+
+        thalia "Then I need to find him!"
+
+        phobion "I think i know he must should be near the plaza I can take you the way."
+
+        thalia "Are you sure you can… walk?"
+
+        "He got up in a strange fashion but seemed fine."
+
+        phobion "Nothing will ever stop courage and honor!"
+
+        "Thalia laughed"
+
+        "She tried to look ta the dead man but Phobion put himself between them."
+
+        phobion "Do not think of it, I shall solve this evildoers fate, you have done no wrong."
+
+        "That made her feel bad but she also didn’t want to look at it, she hesitated but began walking the other way."
+
+        phobion "I also… believe I have been most blunt I my manners… may I ask this fair lady name?"
+
+        thalia "It’s Thalia."
+
+        phobion "It good to know… I should tell the others too."
+
+        thalia "There are other people like you? In the park?"
+
+        phobion "That is matter better asked to Ailon not?"
+
+        thalia "Maybe… okay I will."
+
+        "Phobion took her around the tunnels, they must have walked for some good minutes before they climbed some stairs and were back in the park."
+
+        "Phobion however still had his costume damaged so he stayed inside and said."
+
+        phobion "He should be here, good luck lady Thalia… and please be kind to him… I remember him a kind soul."
+
+        thalia "I… will try."
+
+        "Phobion went back and Thalia looked around for Ailon."
+
+        "She saw him sitting down alone, he seemed confused and sad."
+
+        "She felt embarrassed about the kiss but mustered courage to walk to him."
+
+        thalia "Hey Ailon…"
+
+        "He seemed startled by her voice and looked at her confused."
+
+        thalia "We should talk…"
+
+        ailon "I… (he was a bit red) thought you were back there still… how did you find me?"
+
+        thalia "Phobion said you would be here…"
+
+        ailon "You… talked to Phobion?"
+
+        "He seemed to be slightly more serious that it was a bit scary he then said."
+
+        ailon "And what did you talk about?"
+
+        thalia "He told me some things… about himself and you… but I thought I should ask myself."
+
+        ailon "Okay just… keep here and don’t move… I mean it."
+
+        "Ailon looked very serious it was almost scary."
+
+        "He then stood up and talked to some of the staff, the blocked part of the plaza and told people it was under maintenance."
+
+        "The park was already closing and there were only people far away now, and they were alone."
+
+        ailon "What exactly happened?"
+
+        "Ailon was serious and there was also some anger in his voice."
+
+        "Thalia was surprised to see him that way but after what happened she was more confused."
+
+        thalia "I went after Phobion… to ask him about you… and well a man followed me, when I found Phobion he pulled a gun on us."
+
+        "Ailons posture changed as he focused his attention."
+
+        ailon "Did he hurt you?"
+
+        thalia " No… Phobion I think he… he might have killed him…"
+
+        ailon "Killed him?!"
+
+        thalia  "He was trying to shot at him."
+
+        ailon "Where is he now?"
+
+        thalia "I don’t really know, down the maintenance tunnels, Phobion didn’t let me look a second time."
+
+        "Ailon looked like he was about to get up but Thalia grabbed his arm."
+
+        thalia "Phobion also got shot… but he lived… I saw underneath his clothes too."
+
+        "Ailons eyes twitched, a mix of shame, surprise and fear, Thalia didn’t know which was stronger so she continued." 
+
+        thalia "He said he was immortal… that I should ask you… Ailon what is going on?"
+
+        "Ailon took a deep breath and his eyes almost swelled with tears."
+
+        ailon "He did not lie… he is… and so am I."
+
+        "Thalia was surprised to say the least, first she did not believe but then she saw a man get shot and get up like nothing."
+
+        thalia "How?!"
+
+        ailon "I was cursed, a very long time ago, to live forever…"
+
+        thalia "How long…"
+
+        ailon "Longer than I would like."
+
+        thalia "What you mean by that?"
+
+        ailon "Thalia I have been around since man lived in caves!"
+
+        "Thalia got scared for a moment at his outburst as he continued to spill his fury"
+
+        ailon "And I can’t stand anymore."
+
+        "I have seen more then I would like to see."
+
+        "You wanted to know what Phobion had to tell you?!"
+
+        "I cursed him too, so has mostly every poor soul in this park!"
+
+        "They were once people I loved but are now shells of themselves."
+
+        "And I can’t take it anymore!"
+        
+        "He fell to his knees crying and Thalia rushed to him sitting down in the ground with him."
+
+        thalia "It’s okay… I don’t think I understand all of it but I see you…"
+
+        ailon "No you don’t…"
+
+        "He pushed her."
+
+        ailon "His body I did that!"
+
+        ailon "I had too, they all go mad with their immortality! It was the only way to keep him safe."
+
+        ailon "And I had to do it…"
+
+        ailon "So many times..."
+
+        ailon "You see this sad man?!"
+
+        ailon "I’m an immortal being who trapped the people he loved in metal sarcophagus like broken toys I’m a monster!"
+
+        thalia "You are suffering!"
+
+        ailon "Yes Thalia I am!"
+
+        ailon "Because this fucking life…. This fucking mind or body keeps me alive unlike all the people I love."
+
+        ailon "Thalia Is there no way to end it? (She hesitated to ask)."
+
+        ailon "The only way to do it is if someone who loves me selflessly used a knife to kill me."
+
+        "Thalia was puzzled, yet everything about this day was weird, she imagined it was part of the curse so she yellow."
+
+        thalia "Bring the knife here then!"
+
+        ailon "What?"
+
+        thalia "I like you… despite what you said I still do… let me try!"
+
+        ailon "Are you insane?!"
+
+        thalia "To try and help someone?"
+
+        ailon "by stabbing me?"
+
+        thalia "You don’t die do you?"
+
+        ailon "It still hurts like a bitch."
+
+        "There was strange pause and an awkward laugh between the two."
+
+        thalia "Bring it here… I have seen a lot today.. I want to help."
+
+        ailon "You are unbelievable…"
+
+        "Thalia felt a bit angry at his comment but also proud."
+
+        "Yet felt this whole thing was almost unreal."
+
+        "Ailon got up his expression seemed very sad."
+
+        "Thalia reached out her hand but she neither reached nor could say anything."
+
+        "A few moments passed and she was all alone in the plaza."
+
+        "Her head filled with thoughts of the day."
+
+        "She did still, despite all think kindly of Ailon, she wanted to help him, if that somehow had to end with his end maybe it was for the best."
+
+        "But she also did not want that, she wanted to spend more time with him, to know him better to understand his view."
+
+        "Her thoughts cut short when he came back carrying a very old knife."
+
+        "It looked like something you would see in a museum, it seemed fashioned from a dark rock with a leather grip."
+
+        ailon "I have it here…"
+
+        "She could see in his face doubt, shame but maybe a hope this could give him what he wanted."
+
+        thalia "So that knife… made you and the others… imortals?"
+
+        ailon "Yes…"
+
+        thalia "And you make people imortal by being stabbed? Who even came up with that?"
+
+        ailon "If you know, do tell me… I have some complaint to them."
+
+        "Again Thalia looked awkward at the object and at him not knowing exactly what to say."
+
+        "Ailon took a step and handed her the knife taking again a step back."
+
+        ailon "Do it fast… just in the stomach… it don’t hurt as bad and easier to strike"
+
+        thalia "You seem to know."
+
+        ailon "Not the first time I tried it…"
+
+        "Thalia was hesitant, would it work? She couldn’t know, was he insane? Maybe but it seems it was what he wanted."
+
+        "She looked at him, he close his eyes in a serene way and braced."
+
+        "Thalia thought she wanted to spend time with him and this could be the end of it."
+
+        "So she decided on a new course of action."
+
+        "Ailon heard a striking sound and a welp not his own, opening his eyes Thalia had stabbed herself."
+
+        ailon "No!"
+
+        "He rushed to her cradling her head."
+
+        "She gave him a sad look as desperation spread across his face, but then her eyes had a kind manner."
+
+        thalia "Now I’ll be immortal too… and you won’t be alone."
+
+        ailon "No Thalia it had to me to do it! You are just gonna die like this!"
+
+        thalia "Oh… (she felt guilty about it as her mind felt cloudy) I didn’t know… guess I’m silly."
+
+        ailon "No no… I didn’t want this… you gonna make me go trough this again…"
+
+        thalia "What are you talking about… it’s my fault really… but I would like… a hospital."
+
+        ailon "You … you… I don’t want to lose you either… not like this… I …"
+
+        "If he finished Thalia didn’t hear it."
+
+        "She felt her body get cold but then a sharp pain on her neck."
+
+        "Her conscience seemed to fade, like melting deep in a river."
+
+        "Then she felt hot and burning sensation and a jolt of pain made her sit down and scream."
+
+        thalia "Oh shit! Ouch!"
+
+        "She looked as Ailon sat just across from her his head down, the knife in his hands and bloodied."
+
+        "She touched her stomach and the wound was gone but she felt her clothes a bit soggy with blood, her neck too."
+
+        thalia "Did you?"
+
+        ailon "I killed you… before you bled out yourself… now you are…"
+
+        thalia "Immortal?"
+
+        ailon  "I’m sorry…."
+
+        "He began to cry almost child like and Thalia again hugged him saying."
+
+        thalia "Ailon you saved me from my own self stupidity, I’m fine."
+
+        ailon "No you are not! Don’t you get it."
+
+        "He stood up."
+
+        "You cannot live forever you will lose your mind! I have condemned you to live like a shell till the end of time! All because I was too weak…"
+
+        "To let you die…"
+
+        thalia "You are not weak! You are kind!"
+
+        ailon "Kindness has nothing to do with this! It’s fact."
+
+        "The human brain can’t retain information after certain time, in 100 years you won’t be yourself anymore."
+
+        thalia "I won’t! I’ll be here still."
+
+        ailon "I… I’m done… then do just that."
+
+        "His whole silhouette seemed to grow tired and weary, completely devasted."
+
+        "It lasted only a moment but in the next."
+
+        "He beamed a smile, almost to perfect to be honest but it did fool Thalia that she thought his saddens turned to relief."
+
+        ailon "Lets make the best then, of the years to come!"
+
+        "Thalias heart was relieved and she smiled kindly at him as she made the decision to stay by his side."
+
+        thalia "I’m glad I got through your thick skull."
+
+        "The man that Phobion killed went unnoticed, and not even the police came looking for him, apparently it was deemed a missing person and there was nothing liking him to the park."
+
+        "Whatever he came here to do, he did it in secret and it was his undoing."
+
+        "Thalia lived along with Ailon for many years helping in the park, going on dates."
+
+        "She did try using the knife but it never worked, but they were happy nonetheless."
+
+        "Until about 150 years later Thalia seemingly lost interest in living things, she began with animals, Ailon did not notice… but the change happened and it only grew."
+
 
 
         
