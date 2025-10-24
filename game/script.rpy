@@ -2179,6 +2179,277 @@ label start:
         jump end
 
     label hateRoute:
+        
+        "Thalia looked at the gun like it was some alien thing that couldn’t be real"
+
+        thalia "What… no no no, I can’t take that!"
+
+        harry "Girl… i suggest you do."
+
+        "She was shocked to say the least, and scared he carried one."
+
+        thalia "I don’t want it."
+
+        harry "Suit yourself."
+ 
+        "The man kept the gun and pulled out his own, the begun going down the stairs."
+
+        "The place they was a top a catwalk in the service tunnels beneath the park."
+
+        "Down the place was poorly lit and the faint sounds of machinery echoed like monster Growls." 
+
+        thalia "Wait who the hells are you? A cop?"
+
+        "Thalia followed the man down the steps into the halls."
+
+        harry "I was… but I retired."
+
+        thalia "And you ar where why?"
+
+        harry "Trying to catch this Ailon bastard… he as his family."
+
+        thalia "What you mean?"
+
+        harry  "I'm not surprised you don’t know, my own family has been after hugs for more than a generation"
+
+        thalia "Why?"
+
+        harry "Back when my own grandfather was still your age, he and his wife  met one of the Olmenah…"
+
+        thalia "Olme… who?"
+
+        harry "Girl you don’t even know his surname?"
+
+        thalia "It’s only our second date."
+
+        harry "Well make it your last cause this man hiding something."
+
+        "Harry turned around a corner, his gun aimed, Thalia followed him even more disturbed and confused."
+
+        harry "Anyhow both my grandfather and his wife met with one of the Olmenah, they were both enthralled by him, just like you are by this man."
+
+        "His wife one day ran away, you could say it’s a classic one, wife gets stollen by a good looking man but my grandfather never saw his loved one again."
+
+        "You can say it was vengeance, but he went to look into the Olmenah family and he found out no one ever saw more then one of the families members ate a time."
+
+        "He thought it was suspicious and the harder he tried to look information the more he hit road blocks."
+
+        thalia "So he thought someone from Ailons family did something to her? Couldn’t she run off somewhere?"
+
+        harry "We didn’t think so… I mostly helped my grandad, my father though he was obsessed."
+
+        "The thing is after years we noticed their face never changed."
+
+        thalia "Whose?"
+
+        harry "The Olmenah! This Ailon you have met is the same one my grandfather met."
+
+        thalia "You are crazy, he be an old man like you!"
+
+        harry "That’s what I’m here trying to find out girl!"
+
+        thalia "You are insane… I’m leaving."
+
+        "As she turned to leave one of the full suit mascots came walking."
+
+        "She recognized the as the one for earlier in the day."
+
+        phobion "You cannot be here you both… question cannot be here."
+ 
+        "Harry pulled Thalia's arm putting her behind him and screamed."
+
+        harry "Stay where you are."
+
+        "He held out the gun and Thalia froze in fear watching this scene but she still managed to mutter."
+
+        thalia "No don’t hurt him…"
+
+        phobion "I must say… that is a dangerous toy you don’t wanna put it down?"
+
+        "There was a loud bang and flash, Harry shot the gun right at phobions knee."
+
+        "The man fell back and Thalia was horrified she let out a scream."
+
+        harry "I told you to stay put."
+
+        "Thalia was a bout to run when she saw Phobion stand up like nothing and draw his sword."
+
+        "It was a blunt instrument as a fake weapon, there was this stand off for a few seconds till Phobion charged."
+
+        "Harry shot his gun at least 4 or 5 times before Phobion came tumbling down at his feet."
+
+        thalia "Aaaaaaaaah!!!!"
+
+        "What did you do!"
+
+        "Harry had a smirk as he bend down to stage suit and ripped the helm."
+
+        "Underneath was a horrifying sight, human flesh meshed together with metal, his features stretched over metallic composites and whirring."
+
+        "Thalia turned and vomit on the floor." 
+
+        harry "See this! He is a sick fuck I knew it."
+
+        "He kicked Phobion and turned to Thalia."
+
+        harry "Here let me help you…"
+
+        "He helped her up and away from phobions body."
+
+        "Thalias mind was spinning, had she been dating a serial killer? A sadistic psychopath that do this to people."
+
+        harry "Ya sure you don’t want the gun?"
+
+        thalia "I… think I do."
+
+        "He pulled out the gun and gave it to her, she took the thing still a bit hesitant but more then afraid for her life."
+
+        "She walked in silence behind Harry her mind a mess her tear rolling down." 
+
+        "She begun asking herself how she got in this situation and she wished she never met Ailon."
+
+        "Soon Harry vagem using the card to open door."
+        
+        "Till eventually they found a room."
+
+        "It looked like an operating room, and in the corner was a man much like Phobion."
+
+        "Half his body was stripped from flesh, instead metal limbs and whirring, there was scans of his brain."
+
+        "There was drawings of his brain being impaled and messed much in the fashion of old lobotomies, Thalia couldn’t bear to look at it."
+
+        "Harry on the other hand pulled out a camera and begun taking pictures."
+        
+        thalia "What even is this…"
+
+        harry "I have no clue, but is more than enough to put him behind bars."
+
+        thalia "Why do this?"
+
+        harry "Girl, he is a monster there is no reasoning."
+
+        "She could agree, no one in their right mind would do this to people, if they were even alive."
+
+        "Again she felt sick and could barely stand till she heard Ailons voice."
+
+        ailon "You should not have come here…"
+
+        "Thalia turned, she was so scared she accidentally shot the gun and it hit the ground, the recoil made it fly out of her hand."
+
+        "Ailon didn’t even seem to care, his face a mixture of sadness and anger."
+
+        "Harry took position and aimed his gun."
+
+        harry "You fucking bastard!"
+
+        "I have evidence now… you going to rot you sick fuck."
+
+        ailon "Harry, why didn’t you leave me alone I have nothing against you."
+
+        harry "I need no reason to bring a monster to justice."
+
+        ailon "You don’t understand!"
+
+        harry "Understand that you a demon?! Killer in cold blood!"
+
+        "Ailon looked at Thalia, she felt almost disgusted to look at him."
+
+        "Once she saw and attractive young man, but to hurt she saw a psychopath that tried to buy her affection and made her sick so she took a step back."
+
+        harry "I’m talking to you! Don’t lay a hand on the girl!"
+
+        ailon "I’m sorry… I can’t let you walk out of here."
+
+        harry "Shame…"
+
+        "Without hesitation he shot twice, one at Ailons Chest and one in his head, Ailon fell to the ground."
+
+        "Behind him rushed Phobion, alive."
+
+        "Thalia was completely frozen in pure shock, and took Harry even a moment to process, he tried to shoot him."
+
+        "The first shot went flying and in the second click the gun was empty, he had not reloaded."
+
+        "Phobion jumped Harry brandishing the fake sword and hit Harry in the neck so hard a crack sounded across the room."
+
+        "Thalia was sure, he died on the spot."
+
+        "Then Phobion just stood over the body, his grimaced human semblance, robotic murderous image thaila wished never to see but it was very real."
+
+        "Ailon the stood up and the bullet fell from his head and chest just as the wounds closed."
+
+        "Thalia fell to her knees at the impossible sight."
+
+        "Ailon looked at her a measure of pity and shame."
+
+        ailon "I’m sorry… you had to see this."
+
+        thalia "What… (she mumbled words) how…"
+
+        ailon "It’s a dreadful curse really."
+
+        "Are you okay?"
+
+        thalia "Get away from me!"
+
+        "She crawled back at a wall away from him."
+
+        ailon "You may not believe me but I tried to help these people… please let me explain."
+
+        thalia "Ahahahaahha."
+
+        "Explain what?!"
+
+        "That you skin people and keep them in a amusent park!? That you tried to buy me?!"
+
+        "Oh my god… you were going to do the same to me…"
+
+        aila "Thalia no I…"
+
+        thalia "Don’t say my name! You fucking sick!"
+
+        ailon "Thalia please…"
+
+        "His expression was utterly sad and shameful and that made Thalia explode."
+
+        thalia "Oh please don’t make that suffering face!"
+
+        thalia "You are sick in your head, you once made me fall for that but now I see you!"
+
+        thalia "A monster! Don’t you dare make that face you sick fuck!"
+
+        "His expression changed to one of surprise the a anger."
+
+        ailon "You have no idea of my suffering! I am not what you think!"
+
+        thalia  "I have seen enough!"
+
+        "She looked around for the gun, she reached for it, grabbed it and aimed at Ailon"
+
+        "He was surprised enough not to move as she shot him, her hands felt the power of ten recoil, her eyes filled with light and the air lingered the smell of gun powder."
+
+        "Ailon flinched at the shot, but the bullet was simply expelled out and his wound closed."
+
+        "Thalias adrenaline flushed to extremes, she couldn’t kill him."
+
+        ailon "I know that look…. Thalia please."
+ 
+        "She couldn’t think,what would he do to her?"
+
+        "What was him, what was this place, why did she even agree to this, and she regretted and burst out in a laugh at the madness."
+
+        "Till only one thought filled her mind, what if he made her into one of those things in the suits?"
+
+        thalia "Were these people you knew?"
+
+        ailon "People I loved…"
+
+        thalia "your love is sick"
+
+        "She turned the gun on herself and pulled the trigger."
+
+        "HATRED ENDING"
+
         jump end
 
     label pityRoute:
@@ -2664,7 +2935,8 @@ label start:
         "She did try using the knife but it never worked, but they were happy nonetheless."
 
         "Until about 150 years later Thalia seemingly lost interest in living things, she began with animals, Ailon did not notice… but the change happened and it only grew."
-
+        
+        "SELFISH LOVE ENDING"
 
 
         
