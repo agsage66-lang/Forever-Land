@@ -1312,6 +1312,8 @@ label start:
 
         $ harryNapped = True
         
+        play music "hbs.mp3"
+
         show thalia at center
 
         show harry at shadowFilter,left, flip
@@ -1719,6 +1721,8 @@ label start:
 
         show harry at shadowFilter, flip with dissolve
 
+        play music "hbs.mp3"
+
         "She didn’t notice a man in a hood getting close to her till he spoke."
 
         show thalia confused
@@ -2029,6 +2033,8 @@ label start:
         show thalia thinking at smaller, left
 
         with dissolve
+
+        play music "Lavender.ogg"
 
         "When she woke up it was on a mattress laid out in the main plaza of the park."
 
@@ -2430,6 +2436,8 @@ label start:
 
     label hateRoute:
         
+        play music "one_0.mp3"
+
         "Thalia looked at the gun like it was some alien thing that couldn’t be real."
 
         show thalia surprise
@@ -2825,23 +2833,37 @@ label start:
 
         hide harry
 
+        show thalia o
+
         "The woman took Thalia only a little distance away and pointed out to an employee only entrance."
 
         "Employee" "Just go through there, down the stairs and to the repair room."
+        
+        "The woman then gave Thalia a polite nod and walked away."        
+
+        show thalia thinking
 
         thalia "Right… the repair room."
 
-        "The woman then gave Thalia a polite nod and walked away."
+        show thalia confused
 
         "Thalia felt confused, she looked at the door, then to the card in her hands."
 
         "There was a small console beside the door so she swiped the card and the door unlocked."
 
+        show thalia thinking
+
         "Hesitant she walked in."
+
+        scene bg hallway
+
+        with dissolve
 
         "It was was a catwalk overlooking a maintenance hallway, the place was filled with pipes and wiring, it was an unsettling."
 
         "Thalia heard the door close, then open again for a moment, she looked but there was no one, only some soda crate near by."
+
+        show thalia o at smaller, center with dissolve
 
         thalia "I don’t really think I should be here but oh well…"
 
@@ -2849,17 +2871,27 @@ label start:
 
         "She couldn’t hear any noise from the park itself, only some mechanical machine sounds and liquids flowing in the pipes."
 
+        show thalia thinking
+
         thalia "Right… repair room… but where…"
 
         "Thalia was uneasy the place was by itself weird, she chose to go left."
 
-        "A cart rushed by her she had to sidestep quickly so it didn’t hit her."
-
         "She walked to another intersection, she thought to herself she would get lost here before she found the repair zone."
+
+        scene bg repair
+
+        show thalia o at smaller, left 
+        
+        with dissolve
 
         "Fortunately for her as she looked around the intersection on one side standing in the middle of the hallway was Phobion."
 
         "Thalia approached carefully."
+
+        show phobion idle at right
+
+        with dissolve
 
         thalia "Phobion… you okay?"
 
@@ -2867,27 +2899,53 @@ label start:
 
         "But back in the intersection a voice complained and the sound of a crash."
 
+        show thalia at center, flip
+
+        show harry smile at left, flip
+
         "Thalia backed away towards Phobion and a man made around the corner."
 
         phobion "Fair lady from earlier the day… who is the farthest gentleman from us."
+
+        show thalia confused
 
         thalia "I don’t… know, who are you mister?"
 
         "The man simply laughed and pulled out a gun."
 
+        play music "hbs.mp3"
+
+        show thalia surprise
+
         "???" "You monsters get down on your knees."
 
         "Thalia was first shocked her whole body froze in place, at the sight."
 
-        Phobion "This is not a toy to wave around, brave gentleman, put down at once."
+        hide thalia
+
+        show thalia surprise at right, smaller, flip
+
+        show phobion at center
+
+        with dissolve
+
+        phobion "This is not a toy to wave around, brave gentleman, put down at once."
 
         "The man shot the gun in the roof, the loud bang rippled across the halls."
 
+        show thalia shout
+
         "In was enough to make Thalia let a scream of panic."
 
-        "So the man pointed the gun at her, until Phobion stepped between both."
+        hide thalia 
 
-        phobion "I warn only once my great gentleman, or I shall Draw my blade against thee."
+        show phobion at right
+
+        with dissolve
+
+        phobion "I warn only once my great gentleman, or I shall draw my blade against thee."
+
+        show harry -smile
 
         "???" "Oh yeah? Fucking creep!"
 
@@ -2899,7 +2957,7 @@ label start:
 
         "A small blood clot forming on his leg, still Phobion pulled out his rapier, it was this blunt prop that was something you could buy in any store."
 
-        "The man looked surprised under the hood, but it was hard to tell."
+        "The man looked surprised, but it was hard to tell."
 
         "???" "Try it… and this time I kill you boy."
 
@@ -2907,15 +2965,31 @@ label start:
 
         "And again to Thalia's horror Phobion charged the man."
 
+        show phobion idle at center
+
+        with dissolve
+
         "The gun roared fire and lead in response, at least three or four shots, all which hit Phobion."
 
         "He did not stop, he charged the man no fear, and plunged the prop into the man’s torso."
 
         "It was a metal still, blunt, yet with enough force, it could hurt someone and that it did."
 
+        scene black 
+
         "Only when Thalia saw the sword impale the man did she manage to close her eyes in fear."
 
         "There was the sound of something falling, likely the man’s body, then a few steps followed by a similar yet heavier sound."
+
+        scene bg repair
+
+        show thalia surprise at right, smaller, flip
+
+        show phobion idle at left, flip
+
+        with dissolve
+
+        play music "Lavender.ogg"
 
         "When she opened her eyes, she saw in the further distance the man impaled, dead, she avoided but saw Phobion close."
 
@@ -2927,9 +3001,17 @@ label start:
 
         thalia "I need to find help I…"
 
+        hide thalia
+
+        show thalia o at center, flip, smaller
+
+        with dissolve
+
         "Phobion grabbed her hand as she made the move to stand up."
 
-        phobion "You do not have to, o shall live through this danger."
+        phobion "You do not have to, I shall live through this danger."
+
+        show thalia surprise
 
         thalia "No… you… you were shot! You need help!"
 
@@ -2937,25 +3019,33 @@ label start:
 
         "Hesitant Thalia helped him sit, leaning against the wall, she tried not to look at the dead man in the distance."
 
+        show thalia pouts
+
         thalia "At least… let me take a look at it maybe I can improvise some bandages."
 
         phobion "There is no need…"
 
+        show thalia o at reverseFlip
+
         "She ignored him and she grabbed the suit carefully, pulling clothing."
+
+        show thalia verysurprise at flip
 
         "She froze when what she saw was flesh fused with machine parts, there was only a small entry wound of the bullet, no blood was flowing like it had almost healed already."
 
         "Yet it was a horrific sigh, his flesh was cut where cables and metallic joints met flesh and muscle."
 
-        "Thalia jumped back and screamed horrified."
-
         "Phobion grabbed the torn clothing and covered the exposed inside." 
 
         phobion  "Fear not, I am fine."
 
+        show thalia shout
+
         thalia "Who… who did this to you?!"
 
         phobion "Beloved Ailon has seen it so."
+
+        show thalia angry
 
         thalia "What… why!? "
 
@@ -2963,13 +3053,19 @@ label start:
 
         phobion "He did so to help myself."
 
+        show thalia shout
+
         thalia  "How is that helping?!"
 
         "There were sounds of small pellets hitting the ground, she looked and saw the bullets had been expelled from his body."
 
+        show thalia o
+
         phobion "My life is one to be forever lady, shots will not kill me! Neither will blades or time!"
  
         "Her mind began racing many questions, but mostly she was happy he seemed okay."
+
+        show thalia confused
 
         thalia "But… why are you in this state."
 
@@ -2980,6 +3076,8 @@ label start:
         phobion  "Only that I have been here a long time!"
 
         thalia "And you can’t leave?"
+
+        show thalia o
 
         phobion "I choose to stay to for Ailon, he be lonely if no one was near."
 
@@ -2995,15 +3093,29 @@ label start:
 
         phobion "Nothing will ever stop courage and honor!"
 
+        show thalia cutesmile
+
         "Thalia laughed"
+
+        hide thalia
+
+        show thalia surprise at right, flip , smaller
+
+        with dissolve
 
         "She tried to look ta the dead man but Phobion put himself between them."
 
+        show thalia confused
+
         phobion "Do not think of it, I shall solve this evildoers fate, you have done no wrong."
+
+        show thalia thinking
 
         "That made her feel bad but she also didn’t want to look at it, she hesitated but began walking the other way."
 
         phobion "I also… believe I have been most blunt I my manners… may I ask this fair lady name?"
+
+        show thalia o
 
         thalia "It’s Thalia."
 
@@ -3013,31 +3125,59 @@ label start:
 
         phobion "That is matter better asked to Ailon not?"
 
+        show thalia thinking
+
         thalia "Maybe… okay I will."
+
+        scene bg hallway
+
+        with dissolve
 
         "Phobion took her around the tunnels, they must have walked for some good minutes before they climbed some stairs and were back in the park."
 
         "Phobion however still had his costume damaged so he stayed inside and said."
 
+        scene bg parknigth with dissolve
+
+        show thalia o at left, smaller
+
+        show phobion idle at right
+
+        with dissolve
+
         phobion "He should be here, good luck lady Thalia… and please be kind to him… I remember him a kind soul."
+
+        show thalia thinking
 
         thalia "I… will try."
 
+        hide phobion with dissolve
+
         "Phobion went back and Thalia looked around for Ailon."
+     
+        show thalia o
 
         "She saw him sitting down alone, he seemed confused and sad."
 
-        "She felt embarrassed about the kiss but mustered courage to walk to him."
+        "She mustered the courage to walk to him."
 
         thalia "Hey Ailon…"
+
+        show ailon surprise at right
 
         "He seemed startled by her voice and looked at her confused."
 
         thalia "We should talk…"
 
+        show ailon sad
+
         ailon "I… (he was a bit red) thought you were back there still… how did you find me?"
 
+        show thalia thinking
+
         thalia "Phobion said you would be here…"
+
+        show ailon verymad
 
         ailon "You… talked to Phobion?"
 
@@ -3045,9 +3185,13 @@ label start:
 
         ailon "And what did you talk about?"
 
+        show thalia angry
+
         thalia "He told me some things… about himself and you… but I thought I should ask myself."
 
         ailon "Okay just… keep here and don’t move… I mean it."
+
+        hide ailon with dissolve
 
         "Ailon looked very serious it was almost scary."
 
@@ -3055,43 +3199,75 @@ label start:
 
         "The park was already closing and there were only people far away now, and they were alone."
 
+        show ailon at right with dissolve
+
         ailon "What exactly happened?"
 
         "Ailon was serious and there was also some anger in his voice."
 
         "Thalia was surprised to see him that way but after what happened she was more confused."
 
+        show thalia o
+
         thalia "I went after Phobion… to ask him about you… and well a man followed me, when I found Phobion he pulled a gun on us."
+
+        show ailon verymad
 
         "Ailons posture changed as he focused his attention."
 
         ailon "Did he hurt you?"
 
+        show thalia thinking
+
         thalia " No… Phobion I think he… he might have killed him…"
+
+        show ailon worry
 
         ailon "Killed him?!"
 
+        show thalia angry
+
         thalia  "He was trying to shot at him."
 
+        show ailon -worry
+
         ailon "Where is he now?"
+
+        show thalia confused
 
         thalia "I don’t really know, down the maintenance tunnels, Phobion didn’t let me look a second time."
 
         "Ailon looked like he was about to get up but Thalia grabbed his arm."
 
+        show thalia thinking
+
         thalia "Phobion also got shot… but he lived… I saw underneath his clothes too."
+
+        show ailon veryworry
 
         "Ailons eyes twitched, a mix of shame, surprise and fear, Thalia didn’t know which was stronger so she continued." 
 
+        show thalia disgust
+
         thalia "He said he was immortal… that I should ask you… Ailon what is going on?"
+
+        show ailon sad shadow
 
         "Ailon took a deep breath and his eyes almost swelled with tears."
 
+        show ailon side -shadow
+
         ailon "He did not lie… he is… and so am I."
+
+        show thalia surprise
 
         "Thalia was surprised to say the least, first she did not believe but then she saw a man get shot and get up like nothing."
 
         thalia "How?!"
+
+        show thalia o
+
+        show ailon sad
 
         ailon "I was cursed, a very long time ago, to live forever…"
 
@@ -3101,25 +3277,35 @@ label start:
 
         thalia "What you mean by that?"
 
+        show ailon verymad shadow
+
         ailon "Thalia I have been around since man lived in caves!"
 
-        "Thalia got scared for a moment at his outburst as he continued to spill his fury"
+        "Thalia got scared for a moment at his outburst as he continued to spill his fury."
 
         ailon "And I can’t stand anymore."
 
-        "I have seen more then I would like to see."
+        ailon "I have seen more then I would like to see."
 
-        "You wanted to know what Phobion had to tell you?!"
+        ailon "You wanted to know what Phobion had to tell you?!"
 
-        "I cursed him too, so has mostly every poor soul in this park!"
+        ailon "I cursed him too, so has mostly every poor soul in this park!"
 
-        "They were once people I loved but are now shells of themselves."
+        ailon "They were once people I loved but are now shells of themselves."
 
-        "And I can’t take it anymore!"
+        show ailon sad
+
+        ailon "And I can’t take it anymore!"
+
+        show thalia at center with dissolve
         
         "He fell to his knees crying and Thalia rushed to him sitting down in the ground with him."
 
         thalia "It’s okay… I don’t think I understand all of it but I see you…"
+
+        show thalia surprise at left with dissolve
+
+        show ailon verymad
 
         ailon "No you don’t…"
 
@@ -3131,45 +3317,75 @@ label start:
 
         ailon "And I had to do it…"
 
-        ailon "So many times..."
+        show ailon sad
 
-        ailon "You see this sad man?!"
+        ailon "So many times..."
 
         ailon "I’m an immortal being who trapped the people he loved in metal sarcophagus like broken toys I’m a monster!"
 
+        show thalia o
+
         thalia "You are suffering!"
+
+        show ailon verymad
 
         ailon "Yes Thalia I am!"
 
-        ailon "Because this fucking life…. This fucking mind or body keeps me alive unlike all the people I love."
+        ailon "Because this life…. This damn mind and body keeps me alive and sane unlike all the people I love."
 
-        ailon "Thalia Is there no way to end it? (She hesitated to ask)."
+        show thalia thinking
+
+        thalia "Is there no way to end it? (She hesitated to ask)."
 
         ailon "The only way to do it is if someone who loves me selflessly used a knife to kill me."
 
-        "Thalia was puzzled, yet everything about this day was weird, she imagined it was part of the curse so she yellow."
+        "Thalia was puzzled, yet everything about this day was weird, she imagined it was part of the curse so she yelled."
+
+        show thalia angry
 
         thalia "Bring the knife here then!"
+
+        show ailon -shadow surprise
 
         ailon "What?"
 
         thalia "I like you… despite what you said I still do… let me try!"
 
+        show ailon verymad
+
         ailon "Are you insane?!"
 
         thalia "To try and help someone?"
 
-        ailon "by stabbing me?"
+        show thalia pouts
+
+        ailon "By stabbing me?"
 
         thalia "You don’t die do you?"
 
         ailon "It still hurts like a bitch."
 
-        "There was strange pause and an awkward laugh between the two."
+        show thalia o
+
+        show ailon sad
+
+        "There was strange pause..."
+
+        show ailon cutesmile
+
+        show thalia sweetsmile
+
+        "And an awkward laugh between the two."
+
+        show thalia smile
 
         thalia "Bring it here… I have seen a lot today.. I want to help."
 
         ailon "You are unbelievable…"
+
+        show ailon sad
+
+        show thalia angry
 
         "Thalia felt a bit angry at his comment but also proud."
 
@@ -3177,9 +3393,17 @@ label start:
 
         "Ailon got up his expression seemed very sad."
 
+        hide ailon
+
+        show thalia o
+
+        with dissolve
+
         "Thalia reached out her hand but she neither reached nor could say anything."
 
         "A few moments passed and she was all alone in the plaza."
+
+        show thalia thinking
 
         "Her head filled with thoughts of the day."
 
@@ -3191,11 +3415,19 @@ label start:
 
         "It looked like something you would see in a museum, it seemed fashioned from a dark rock with a leather grip."
 
+        show ailon at rigth
+
+        show thalia o
+
         ailon "I have it here…"
 
         "She could see in his face doubt, shame but maybe a hope this could give him what he wanted."
 
+        show thalia confused
+
         thalia "So that knife… made you and the others… imortals?"
+
+        show ailon sad
 
         ailon "Yes…"
 
@@ -3207,11 +3439,17 @@ label start:
 
         "Ailon took a step and handed her the knife taking again a step back."
 
+        show ailon verymad
+
         ailon "Do it fast… just in the stomach… it don’t hurt as bad and easier to strike"
+
+        show thalia thinking
 
         thalia "You seem to know."
 
         ailon "Not the first time I tried it…"
+
+        show thalia angry
 
         "Thalia was hesitant, would it work? She couldn’t know, was he insane? Maybe but it seems it was what he wanted."
 
@@ -3223,6 +3461,10 @@ label start:
 
         "Ailon heard a striking sound and a welp not his own, opening his eyes Thalia had stabbed herself."
 
+        scene black with fade
+
+        show ailon worry shadow with dissolve
+
         ailon "No!"
 
         "He rushed to her cradling her head."
@@ -3231,15 +3473,11 @@ label start:
 
         thalia "Now I’ll be immortal too… and you won’t be alone."
 
-        ailon "No Thalia it had to me to do it! You are just gonna die like this!"
+        show ailon veryworry
+
+        ailon "No Thalia it had to be me to do it! You are just gonna die like this!"
 
         thalia "Oh… (she felt guilty about it as her mind felt cloudy) I didn’t know… guess I’m silly."
-
-        ailon "No no… I didn’t want this… you gonna make me go trough this again…"
-
-        thalia "What are you talking about… it’s my fault really… but I would like… a hospital."
-
-        ailon "You … you… I don’t want to lose you either… not like this… I …"
 
         "If he finished Thalia didn’t hear it."
 
@@ -3249,11 +3487,21 @@ label start:
 
         "Then she felt hot and burning sensation and a jolt of pain made her sit down and scream."
 
+        scene bg parknigth
+
+        show thalia disgust at left, smaller
+
+        with dissolve   
+
         thalia "Oh shit! Ouch!"
+
+        show ailon worry at rigth
 
         "She looked as Ailon sat just across from her his head down, the knife in his hands and bloodied."
 
         "She touched her stomach and the wound was gone but she felt her clothes a bit soggy with blood, her neck too."
+
+        show thalia confused
 
         thalia "Did you?"
 
@@ -3261,43 +3509,69 @@ label start:
 
         thalia "Immortal?"
 
+        show ailon sad
+
         ailon  "I’m sorry…."
 
         "He began to cry almost child like and Thalia again hugged him saying."
 
+        show thalia angry
+
         thalia "Ailon you saved me from my own self stupidity, I’m fine."
+
+        show ailon verymad
 
         ailon "No you are not! Don’t you get it."
 
         "He stood up."
 
-        "You cannot live forever you will lose your mind! I have condemned you to live like a shell till the end of time! All because I was too weak…"
+        ailon "You cannot live forever you will lose your mind! I have condemned you to live like a shell till the end of time! All because I was too weak…"
 
-        "To let you die…"
+        show ailon sad
+
+        ailon "To let you die…"
 
         thalia "You are not weak! You are kind!"
 
+        show ailon verymad
+
         ailon "Kindness has nothing to do with this! It’s fact."
 
-        "The human brain can’t retain information after certain time, in 100 years you won’t be yourself anymore."
+        ailon "The human brain can’t retain information after certain time, in 100 years you won’t be yourself anymore."
 
         thalia "I won’t! I’ll be here still."
 
+        show ailon sad shadow
+
         ailon "I… I’m done… then do just that."
+
+        show thalia o
 
         "His whole silhouette seemed to grow tired and weary, completely devasted."
 
         "It lasted only a moment but in the next."
 
+        show ailon sweetsmile -shadow
+
         "He beamed a smile, almost to perfect to be honest but it did fool Thalia that she thought his saddens turned to relief."
 
         ailon "Lets make the best then, of the years to come!"
 
+        show thalia cutesmile
+
         "Thalias heart was relieved and she smiled kindly at him as she made the decision to stay by his side."
+
+        show thalia smile
 
         thalia "I’m glad I got through your thick skull."
 
-        "The man that Phobion killed went unnoticed, and not even the police came looking for him, apparently it was deemed a missing person and there was nothing liking him to the park."
+        hide thalia
+
+        hide ailon
+
+        with dissolve
+
+        "The man that Phobion killed went unnoticed, and not even the police came looking for him, apparently it was deemed a missing person and there was nothing linking him to the park."
 
         "Whatever he came here to do, he did it in secret and it was his undoing."
 
@@ -3306,6 +3580,8 @@ label start:
         "She did try using the knife but it never worked, but they were happy nonetheless."
 
         "Until about 150 years later Thalia seemingly lost interest in living things, she began with animals, Ailon did not notice… but the change happened and it only grew."
+        
+        scene black with fade
         
         "SELFISH LOVE ENDING"
         jump end

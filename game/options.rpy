@@ -12,7 +12,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("Title Pending")
+define config.name = _("Forever Land")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
@@ -23,13 +23,33 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "0.5"
+define config.version = "1.0.0"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
 define gui.about = _p("""
+Writing by Pedro Brandão ()
+
+Art by Alana Romanholi ()
+
+Programming by Matheus Carvalho ()
+
+Music:
+    
+    Buy Something! by Cleyton Kauffman - https://soundcloud.com/cleytonkauffman (https://opengameart.org/content/shop-theme)
+
+    Lavender by Joseph Gilbert / Kistol (https://opengameart.org/content/lavender)
+
+    One by pheonton (https://opengameart.org/content/one)
+
+    wind_chimes by pmiller (https://opengameart.org/content/wind-chimes)
+    
+    Contemplation by Joth (https://opengameart.org/content/contemplation-0)
+
+    Heartbeat Suspense soundtrack by Aspecty (https://opengameart.org/content/suspenseheartbeat-soundtrack)
+
 """)
 
 
