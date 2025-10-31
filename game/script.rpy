@@ -91,6 +91,14 @@ layeredimage ailon :
     always: 
         "ailon_base"
 
+    group extras:
+        attribute noeffect default:
+            null
+        attribute blush :
+            "ailon_blush"
+        attribute shadow :
+            "ailon_shadow"
+
     group expressions :
         attribute idle default:
             "ailon_normal"
@@ -124,14 +132,6 @@ layeredimage ailon :
             "ailon_smile"
         attribute o:
             "ailon_o"
-
-    group extras:
-        attribute noeffect default:
-            null
-        attribute blush :
-            "ailon_blush"
-        attribute shadow :
-            "ailon_shadow"
 
 
 layeredimage harry:
@@ -1484,19 +1484,35 @@ label start:
 
         "She also kept thinking back to that weird guy in the costume Phobion."
 
+        show thalia confused
+
         thalia  "Ailon, why would you keep an Ex you have working here?"
+
+        show ailon surprise
 
         ailon "(He seemed slightly surprised by the question) what you mean by it?"
 
+        show thalia thinking
+
         thalia "Phobion he was trying to talk to me, to I think… not like you but why do keep him employed? Isn’t it uncomfortable?"
 
+        show ailon sad
+
         ailon "Should I fire him because relationship, he can be good at his job…"
+        
+        show thalia pouts
+
+        show ailon surprise
 
         thalia "Not good if he bothers our date! (She pouts)"
 
         "She is feeling something other than bother but she can’t quite place the feeling, so she looks at him to see what he says."
 
+        show ailon side
+
         ailon "You know… you are right… I should go give him a piece of mind."
+
+        show thalia confused
 
         thalia "Now?"
 
@@ -2414,13 +2430,19 @@ label start:
 
     label hateRoute:
         
-        "Thalia looked at the gun like it was some alien thing that couldn’t be real"
+        "Thalia looked at the gun like it was some alien thing that couldn’t be real."
+
+        show thalia surprise
 
         thalia "What… no no no, I can’t take that!"
+
+        show thalia thinking
 
         harry "Girl… i suggest you do."
 
         "She was shocked to say the least, and scared he carried one."
+
+        show thalia angry
 
         thalia "I don’t want it."
 
@@ -2428,61 +2450,95 @@ label start:
  
         "The man kept the gun and pulled out his own, the begun going down the stairs."
 
+        scene bg hallway
+
+        show thalia o at left, smaller
+
+        show harry at center, flip
+
+        with dissolve
+
         "The place they was a top a catwalk in the service tunnels beneath the park."
 
         "Down the place was poorly lit and the faint sounds of machinery echoed like monster Growls." 
 
-        thalia "Wait who the hells are you? A cop?"
+        show thalia confused
+
+        thalia "Wait, who the hell are you? A cop?"
 
         "Thalia followed the man down the steps into the halls."
 
         harry "I was… but I retired."
 
-        thalia "And you ar where why?"
+        thalia "And you are here why?"
 
         harry "Trying to catch this Ailon bastard… he as his family."
 
         thalia "What you mean?"
 
-        harry  "I'm not surprised you don’t know, my own family has been after hugs for more than a generation"
+        show thalia o
+
+        harry  "I'm not surprised you don’t know, my own family has been after this thugs for more than a generation."
+
+        show harry smile
 
         thalia "Why?"
 
         harry "Back when my own grandfather was still your age, he and his wife  met one of the Olmenah…"
 
+        show thalia confused
+
         thalia "Olme… who?"
+
+        show harry -smile
 
         harry "Girl you don’t even know his surname?"
 
+        show thalia embarrased
+
         thalia "It’s only our second date."
 
-        harry "Well make it your last cause this man hiding something."
+        harry "Well make it your last cause this man is hiding something."
 
         "Harry turned around a corner, his gun aimed, Thalia followed him even more disturbed and confused."
 
+        show thalia o
+
         harry "Anyhow both my grandfather and his wife met with one of the Olmenah, they were both enthralled by him, just like you are by this man."
 
-        "His wife one day ran away, you could say it’s a classic one, wife gets stollen by a good looking man but my grandfather never saw his loved one again."
+        harry "His wife one day ran away, you could say it’s a classic one, wife gets stollen by a good looking man but my grandfather never saw his loved one again."
 
-        "You can say it was vengeance, but he went to look into the Olmenah family and he found out no one ever saw more then one of the families members ate a time."
+        harry "You can say it was vengeance, but he went to look into the Olmenah family and he found out no one ever saw more then one of the families members ate a time."
 
-        "He thought it was suspicious and the harder he tried to look information the more he hit road blocks."
+        harry"He thought it was suspicious and the harder he tried to look information the more he hit road blocks."
+
+        show thalia confused
 
         thalia "So he thought someone from Ailons family did something to her? Couldn’t she run off somewhere?"
 
         harry "We didn’t think so… I mostly helped my grandad, my father though he was obsessed."
 
-        "The thing is after years we noticed their face never changed."
+        harry "The thing is after years we noticed their face never changed."
+
+        show thalia o
 
         thalia "Whose?"
 
         harry "The Olmenah! This Ailon you have met is the same one my grandfather met."
 
-        thalia "You are crazy, he be an old man like you!"
+        show thalia disgust
+
+        thalia "You are crazy, he should be an old man like you!"
 
         harry "That’s what I’m here trying to find out girl!"
 
+        show thalia angry
+
         thalia "You are insane… I’m leaving."
+
+        show phobion idle at right
+        
+        show thalia verysurprise
 
         "As she turned to leave one of the full suit mascots came walking."
 
@@ -2492,9 +2548,13 @@ label start:
  
         "Harry pulled Thalia's arm putting her behind him and screamed."
 
+        show thalia bigopen
+
         harry "Stay where you are."
 
         "He held out the gun and Thalia froze in fear watching this scene but she still managed to mutter."
+
+        show thalia thinking
 
         thalia "No don’t hurt him…"
 
@@ -2504,6 +2564,8 @@ label start:
 
         "The man fell back and Thalia was horrified she let out a scream."
 
+        show thalia verysurprise
+
         harry "I told you to stay put."
 
         "Thalia was a bout to run when she saw Phobion stand up like nothing and draw his sword."
@@ -2512,15 +2574,15 @@ label start:
 
         "Harry shot his gun at least 4 or 5 times before Phobion came tumbling down at his feet."
 
-        thalia "Aaaaaaaaah!!!!"
+        hide phobion idle with dissolve
 
-        "What did you do!"
+        thalia "What did you do?!"
 
         "Harry had a smirk as he bend down to stage suit and ripped the helm."
 
-        "Underneath was a horrifying sight, human flesh meshed together with metal, his features stretched over metallic composites and whirring."
+        show thalia bigDisgust
 
-        "Thalia turned and vomit on the floor." 
+        "Underneath was a horrifying sight, human flesh meshed together with metal, his features stretched over metallic composites and whirring."
 
         harry "See this! He is a sick fuck I knew it."
 
@@ -2534,6 +2596,8 @@ label start:
 
         harry "Ya sure you don’t want the gun?"
 
+        show thalia thinking
+
         thalia "I… think I do."
 
         "He pulled out the gun and gave it to her, she took the thing still a bit hesitant but more then afraid for her life."
@@ -2542,9 +2606,13 @@ label start:
 
         "She begun asking herself how she got in this situation and she wished she never met Ailon."
 
-        "Soon Harry vagem using the card to open door."
+        "Soon Harry was using the card to open door."
         
         "Till eventually they found a room."
+
+        show bg repair
+        
+        with dissolve
 
         "It looked like an operating room, and in the corner was a man much like Phobion."
 
@@ -2553,12 +2621,16 @@ label start:
         "There was drawings of his brain being impaled and messed much in the fashion of old lobotomies, Thalia couldn’t bear to look at it."
 
         "Harry on the other hand pulled out a camera and begun taking pictures."
+
+        show thalia confused
         
         thalia "What even is this…"
 
         harry "I have no clue, but is more than enough to put him behind bars."
 
         thalia "Why do this?"
+        
+        show thalia disgust
 
         harry "Girl, he is a monster there is no reasoning."
 
@@ -2566,7 +2638,12 @@ label start:
 
         "Again she felt sick and could barely stand till she heard Ailons voice."
 
+        show ailon verymad at right
+        with dissolve
+
         ailon "You should not have come here…"
+
+        show thalia surprise
 
         "Thalia turned, she was so scared she accidentally shot the gun and it hit the ground, the recoil made it fly out of her hand."
 
@@ -2586,15 +2663,29 @@ label start:
 
         harry "Understand that you a demon?! Killer in cold blood!"
 
+        show thalia bigDisgust
+
         "Ailon looked at Thalia, she felt almost disgusted to look at him."
 
         "Once she saw and attractive young man, but to hurt she saw a psychopath that tried to buy her affection and made her sick so she took a step back."
+
+        show ailon sad
 
         harry "I’m talking to you! Don’t lay a hand on the girl!"
 
         ailon "I’m sorry… I can’t let you walk out of here."
 
         harry "Shame…"
+
+        hide ailon
+
+        hide thalia
+        
+        show harry at right, reverseFlip
+
+        show phobion idle at left, flip
+
+        with dissolve
 
         "Without hesitation he shot twice, one at Ailons Chest and one in his head, Ailon fell to the ground."
 
@@ -2604,11 +2695,23 @@ label start:
 
         "The first shot went flying and in the second click the gun was empty, he had not reloaded."
 
+        show phobion at center
+
         "Phobion jumped Harry brandishing the fake sword and hit Harry in the neck so hard a crack sounded across the room."
+
+        scene black
 
         "Thalia was sure, he died on the spot."
 
         "Then Phobion just stood over the body, his grimaced human semblance, robotic murderous image thaila wished never to see but it was very real."
+        
+        scene bg repair
+
+        show thalia surprise at left, smaller
+
+        show ailon sad at right
+
+        with dissolve
 
         "Ailon the stood up and the bullet fell from his head and chest just as the wounds closed."
 
@@ -2620,9 +2723,15 @@ label start:
 
         thalia "What… (she mumbled words) how…"
 
+        show ailon side
+
         ailon "It’s a dreadful curse really."
 
-        "Are you okay?"
+        ailon "Are you okay?"
+
+        show ailon worry
+
+        show thalia bigDisgust
 
         thalia "Get away from me!"
 
@@ -2630,15 +2739,21 @@ label start:
 
         ailon "You may not believe me but I tried to help these people… please let me explain."
 
-        thalia "Ahahahaahha."
+        show thalia angry
 
-        "Explain what?!"
+        thalia "Explain what?!"
 
-        "That you skin people and keep them in a amusent park!? That you tried to buy me?!"
+        show thalia disgust
 
-        "Oh my god… you were going to do the same to me…"
+        thalia "That you skin people and keep them in a amusent park!? That you tried to buy me?!"
+
+        show thalia surprise
+
+        thalia "Oh my god… you were going to do the same to me…"
 
         ailon "Thalia no I…"
+
+        show thalia disgust
 
         thalia "Don’t say my name! You fucking sick!"
 
@@ -2646,13 +2761,21 @@ label start:
 
         "His expression was utterly sad and shameful and that made Thalia explode."
 
+        show ailon veryworry
+
         thalia "Oh please don’t make that suffering face!"
 
+        show thalia angry
+
         thalia "You are sick in your head, you once made me fall for that but now I see you!"
+
+        show thalia disgust
 
         thalia "A monster! Don’t you dare make that face you sick fuck!"
 
         "His expression changed to one of surprise the a anger."
+
+        show ailon verymad
 
         ailon "You have no idea of my suffering! I am not what you think!"
 
@@ -2662,9 +2785,15 @@ label start:
 
         "He was surprised enough not to move as she shot him, her hands felt the power of ten recoil, her eyes filled with light and the air lingered the smell of gun powder."
 
+        show thalia surprise
+
+        show ailon sad
+
         "Ailon flinched at the shot, but the bullet was simply expelled out and his wound closed."
 
         "Thalias adrenaline flushed to extremes, she couldn’t kill him."
+
+        show ailon veryworry
 
         ailon "I know that look…. Thalia please."
  
@@ -2674,11 +2803,17 @@ label start:
 
         "Till only one thought filled her mind, what if he made her into one of those things in the suits?"
 
+        show thalia thinking
+
         thalia "Were these people you knew?"
 
         ailon "People I loved…"
 
-        thalia "your love is sick"
+        show thalia bigDisgust
+
+        thalia "your love is sick."
+
+        scene black
 
         "She turned the gun on herself and pulled the trigger."
 
@@ -2687,6 +2822,8 @@ label start:
         jump end
 
     label pityRoute:
+
+        hide harry
 
         "The woman took Thalia only a little distance away and pointed out to an employee only entrance."
 
