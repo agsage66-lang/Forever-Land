@@ -198,7 +198,7 @@ label start:
     show friend at right
     with dissolve
     
-    friend "Anyhow, you still haven’t told me how the date was…"
+    friend "Anyhow, you still haven’t told me how the date was… (test)" 
 
     show thalia sparkle
 
