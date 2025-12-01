@@ -198,11 +198,11 @@ label start:
     show friend at right
     with dissolve
     
-    friend "Anyhow, you still haven’t told me how the date was… (test)" 
+    friend "Anyhow, you still haven’t told me how the date was…" 
 
     show thalia sparkle
 
-    thalia "I was so great! Like, amazing, he is pretty quiet, but those eyes~ dreamy."
+    thalia "I was so great! Like, amazing, he is very quiet, but those eyes~ dreamy."
 
     show thalia uwu
 
