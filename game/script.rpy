@@ -218,16 +218,16 @@ label start:
 
     show friend worry
 
-    friend "It’s not what it sounds like it…"
+    friend "It’s not what it sounds like…"
 
     show thalia thinking smallBlush
     thalia "Oh shut up… I played it cool"
 
-    "Outside a well-dressed man with a calm, serene expression walks towards the store. Thalia quickly hides their face and whispers."
+    "Outside a well-dressed man with a calm, serene expression, walks towards the store. Thalia quickly hides their face and whispers."
 
     show thalia bigopen
     
-    thalia "OMG, it’s him! He is coming to this store!"
+    thalia "OMG, it’s him! He is coming here!"
 
     show friend surprise
 
@@ -235,7 +235,7 @@ label start:
 
     thalia "No… do you think it’s like fate?! We meet again, like boom! Sparks!"
 
-    friend "Calm down, you have to play it cool. You're going to talk to him?"
+    friend "Calm down, you have to play it cool. will you to talk to him?"
 
     show thalia thinking bigBlush
 
@@ -245,7 +245,7 @@ label start:
 
     "The man walks in the store, his calm demeanor and presence seem to fill the room with ease, slowly he makes his way to the cashier."
 
-    ailon "One coffee, black, large with cream."
+    ailon "One coffee, black, large, with cream."
 
     "His voice sounded like a gentle breeze when spoken, clear to understand and pleasant. He seemed blissfully unaware, and ultimately he simply stood patiently for his order."
     
@@ -281,7 +281,7 @@ label start:
 
     thalia "I know right, we just saw this café we’ve never been before and wanted to try."
     
-    ailon "Well I come here almost every day it’s a nice place."
+    ailon "Well I come here almost every day, it’s a nice place."
 
     show thalia satisfied
 
@@ -293,7 +293,7 @@ label start:
         "There a moment of this weird silence as Thalia thinks about what to say."
         "Ask why this store":
             jump choice1_A
-        "Ask if he is free late":
+        "Ask if he is free later":
             jump choice1_B
 
     label choice1_A:
@@ -319,7 +319,7 @@ label start:
 
         show ailon o
 
-        ailon "But it was fortunate to meet you again today… I was thinking if you wanted to go somewhere again… if you want to"
+        ailon "But it was fortunate to meet you again today… I was thinking if you wanted to go somewhere again… with me?"
 
         show thalia verysurprise
 
@@ -328,7 +328,7 @@ label start:
         show thalia verysurprise bigBlush
         show ailon sweet
 
-        thalia "Yes I’d like to very much, I’m free even!"
+        thalia "Yes I’d like that very much!"
         
         jump choice1_END
     
@@ -340,11 +340,11 @@ label start:
 
         show ailon surprise
 
-        "He looks puzzled the surprised, a smile comes around his features lighting up the room."
+        "He looks puzzled and surprised, a smile comes around his features lighting up the room."
 
         show ailon smile
 
-        ailon "I’m glad you asked, I would be willing yes."
+        ailon "I’m glad you asked, I would be willing, yes."
 
         show thalia happy
 
@@ -352,7 +352,7 @@ label start:
 
         show ailon sweetsmile
 
-        ailon"Well… (his thoughts seem to drift for a moment but sure enough he returns with an awnser) I could yes."
+        ailon"Well… (his thoughts seem to drift for a moment but sure enough he returns with an awnser) this afternoon sounds nice yes."
 
         show thalia idle
 
@@ -364,11 +364,11 @@ label start:
 
     show ailon smile    
         
-    ailon "There is an amusement park here, Foreverlands, I happen to, well work there… and can get us in no problem."
+    ailon "There is an amusement park here, Foreverlands, I happen to, know some one there… and they can get us in no problem."
 
     show thalia happy -bigBlush
 
-    thalia "That sounds so cool, who knew I would know someone that well connected."
+    thalia "That sounds so cool, who knew you were that well connected."
 
     show ailon o
 
