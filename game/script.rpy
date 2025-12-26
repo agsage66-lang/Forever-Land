@@ -404,13 +404,13 @@ label start:
     
     "The entrance to the park isn't as packed as in the mornings; most people already went in earlier in the day, however, it doesn't stop a line from forming."
 
-    "Beyond the painted walls and decorated fences one can see the rollercoasters tracks, fabricated mountains and one of the largest ferries wheel."
+    "Beyond the painted walls and decorated fences one can see the rollercoasters tracks, fabricated mountains and one of the largest ferries wheel in the country."
 
-    "There are various sounds of laughter and chatter that mix around the smell of fresh cooked popcorn and baked sweet that can make one flutter with anticipation."
+    "There are various sounds of laughter and chatter that mix around the smell of fresh cooked popcorn and baked sweets that can make one flutter with anticipation."
 
-    "Thalia is waiting beneath a small shade in the sidewalk, because even with the nice weather, staying in the sun is asking for a sun burn."
+    "Thalia is waiting beneath a small shade in the sidewalk, because even with the nice weather, staying out in the open is asking for a sun burn."
 
-    "She can barely contain the smile across her face, even after getting a bi of scolding by her friend, she more than wished her luck on this date."
+    "She can barely contain the smile across her face, even after getting scolded by her friend, she more than wished her luck on this date."
 
     "She was in the middle of talking to herself as if practicing flirts."
     
@@ -420,7 +420,7 @@ label start:
 
     show thalia thinking bigBlush
 
-    thalia "no no… thats to forward and too weird."
+    thalia "no no… that's to forward and too weird."
 
     show ailon idle at right, with dissolve
 
@@ -464,7 +464,7 @@ label start:
 
     "Thalia follows close to Ailon as they both walk to the entrance; one of the employees opens a side gate, and he gestures so she follows, and they step into the park."
 
-    "When they walk in, she can feel a cooler breeze, and inside is full of color and people; most are just chatting from one ride to the next, and some are looking at the stores."
+    "When they walk in, she can feel a cooler breeze, inside is full of color and people; most are just chatting from one ride to the next, others are looking at the stores."
 
     "This part of the park looks like a small village. Foreverlands is mostly this medieval western fantasy theme; even the staff are either dressed as knights or peasants."
 
@@ -476,7 +476,7 @@ label start:
 
     show ailon o
 
-    ailon "We keep the fan well positioned to help the airflow."
+    ailon "We keep the fans well positioned to help the airflow."
 
     show thalia bigopen
 
@@ -512,7 +512,7 @@ label start:
 
     show ailon idle -blush at right
 
-    thalia "You say that like it isn’t any less amazing!!"
+    thalia "You say that like it's any less amazing!!"
 
     show thalia shinyeyes
 
@@ -528,9 +528,9 @@ label start:
 
     show ailon sweetsmile
 
-    ailon "No but you are very loud."
+    ailon "No, but you are very loud."
 
-    "Thalia looked around to see some people confused by all the noise and some curious; it is not every day you see the owner of the park."
+    "Thalia looked around to see some people confused by all the noise and some curious; it was not every day you see the owner of the park."
 
     "She gets slightly flustered but also guilty."
 
@@ -557,9 +557,9 @@ label start:
 
         "Thalia runs towards the most thematic part of the park"
 
-        "There are less rides in this parts but many more stores, plays and games that are supposed to more closely resemble various old settlements" 
+        "There are less rides in this part, but many more stores and game stands that are supposed to more closely resemble various old settlements" 
 
-        "Various thematic areas are skillful placed to each be their own separate area, there are, western, eastern, egipician, Nordic and even some pre historic theme"
+        "Many thematic areas are skillful placed to each be their own separate area, there are western, eastern, egipician, Nordic and even some pre historic theme"
 
         show thalia o
 
@@ -613,7 +613,7 @@ label start:
 
         "They both laugh at this."
 
-        "Something cached Thalia's attention, in a tribal tent there was this comical, likely costume lady, with cards and lots of feathers."
+        "Something caught Thalia's attention, in a tribal tent there was this comical, lady in a costume, with cards and lots of feathers."
 
         show thalia o
 
@@ -625,7 +625,7 @@ label start:
 
         show thalia smile
 
-        thalia "I thought tribal readers did like with bones and smoke,not cards."
+        thalia "I thought tribal readers did it like with bones and smoke, not cards."
 
         show ailon surprise
 
@@ -664,11 +664,11 @@ label start:
 
         show thalia o
 
-        ivania "Ivania pull out from the side five cards, but they weren’t the size of normal playing cards, they were slightly bigger then a hand."
+        ivania "Ivania pulled out from the side five cards, but they weren’t the size of normal playing cards, they were slightly bigger then a hand."
 
         ivania "She then laid them in front of Thalia, a bit of smoke rose from the corners."
 
-        "Ailon walked up to the corner of the tent but stood outside, Thalia was to focused to notice his presence, as he seemed uneasy."
+        "Ailon walked up to the corner of the tent but stood outside, Thalia was too focused to notice his presence, he seemed uneasy."
 
         ivania "I will now begin with a sight of the past."
 
@@ -680,9 +680,9 @@ label start:
 
         show cards time at top, smaller with dissolve
 
-        ivania "Time itself follows you, closer thenyoy think."
+        ivania "Time itself follows you, closer then you think."
 
-        "She puts down a card with a sketch of a clock over a feminine figure in a red tinture"
+        "She puts down the card with a sketch of a clock over a feminine figure in red tinture"
 
         ivania "Now for the sight of your present"
 
@@ -734,7 +734,7 @@ label start:
 
         with dissolve
 
-        ailon "She is playing to make you believe disaster, it alwaysallways to make a shock, she did that all the time!"
+        ailon "She is playing to make you believe disaster, it alwaysallways to make a shock, she does that all the time!"
 
         show thalia uwu
 
@@ -765,7 +765,7 @@ label start:
 
         show thalia uwu
 
-        "The smile feels Protagonist with some butterflies, his smile is so composed, that you could take a picture from any angle and it would look great, she thinks that at least."
+        "The smile feels Thalia with some butterflies, his smile is so composed, that you could take a picture from any angle and would look great, at least she thinks so."
 
         show thalia verysurprise
 
@@ -775,19 +775,19 @@ label start:
 
         show ailon sweetsmile
 
-        ailon "I did not take for a rule breaker miss protagonist…"
+        ailon "I did not take for a rule breaker miss Thalia…"
 
         show thalia sparkle
  
-        thalia "(She fakes being hit by a knife) you got me I was a bad girl (she laughs a bit)."
+        thalia "(She fakes being hit by a knife) you got me I was a bad girl... (she laughs a bit)."
 
-        ailon "I guess a bit of bending can’t hurt."
+        ailon "I guess a bit of rules bending can’t hurt."
 
         show thalia convencida
 
         "Ailon takes protagonist by the hand up towards the front of the line"
 
-        "Her heart pounds like a child on Christmas Eve, she kind of did that herself before but having him do it made her happy"
+        "Her heart pounds like a child on Christmas Eve, she suggested it herself before but having him do it made her happy"
 
         show thalia idle
 
@@ -801,7 +801,7 @@ label start:
 
         "The ride was fast, it was supposed to be like eletricity traveling across lightbulbs."
 
-        "They both made it out and Thalia said."
+        "When they both made it out and Thalia said."
 
         thalia "It was almost a light show, everything was so fast!"
 
@@ -825,15 +825,15 @@ label start:
 
         "They both spend some time from ride to ride."
 
-        "Eventually Ailon asks for a moment to go to the toilet, so protagonist waits."
+        "Eventually Ailon asks for a moment to go to the toilet, so Thalia waits."
 
         hide ailon
 
-        "While she waits one of the characters, a figure that resembles a mosquetire approaches and says."
+        "While she waits one of the characters, a figure that resembles a Musketier approaches and says."
 
         show thalia o at smaller, left with dissolve
 
-        "???" "Are you a fine lady on your own?"
+        "Is this fine lady on her own?"
 
         show thalia happy
 
@@ -843,13 +843,13 @@ label start:
 
         thalia "It seems not any more sir (she makes a fancy gesture)"
 
-        "She can she it is a full suit, she imagines if it isn’t hot in there"
+        "She can she it is another full suit, she really hopes it's not hot in there"
 
-        "It’s also very sophisticated, it looked cartoonish enough to be abstract but can also move its mouth it a robotic manner"
+        "It’s also very sophisticated, it looked cartoonish enough to be abstract but can also move it's mouth it a robotic manner"
 
         show thalia idle
 
-        phobion "I was Knight Phobion, fine my lady!"
+        phobion "I was Knight Phobion, My fine lady!"
 
         show thalia o
 
@@ -859,13 +859,13 @@ label start:
 
         thalia "(She is puzzled at first) with he?"
 
-        phobion "The love of those in the park, most of us were here for him, I saw thou for afar."
+        phobion "The love of those in the park, most of us were here for him, I saw thou from afar."
 
         show thalia shock
 
         thalia "(She is again puzzled but figures out) oh you mean Ailon like… oh my god he is your boss right?"
 
-        phobion "He was many to us part of us, now he seeks you."
+        phobion "He was many to us, part of us, now he seeks you."
 
         show thalia 0
 
@@ -915,7 +915,7 @@ label start:
 
             thalia "You said date… (she whispers softly)"
 
-            phobion "You are right my loved Ailon, I was not chivalrous with lady, I’ll be of leave"
+            phobion "You are right my loved Ailon, I was not chivalrous with lady, I’ll be off leave"
 
             show thalia confused -smallBlush
 
@@ -935,7 +935,7 @@ label start:
 
             with dissolve
 
-            "He than turns protagonist around, his face a mixture of worry and embarrassment."
+            "He than turns Thalia around, his face a mixture of worry and embarrassment."
 
             show ailon sad at right, reverseFlip
 
@@ -953,7 +953,7 @@ label start:
 
             show thalia confused
 
-            "When the initial shock wore off she looked to see if there was a trace of Phobion, she didn’t." 
+            "When the initial shock wore off she looked to see if there was a trace of Phobion, there wasn't." 
 
             "Though outside she was happy as a butterfly she also thought it was very weird and she wanted to talk more to Phobion."
 
@@ -973,7 +973,7 @@ label start:
 
             thalia "What to ruin a date? (She says a bit angry) I finally got him to enjoy a good time and you come between? I can make him happy enough thank you very much!"
 
-            phobion "(Lifts up a hand as if to talk back) I… will let you threat thy path."
+            phobion "(Lifts up a hand as if to talk back) I… will let you thread thy path."
 
             hide phobion idle with dissolve
 
@@ -1006,7 +1006,7 @@ label start:
 
             show ailon sweetsmile
 
-            "Ailon gave in return smile and blushed cheeks."
+            "Ailon gave in return a smile and blushed cheeks."
 
             ailon "Well I won’t tell you yet…"
 
@@ -1016,7 +1016,7 @@ label start:
 
             "There is a sweet air between the two"
 
-            "Though Protagonist doesn’t see it, to chaotic her mind is there is a deep sadness forming in Ailons eyes, as if he is reading again a story he knows the end of it"
+            "Though Protagonist doesn’t see it, too chaotic her mind, there is a deep sadness forming in Ailons eyes, as if he is reading again a story he knows the end of it"
 
             "Both continue on their park adventure."
             
