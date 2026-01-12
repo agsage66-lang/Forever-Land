@@ -1044,9 +1044,9 @@ label start:
     if (phobianJealosly):
         jump part3b
 
-    "They continued on to try other things, Mostly protagonist was adventuring around Foreverland, asking about the rides, and the different areas of the park."
+    "They continued on to try other things, Mostly Thalia was adventuring around Foreverland, asking about the rides, and the different areas of the park."
 
-    "The hours went by, the sun went down, and the lights came on, it gave a more mistic vibe to the whole place."
+    "The hours went by, the sun went down, and the lights came on, Making the to the whole place even more mystical."
 
     "There were still many people around, but perhaps now most were tired from a day of playing around so it seemed more slow and calm."
 
@@ -1066,11 +1066,11 @@ label start:
 
     show thalia bigopen
 
-    thalia "This park, its theme park, where did the ideia come from? Was it yours?… maybe your dad’s? This park has been here a while right?"
+    thalia "This park, it's theme park, where did the ideia come from? Was it yours?… maybe your dad’s? This park has been here a while right?"
 
     ailon "It has yes, almost two hundred years the park has, but it wasn’t this big for a while."
 
-    thalia "That’s so cool! So it does belong to your family who had the ideia?"
+    thalia "That’s so cool! So it does belong to your family, who had the ideia?"
 
     show ailon side
 
@@ -1146,11 +1146,11 @@ label start:
 
         show thalia o
 
-        ailon "I guess… it would be your forwardness, i haven’t been one to begin things as of late, it’s refreshing."
+        ailon "I guess… it would be your forwardness, I haven’t been one to begin things as of late, it’s refreshing."
 
         show ailon sad
 
-        thalia "Everyone has bad times, you don’t need to feel so bad about."
+        thalia "Everyone has bad times, you don’t need to feel so down about."
 
         show thalia smile
 
@@ -1172,15 +1172,15 @@ label start:
 
         show ailon sweet
 
-        thalia "(She said nervously) I’m sorry… maybe i shouldn’t have done that…"
+        thalia "(She said nervously) I’m sorry… maybe I shouldn’t have done that…"
 
-        ailon "(He was blushing and also a bit nervously) I… no you… its okay, I just wasn’t ready can you give me a minute?"
+        ailon "(He was blushing and also a bit nervously) I… no you… it's okay, I just wasn’t ready can you give me a minute?"
 
         thalia "(She was shocked) then… maybe I should go home…"
 
         show ailon sad blush
 
-        ailon "No no, stay… i just need a minute to get my mind in order… here."
+        ailon "No no, stay… I just need a minute to get my mind in order… here."
 
         show thalia o bigBlush
 
