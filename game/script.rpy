@@ -1190,17 +1190,17 @@ label start:
 
         ailon "You can use it to get something to eat around here if you are hungry… I’ll be back… just… don’t leave?"
 
-        "He seemed genuinely confused in his feeling but his words seemed true"
+        "He seemed genuinely confused in his feeling and his words seemed true"
 
         show thalia embarrased
 
         thalia "Okay… I’ll stay a bit."
 
-        "He seemed relaxed and then nodded and walked away."
+        "He seemed relaxed, then nodded and walked away."
 
         hide ailon with dissolve
 
-        "Thalia sat in a bench close by the put her hands in her hair embarrassed mumbling. "
+        "Thalia sat in a bench close by then put her hands in her hair embarrassed and mumbling. "
 
         thalia "Oh no… now I messed it up… I shouldn’t have… but he looked so sad…"
 
@@ -1240,7 +1240,7 @@ label start:
 
         show ailon worried
 
-        "She was shocked, it the first time she saw him raise his voice, it wasn’t a scream per say, but as low as he talked it was loud."
+        "She was shocked, it was the first time she saw him raise his voice, it wasn’t a scream per say, but as low as he talked it was loud."
 
         ailon "Oh I’m sorry… i didn’t mean to scream."
 
@@ -1254,9 +1254,9 @@ label start:
 
         show thalia thinking
 
-        thalia "Every relationship is complicated, and sometime you hurt each other… you maybe older then me but I not naive like that."
+        thalia "Every relationship is complicated, and sometimes you hurt each other… you maybe older then me but I'm not naive like that."
 
-        "Ailon looked surprised, he seems to expect something different, maybe rejection, but he got a response."
+        "Ailon looked surprised, he seemed to expect something different, maybe rejection, but he got a response."
 
         thalia "So? You still wanna tell me the same?"
 
@@ -1266,7 +1266,7 @@ label start:
 
         ailon "It’s more complicated then that…"
 
-        thalia "(She sighs) and they say woman are complicated…"
+        thalia "(She sighs) and they say women are complicated…"
 
         show thalia at center
 
@@ -1278,7 +1278,7 @@ label start:
 
         show thalia embarrased at left
 
-        "Ailon looked shocked, then embarrassed, then the embarrassment came back to protagonist as well, She turned around and said."
+        "Ailon looked shocked, then embarrassed, then the embarrassment came back to Thalia as well, She turned around and said."
 
         show ailon idle
 
@@ -1286,17 +1286,17 @@ label start:
 
         show ailon sad
 
-        "There a strange moment of silence, but it felt longer for both."
+        "There's a strange moment of silence, but it felt longer for both."
 
         show thalia o bigBlush
 
-        "Protagonist got even more embarrassed and she felt like she wanted to disappear she was getting ready to run off when Ailon grabbed her hand."
+        "Thalia got even more embarrassed and she felt like she wanted to disappear she was getting ready to run off when Ailon grabbed her hand."
 
         ailon "I need a minute… and I think you do to… meet at the central plaza later… and have this, anything you want. Its is my treat."
 
         show thalia confused
 
-        "He handed protagonist a small card, then walked away."
+        "He handed her a small card, then walked away."
 
         hide ailon with dissolve
 
