@@ -1320,7 +1320,7 @@ label start:
 
         with dissolve
         
-        "???" "Hey did he gave you a card?"
+        "???" "Hey did he give you a card?"
 
         show thalia confused -bigBlush at flip
 
@@ -1336,17 +1336,17 @@ label start:
 
         show thalia verysurprise
 
-        "She stopped when she saw him pulling a gun, she thought about screaming there weren’t many people around but it was sure to draw attention."
+        "She stopped when she saw him pulling a gun, she thought about screaming, there weren’t many people around but it was sure to draw attention."
 
         show thalia surprise
 
         "But she was so surprised it was like her body froze in fear."
 
-        "???" "You scream you die… you run you die…you will get up, stand next to me and walk, then you live… nod if you understood."
+        "???" "You scream you die… you run, you die… you will get up, stand next to me and walk, then you live… nod if you understood."
 
-        "Protagonist mind began racing with the very ideas he just warned her against, but if he was crazy enough to try and pull this in a park full of people, she might die."
+        "Thalia's mind began racing with the very ideas he just warned her against, but if he was crazy enough to try and pull this in a park full of people, he might reaaly do it."
 
-        "As natural as she could she got up slowly and he came around the side putting the gun behind her and hiding between them."
+        "As natural as she could, got up slowly and he came around the side putting the gun behind her, hiding it between them."
 
         thalia "What…. What you want from me?"
 
@@ -1356,7 +1356,7 @@ label start:
 
         "She was confused but did as she was told."
 
-        "Protagonist walked and he followed right up to the door."
+        "Thalia walked and he followed right up to the door."
 
         "???" "Use the card to open the door."
 
@@ -1404,7 +1404,7 @@ label start:
 
         show thalia thinking
 
-        thalia "Only because he didn’t seem to want to be mean about it… I mean he wasn’t mean, he was trying to tell me something."
+        thalia "Only because he didn’t seem to want to be mean about it… he wasn’t mean, he was trying to tell me something."
 
         show ailon o
 
@@ -1412,7 +1412,7 @@ label start:
 
         show thalia confused
 
-        thalia "Just that you loved the people here… I think I was a bit confused too."
+        thalia "Just that you loved the people here… I think, I was a bit confused too."
 
         show ailon idle
 
@@ -1478,17 +1478,17 @@ label start:
     
     label part3b:
 
-        "Both Ailon and Thalia go on a lot of rides, they almost get to ride all of them before they stop to rest a while."
+        "Both Ailon and Thalia go on a lot of rides, they almost went on all of them before they stoped to rest a while."
 
         "Thalia was feeling really happy but she didn’t know if Ailon was having the same amount of fun."
 
         "She saw him smile, talked to him, to her he did look handsome but it was making her somehow uncomfortable."
 
-        "She also kept thinking back to that weird guy in the costume Phobion."
+        "She also kept thinking back to that weird guy in the costume, Phobion."
 
         show thalia confused
 
-        thalia  "Ailon, why would you keep an Ex you have working here?"
+        thalia  "Ailon, why would you keep an Ex you had, working here?"
 
         show ailon surprise
 
@@ -1496,11 +1496,11 @@ label start:
 
         show thalia thinking
 
-        thalia "Phobion he was trying to talk to me, to I think… not like you but why do keep him employed? Isn’t it uncomfortable?"
+        thalia "Phobion he was trying to talk to me, to I think… make me not like you, why do keep him employed? Isn’t it uncomfortable?"
 
         show ailon sad
 
-        ailon "Should I fire him because relationship, he can be good at his job…"
+        ailon "Should I fire him because of a relationship? he can be good at his job…"
         
         show thalia pouts
 
@@ -1523,7 +1523,7 @@ label start:
         menu phobionHurt:
             "She was upset he was stepping away but happy he seemed to mind the date enough, and that somehow made her feel relieved."
 
-            "Tell him if he bothers us again I’ll bite kick his butt":
+            "Tell him if he bothers us again I’ll kick his butt":
                 jump phobionHurtA
             "Why was he that hurt?":
                 jump phobionHurtB
@@ -1554,11 +1554,11 @@ label start:
 
         show ailon o
 
-        "Ailon seemed to be upset by her words, he meant to take the card but she backed a bit."
+        "Ailon seemed to be upset by her words, he meant to take the card back but she snatched it."
 
         show ailon sad
 
-        "Inside her she began to dislike that off the ground side of him, that arrogance he knew better."
+        "Inside her, she began to dislike that aloft side of him, that arrogance he knew better."
 
         "She wanted to be petty."
 
@@ -1606,7 +1606,7 @@ label start:
 
         "Thalia feels really skeptical, and a bit scared so she does as she is told."
 
-        "To her surprise after passing the card the door opens and inside her suspicion sets."
+        "To her surprise after passing the card the door opens and inside her mind, suspicion sets in."
 
         show thalia surprise
 
@@ -1627,7 +1627,7 @@ label start:
 
         show thalia verysurprise
 
-        "From under his hood he hands Thalia a gun."
+        "From under his hoodie he hands Thalia a gun."
 
         $ harryFriend = True
 
@@ -1661,7 +1661,7 @@ label start:
 
         show thalia bigopen
 
-        thalia "Maybe it’s still not the right moment to talk about it… but I’m glad you have shown it to me?"
+        thalia "Maybe it’s still not the right moment to talk about it… but I’m glad you have told me"
 
         show ailon sad
 
@@ -1707,7 +1707,7 @@ label start:
 
         show ailon sad
 
-        ailon "No no… it’s more me you can rest easy, I’ll be back if you still here."
+        ailon "No no… it’s more me, you can rest easy, I’ll be back if you still here."
 
         "She hesitate but took the card."
 
@@ -1717,7 +1717,7 @@ label start:
 
         show thalia thinking
 
-        "Thalia felt slightly awkward but relived she got to see a gentle and timid saúde of him, one that needed caring."
+        "Thalia felt slightly awkward but relived she got to see a gentle and timid side of him, one that needed caring."
 
         show harry at shadowFilter, flip with dissolve
 
@@ -1733,13 +1733,13 @@ label start:
 
         "She looked and saw that the figure was holding a gun up to her, there were people around but in the quiet corner no one paid much attention."
 
-        "Protagonist was shocked she couldn’t scream if she wanted to, so she just held the card firmly. "
+        "Thalia was so shocked she couldn’t scream if she wanted to, so she just held the card firmly. "
 
         show thalia surprise
 
         "???" "You are going to get up, you won’t run or I’ll kill you… you are gonna come with me to that door, and you are gonna play it cool…. Nod if u understand."
 
-        "Protagonist nooded, she wanted to run, she did want to scream, but what if he shot she thought."
+        "Thalia nooded, she wanted to run, she did want to scream, but what if he shot she thought."
 
         show thalia thinking
 
@@ -1779,11 +1779,11 @@ label start:
 
         "Some noises can be heard like machine working, water flowing in pipes. Only some talk could be heard in the far distance, probably from the park."
 
-        "Thalia felt as the man behind her pressed the gun on her back and said."
+        "Thalia felt as the man behind her press the gun on her back and said."
 
         "???" "Now down the stairs"
 
-        "She was scared enough to want to cry, but also to nervous to break down, as adrenaline also made her hyper aware, she managed to walk."
+        "She was scared enough to want to cry, but also too nervous to break down, as adrenaline also made her hyper aware, she managed to walk."
 
         "They were in a catwalk that oversaw the hallways, they went down and surprisingly only the sound of machinery could be heard."
 
@@ -1895,7 +1895,7 @@ label start:
 
         with dissolve
 
-        "The suit was half open on the back, and inside the suit there were machine pieces fused with flesh, it barely spewd blood, it was grotesque to look so she looked away."
+        "The suit was half open on the back, and inside the suit there were machine pieces fused with flesh, it barely spewd blood, it was grotesque to behold so she looked away."
 
         show thalia bigDisgust
 
@@ -1919,7 +1919,7 @@ label start:
 
         "Harry dragged Thalia away"
 
-        "As she was being dragged she saw the suit still try to move in her direction but right there was nothing she could do."
+        "As she was being dragged she saw the suit still try to move in her direction but there was nothing she could do."
 
         "The man dragged her only up to the next corner, then forced her to walk the hallways."
 
@@ -1927,7 +1927,7 @@ label start:
 
         "Thalia cried, she kept thinking what was going on, people fused with machines, was that really all Ailon?"
 
-        "Harry was lost, he wandered the hall, many door had weird symbols?, he tried opening some of them, but they were mostly empty except for some strange surgical equipment he refused to touch, but took some pictures."
+        "Harry was lost, he wandered the hall, many doors had weird symbols, he tried opening some of them, but they were mostly empty except for some strange surgical equipment he refused to touch, but took some pictures."
 
         "They finally came across a stranger door with had a bridge simbol."
 
@@ -1960,7 +1960,7 @@ label start:
 
         "He pointed the gun a took a shot, the glass exploded and Thalia put her hands in her ears, she thought about running."
 
-        "Just then two hands around her shoulder calmly, she looked and saw Ailon."
+        "Just then two hands rested around her shoulder calmly, she looked and saw Ailon."
         
         show thalia surprise at flip, center
 
@@ -1982,7 +1982,7 @@ label start:
 
         with dissolve
 
-        harry "I saw the messed up shit here you did, you pick up people and turn them into monsters!"
+        harry "I saw the messed up shit you do here, pick up people and turn them into monsters!"
 
         show ailon side
 
@@ -1998,19 +1998,19 @@ label start:
 
         harry "How do you… you know what fuck you!"
 
-        "Harry pulls the trigger, Thalia watched horrified as a bullet wound opened straight into Ailons head and he fell in the ground"
+        "Harry pulls the trigger, Thalia watched horrified as a bullet wound opened straight into Ailon's head and he fell to the ground"
 
-        "She screamed horrified and confused but she was even more confused when he stood up"
+        "She screamed horrified and confused but she was even more baffled when he stood up"
 
-        "Ailon simply got up, the bullet wound expelled out the metal pellet."
+        "Ailon simply shrugged, the bullet wound expelled the lead pellet."
 
         ailon "Happy?"
         
         harry "You are a monster"
 
-        "Harry shot him two more time but Ailon Barr even fell into the ground"
+        "Harry shot him two more time but Ailon simply took the shots without a sound"
 
-        "Thalia fell on her knees scared, her mind running surprise after surprise she felt like she would faint."
+        "Thalia fell on her knees terrified, her mind fuming with this scene, feeling like she would faint."
 
         "Harry picked up the knife and tried to charge at Ailon "
 
@@ -2020,13 +2020,13 @@ label start:
 
         ailon "Let go of that knife!"
 
-        "Not only was a man in his prime against an old man, but also seemed like a warrior against a child, as Ailon simply dogged the thrust, flipped the man’s arm and trip him down."
+        "Not only was a man in his prime against an old one, but also seemed like a warrior against a child, as Ailon simply dogged the thrust, flipped the man’s arm and trip him down."
 
         "The sound of the man hitting the ground was heavy and likely broke a bone or two."
 
         scene black with fade
 
-        "Thalia from full exhaustion also fainted."
+        "Thalia from full of exhaustion fainted."
 
         scene bg parknigth
 
@@ -2040,7 +2040,7 @@ label start:
 
         show thalia verysurprise
 
-        "She thought she was dreaming, there was no people around but sitting by a bench was Ailon quite and looking sad."
+        "She thought she was dreaming, there was no people around, but sitting by a bench was Ailon a somber expression stamped all acorss his features."
 
         "He still held the black knife in his hands. Thalia sat up on the mattress, her head a mess full of thoughts and fears."
 
@@ -2082,7 +2082,7 @@ label start:
 
         show ailon worry
 
-        ailon "That man… Harry… his grandfather was involved in trying to pin me on vengeance because years ago his wife left his grandfather and he, belived my family were criminals."
+        ailon "That man… Harry… his grandfather was involved in trying to pin me on vengeance because years ago his wife left his grandfather and he, belived my family were criminals involed."
 
         ailon "Only it was me…"
 
@@ -2102,7 +2102,7 @@ label start:
 
         thalia "What… were those things… I saw down there?"
 
-        "There was hesitation in her voice to ask, like she feared the answer it self."
+        "There was hesitation in her voice to ask, like she feared the answer itself."
 
         show ailon worry
 
@@ -2154,7 +2154,7 @@ label start:
 
         show ailon worry
 
-        ailon "They went insane! I’m fine but they love their minds…"
+        ailon "They went insane! I’m fine but they lose their minds…"
 
         ailon "So those suits… is how I keep them alive and safe…"
 
@@ -2198,7 +2198,7 @@ label start:
 
         "Looking at it if they truly were insane, as cruel as his method was he was keeping them from being used by other people."
 
-        "Ailon seemed to shake, tears still flowed, they were genuine and to her that made it clear he at least was trying to be good."
+        "Ailon seemed to shake, tears still flowed, they were truthfull and to her that made it clear he at least was trying to be good."
 
         thalia "You… what do you want then?"
 
