@@ -2456,7 +2456,7 @@ label start:
 
         harry "Suit yourself."
  
-        "The man kept the gun and pulled out his own, the begun going down the stairs."
+        "The man kept the gun and pulled out his own and went down the stairs."
 
         scene bg hallway
 
@@ -2468,7 +2468,7 @@ label start:
 
         "The place they was a top a catwalk in the service tunnels beneath the park."
 
-        "Down the place was poorly lit and the faint sounds of machinery echoed like monster Growls." 
+        "at bottom the place was poorly lit and the faint sounds of machinery echoed like monster Growls." 
 
         show thalia confused
 
@@ -2480,19 +2480,19 @@ label start:
 
         thalia "And you are here why?"
 
-        harry "Trying to catch this Ailon bastard… he as his family."
+        harry "Trying to catch this Ailon bastard… he and his family."
 
         thalia "What you mean?"
 
         show thalia o
 
-        harry  "I'm not surprised you don’t know, my own family has been after this thugs for more than a generation."
+        harry  "I'm not surprised you don’t know, my own family has been after these thugs for more than a generation."
 
         show harry smile
 
         thalia "Why?"
 
-        harry "Back when my own grandfather was still your age, he and his wife  met one of the Olmenah…"
+        harry "Back when my own grandfather was still your age, he and his wife met one of the Olmenah…"
 
         show thalia confused
 
@@ -2506,25 +2506,25 @@ label start:
 
         thalia "It’s only our second date."
 
-        harry "Well make it your last cause this man is hiding something."
+        harry "Well make it your last, cause this man is hiding something."
 
         "Harry turned around a corner, his gun aimed, Thalia followed him even more disturbed and confused."
 
         show thalia o
 
-        harry "Anyhow both my grandfather and his wife met with one of the Olmenah, they were both enthralled by him, just like you are by this man."
+        harry "Anyhow, both my grandfather and his wife met with one of the Olmenah, they were both enthralled by him, just like you are by this man."
 
         harry "His wife one day ran away, you could say it’s a classic one, wife gets stollen by a good looking man but my grandfather never saw his loved one again."
 
-        harry "You can say it was vengeance, but he went to look into the Olmenah family and he found out no one ever saw more then one of the families members ate a time."
+        harry "You can say it was vengeance, but he went to look into the Olmenah family and he found out no one ever saw more then one of the families members at a time."
 
-        harry"He thought it was suspicious and the harder he tried to look information the more he hit road blocks."
+        harry"He thought it was suspicious and the harder he tried to look information the more he hit a brick wall."
 
         show thalia confused
 
-        thalia "So he thought someone from Ailons family did something to her? Couldn’t she run off somewhere?"
+        thalia "So he thought someone from Ailon's family did something to her? Couldn’t she have run off somewhere?"
 
-        harry "We didn’t think so… I mostly helped my grandad, my father though he was obsessed."
+        harry "We didn’t think so… I mostly helped my grandad, my father thought he was obsessed."
 
         harry "The thing is after years we noticed their face never changed."
 
@@ -2552,7 +2552,7 @@ label start:
 
         "She recognized the as the one for earlier in the day."
 
-        phobion "You cannot be here you both… question cannot be here."
+        phobion "You cannot be here you both… a quest cannot be here."
  
         "Harry pulled Thalia's arm putting her behind him and screamed."
 
@@ -2566,11 +2566,11 @@ label start:
 
         thalia "No don’t hurt him…"
 
-        phobion "I must say… that is a dangerous toy you don’t wanna put it down?"
+        phobion "I must say… that is a dangerous toy. You would you put it down?"
 
         "There was a loud bang and flash, Harry shot the gun right at phobions knee."
 
-        "The man fell back and Thalia was horrified she let out a scream."
+        "The man fell back and Thalia was horrified she let out a scream falling on her back."
 
         show thalia verysurprise
 
@@ -2586,7 +2586,7 @@ label start:
 
         thalia "What did you do?!"
 
-        "Harry had a smirk as he bend down to stage suit and ripped the helm."
+        "Harry had a smirk as he bend down to stage suit and ripped the helmet."
 
         show thalia bigDisgust
 
@@ -2598,9 +2598,9 @@ label start:
 
         harry "Here let me help you…"
 
-        "He helped her up and away from phobions body."
+        "He helped her up and away from phobion's body."
 
-        "Thalias mind was spinning, had she been dating a serial killer? A sadistic psychopath that do this to people."
+        "Thalias mind was spinning, had she been dating a serial killer? A sadistic psychopath that does this to people."
 
         harry "Ya sure you don’t want the gun?"
 
@@ -2610,7 +2610,7 @@ label start:
 
         "He pulled out the gun and gave it to her, she took the thing still a bit hesitant but more then afraid for her life."
 
-        "She walked in silence behind Harry her mind a mess her tear rolling down." 
+        "She walked in silence behind Harry her mind a mess, a few tears rolling down he cheeks." 
 
         "She begun asking herself how she got in this situation and she wished she never met Ailon."
 
@@ -2661,7 +2661,7 @@ label start:
 
         harry "You fucking bastard!"
 
-        "I have evidence now… you going to rot you sick fuck."
+        "I have evidence now… you're going to rot you sick fuck."
 
         ailon "Harry, why didn’t you leave me alone I have nothing against you."
 
@@ -2669,13 +2669,13 @@ label start:
 
         ailon "You don’t understand!"
 
-        harry "Understand that you a demon?! Killer in cold blood!"
+        harry "Understand that you a demon?! A Cold Blooded Killer!"
 
         show thalia bigDisgust
 
         "Ailon looked at Thalia, she felt almost disgusted to look at him."
 
-        "Once she saw and attractive young man, but to hurt she saw a psychopath that tried to buy her affection and made her sick so she took a step back."
+        "Once she saw and attractive young man, but now saw a psychopath that tried to buy her affection and made her sick, she took a step back."
 
         show ailon sad
 
@@ -2763,7 +2763,7 @@ label start:
 
         show thalia disgust
 
-        thalia "Don’t say my name! You fucking sick!"
+        thalia "Don’t say my name! You're fucking sick!"
 
         ailon "Thalia please…"
 
@@ -2775,13 +2775,13 @@ label start:
 
         show thalia angry
 
-        thalia "You are sick in your head, you once made me fall for that but now I see you!"
+        thalia "You are sick in the head, you once made me fall for that but now I see you!"
 
         show thalia disgust
 
         thalia "A monster! Don’t you dare make that face you sick fuck!"
 
-        "His expression changed to one of surprise the a anger."
+        "His expression changed to one of surprise, then anger."
 
         show ailon verymad
 
@@ -2791,7 +2791,7 @@ label start:
 
         "She looked around for the gun, she reached for it, grabbed it and aimed at Ailon"
 
-        "He was surprised enough not to move as she shot him, her hands felt the power of ten recoil, her eyes filled with light and the air lingered the smell of gun powder."
+        "He was surprised enough not to move as she shot him, her hands felt the power of the recoil, her eyes filled with light and the air lingered the smell of gun powder."
 
         show thalia surprise
 
@@ -2799,15 +2799,15 @@ label start:
 
         "Ailon flinched at the shot, but the bullet was simply expelled out and his wound closed."
 
-        "Thalias adrenaline flushed to extremes, she couldn’t kill him."
+        "Thalias adrenaline flushed in her veins, she couldn’t kill him."
 
         show ailon veryworry
 
         ailon "I know that look…. Thalia please."
  
-        "She couldn’t think,what would he do to her?"
+        "She couldn’t think, what would he do to her?"
 
-        "What was him, what was this place, why did she even agree to this, and she regretted and burst out in a laugh at the madness."
+        "Who was him? what was this place? why did she even agree to this? and she regretted in a burst out a mad laughter."
 
         "Till only one thought filled her mind, what if he made her into one of those things in the suits?"
 
@@ -2859,15 +2859,15 @@ label start:
 
         with dissolve
 
-        "It was was a catwalk overlooking a maintenance hallway, the place was filled with pipes and wiring, it was an unsettling."
+        "It was was a catwalk overlooking a maintenance hallway, the place was filled with pipes and wiring, it was an unsettling view."
 
-        "Thalia heard the door close, then open again for a moment, she looked but there was no one, only some soda crate near by."
+        "Thalia heard the door close, then open again for a moment, she looked but there was no one, only some soda crates near by."
 
         show thalia o at smaller, center with dissolve
 
         thalia "I don’t really think I should be here but oh well…"
 
-        "She shrugged and walked down the stairs the ground floor of the hallway had rails where automated carts delivered goods around the park."
+        "She shrugged and walked down the stairs, the ground floor of the hallway had rails where automated carts delivered goods around the park."
 
         "She couldn’t hear any noise from the park itself, only some mechanical machine sounds and liquids flowing in the pipes."
 
@@ -2877,7 +2877,7 @@ label start:
 
         "Thalia was uneasy the place was by itself weird, she chose to go left."
 
-        "She walked to another intersection, she thought to herself she would get lost here before she found the repair zone."
+        "She walked to another intersection, she thought to herself she would get lost here before she found this repair room."
 
         scene bg repair
 
@@ -2905,7 +2905,7 @@ label start:
 
         "Thalia backed away towards Phobion and a man made around the corner."
 
-        phobion "Fair lady from earlier the day… who is the farthest gentleman from us."
+        phobion "Fair lady from earlier the day… who is the farthest gentleman from us?"
 
         show thalia confused
 
@@ -2955,7 +2955,7 @@ label start:
 
         "Thalia kneeled down to try and help but she was surprised to see Phobion get up as if nothing happened."
 
-        "A small blood clot forming on his leg, still Phobion pulled out his rapier, it was this blunt prop that was something you could buy in any store."
+        "A small blood clot forming on his leg, still Phobion pulled out his rapier, it was this blunt metallic prop that was something you could buy in store."
 
         "The man looked surprised, but it was hard to tell."
 
@@ -2971,7 +2971,7 @@ label start:
 
         "The gun roared fire and lead in response, at least three or four shots, all which hit Phobion."
 
-        "He did not stop, he charged the man no fear, and plunged the prop into the man’s torso."
+        "He did not stop, he charged the man without fear, and plunged the prop into the man’s torso."
 
         "It was a metal still, blunt, yet with enough force, it could hurt someone and that it did."
 
@@ -3079,7 +3079,7 @@ label start:
 
         show thalia o
 
-        phobion "I choose to stay to for Ailon, he be lonely if no one was near."
+        phobion "I choose to stay, for Ailon, he be lonely if no one was near."
 
         "Thalia remember how sad and lonely he looked, now she wanted to talk to him and ask personally."
 
@@ -3103,7 +3103,7 @@ label start:
 
         with dissolve
 
-        "She tried to look ta the dead man but Phobion put himself between them."
+        "She tried to look at the dead man but Phobion put himself between them."
 
         show thalia confused
 
@@ -3181,7 +3181,7 @@ label start:
 
         ailon "You… talked to Phobion?"
 
-        "He seemed to be slightly more serious that it was a bit scary he then said."
+        "Ailon seemed to be slightly more serious that it was a bit scary when he spoke."
 
         ailon "And what did you talk about?"
 
@@ -3195,7 +3195,7 @@ label start:
 
         "Ailon looked very serious it was almost scary."
 
-        "He then stood up and talked to some of the staff, the blocked part of the plaza and told people it was under maintenance."
+        "He then stood up and talked to some of the staff, then blocked part of the plaza and told people it was under maintenance."
 
         "The park was already closing and there were only people far away now, and they were alone."
 
@@ -3205,7 +3205,7 @@ label start:
 
         "Ailon was serious and there was also some anger in his voice."
 
-        "Thalia was surprised to see him that way but after what happened she was more confused."
+        "Thalia was surprised to see him that way but after what happened she was even more confused."
 
         show thalia o
 
@@ -3329,7 +3329,7 @@ label start:
 
         show ailon verymad
 
-        ailon "Yes Thalia I am!"
+        ailon "Yes, Thalia, I am!"
 
         ailon "Because this life…. This damn mind and body keeps me alive and sane unlike all the people I love."
 
@@ -3399,7 +3399,7 @@ label start:
 
         with dissolve
 
-        "Thalia reached out her hand but she neither reached nor could say anything."
+        "Thalia reached out her hand as he left to get the knife, but she neither reached it nor could say anything."
 
         "A few moments passed and she was all alone in the plaza."
 
@@ -3479,7 +3479,7 @@ label start:
 
         thalia "Oh… (she felt guilty about it as her mind felt cloudy) I didn’t know… guess I’m silly."
 
-        "If he finished Thalia didn’t hear it."
+        "If he said anything she hear only echos."
 
         "She felt her body get cold but then a sharp pain on her neck."
 
@@ -3579,7 +3579,7 @@ label start:
 
         "She did try using the knife but it never worked, but they were happy nonetheless."
 
-        "Until about 150 years later Thalia seemingly lost interest in living things, she began with animals, Ailon did not notice… but the change happened and it only grew."
+        "Until about 150 years later Thalia seemingly lost interest in living things, she began with animals, Ailon did not notice… but the change and trail of blood soon could not be hidden."
         
         scene black with fade
         
