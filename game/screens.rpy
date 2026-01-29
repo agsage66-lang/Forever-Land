@@ -367,20 +367,14 @@ screen main_menu():
 
     if gui.show_name:
 
-        fixed:
-            # Place the game title at the top center
+        vbox:
+            style "main_menu_vbox"
+
             text "[config.name!t]":
                 style "main_menu_title"
-                xalign 1.0 # Centers the text horizontally
-                yalign 0.0 # Aligns the top edge of the text with the top edge of the screen
 
-            # Place the version number at the bottom center
             text "[config.version]":
                 style "main_menu_version"
-                xalign 1.0 # Centers the text horizontally
-                yalign 1.0 # Aligns the bottom edge of the text with the bottom edge of the screen
-        
-
 
 
 style main_menu_frame is empty
