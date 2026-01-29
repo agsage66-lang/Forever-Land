@@ -29,4 +29,9 @@ traceback.txt
 files.txt
 
 # End of https://www.toptal.com/developers/gitignore/api/renpy
-game/fonts/RJ01407342EN.rar
+.vscode/settings.json
+game/libs/renpy_warp_2.1.2_bfed3160.rpe.py
+game/libs/vscode_renpy_warp_3.0.0_8d3ed041.rpe.py
+game/libs/renpy_warp_2.1.2_bfed3160.rpe.py
+game/libs/renpy_warp_2.1.2_bfed3160.rpe.py
+game/libs/renpy_warp_2.1.2_bfed3160.rpe.py
