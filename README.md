@@ -12,11 +12,11 @@ It was created initialy to participate in a gamejam that happened october of 202
 Managed to learn several fundamentals of Ren'Py: How to set scenes, manipulate layered character sprites, add and change music, how to manipulate the default UI of the engine, how to scrypt different routes, and how to do some ligth animations.
 
 ## Credits
-Writing by Pedro Brandão ()
+Writing by Pedro Brandão (Linkedin - https://www.linkedin.com/in/pedro-brandao-589343382 Email - pedrobenebrand@gmail.com)
 
-Art by Alana Romanholi ()
+Art by Alana Romanholi (Portfolio - https://arathebunny.carrd.co/ Email - arathebunny@gmail.com)
 
-Programming by Matheus Carvalho ()
+Programming by Matheus Carvalho (GitHub - https://github.com/agsage66-lang Email - agsage66@gmail.com)
 
 Music:
     

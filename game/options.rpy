@@ -30,11 +30,11 @@ define config.version = "1.0.0"
 ## triple-quotes, and leave a blank line between paragraphs.
 
 define gui.about = _p("""
-Writing by Pedro Brandão ()
+Writing by Pedro Brandão (Linkedin - https://www.linkedin.com/in/pedro-brandao-589343382 Email - pedrobenebrand@gmail.com)
 
-Art by Alana Romanholi ()
+Art by Alana Romanholi (Portfolio - https://arathebunny.carrd.co/ Email - arathebunny@gmail.com)
 
-Programming by Matheus Carvalho ()
+Programming by Matheus Carvalho (GitHub - https://github.com/agsage66-lang Email - agsage66@gmail.com)
 
 Music:
     
