@@ -57,7 +57,7 @@ Music:
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "GameJamOctoberProject"
+define build.name = "Forever_Land"
 
 
 ## Sounds and music ############################################################

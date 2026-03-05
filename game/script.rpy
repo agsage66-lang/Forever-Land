@@ -15,6 +15,11 @@ define phobion = Character("Phobion", color = "#316374")
 
 define harry = Character("Harry", color = "#E5AE6E")
 
+define anon = Character("???", color = "#ffffff")
+
+define employee = Character("Employee", color = "#ffffff")
+
+
 #flags
 
 default phobianJealosly = False
@@ -26,6 +31,8 @@ default harryNapped = False
 default harryFriend = False
 
 #image control
+
+image white = "#ffffffff"
 
 layeredimage thalia:
     always:
@@ -78,6 +85,12 @@ layeredimage thalia:
             "thalia_verysurprise"
         attribute uwu:
             "thalia_uwu"
+        attribute terrified1:
+            "thalia_terrified1"
+        attribute terrified2:
+            "thalia_terrified2"
+        attribute terrified3:
+            "thalia_terrified3"
 
     group extras:
         attribute noeffect default:
@@ -1321,13 +1334,13 @@ label start:
 
         with dissolve
         
-        "???" "Hey did he give you a card?"
+        anon "Hey did he give you a card?"
 
         show thalia confused -bigBlush at flip
 
         thalia "What…"
 
-        "???" "Ailon, did he give you a card?"
+        anon "Ailon, did he give you a card?"
 
         thalia "Yeah he did…"
 
@@ -1335,23 +1348,23 @@ label start:
 
         show harry at left, flip
 
-        show thalia verysurprise
-
         "She stopped when she saw him pulling a gun, she thought about screaming, there weren’t many people around but it was sure to draw attention."
 
-        show thalia surprise
+        show thalia terrified1
 
         "But she was so surprised it was like her body froze in fear."
 
-        "???" "You scream you die… you run, you die… you will get up, stand next to me and walk, then you live… nod if you understood."
+        anon "You scream you die… you run, you die… you will get up, stand next to me and walk, then you live… nod if you understood."
 
         "Thalia mind began racing with the very ideas he just warned her against, but if he was crazy enough to try and pull this in a park full of people, she might die."
 
         "As natural as she could, got up slowly and he came around the side putting the gun behind her, hiding it between them."
 
+        show thalia surprise
+
         thalia "What…. What you want from me?"
 
-        "???" "I want you to fucking live, now walk to that employee exit on the left."
+        anon "I want you to fucking live, now walk to that employee exit on the left."
 
         show thalia thinking at reverseFlip
 
@@ -1359,7 +1372,7 @@ label start:
 
         "Thalia walked and he followed right up to the door."
 
-        "???" "Use the card to open the door."
+        anon "Use the card to open the door."
 
         show thalia angry
 
@@ -1581,7 +1594,7 @@ label start:
 
         show harry at right ,shadowFilter
 
-        "???" "Maybe you should find out what he is really doing."
+        anon "Maybe you should find out what he is really doing."
 
         show thalia surprise
 
@@ -1593,15 +1606,15 @@ label start:
 
         thalia "I’m sorry… do i know you?"
 
-        "???" "No, but you don’t know Ailon either."
+        anon "No, but you don’t know Ailon either."
 
-        "???" "He is hiding things from you."
+        anon "He is hiding things from you."
 
         show thalia confused
 
         thalia "Like what?"
 
-        "???" "That card does more than buy ya things, he just didn’t tell you."
+        anon "That card does more than buy ya things, he just didn’t tell you."
 
         "The strange man gestures to an employee door."
 
@@ -1613,7 +1626,7 @@ label start:
 
         thalia "What now then?"
 
-        "???" "Now we better go there before someone sees us. "
+        anon "Now we better go there before someone sees us. "
 
         "She goes in and the man follows closing the door behind."
 
@@ -1702,7 +1715,7 @@ label start:
 
         ailon "Buy something to eat… I’ll be back in a bit I need to clear my head."
 
-        show thalia embarrased
+        show thalia embarrased -bigBlush
 
         thalia "Did I…"
 
@@ -1728,9 +1741,9 @@ label start:
 
         show thalia confused
         
-        "???" "Do not scream… or you die."
+        anon "Do not scream… or you die."
 
-        show thalia verysurprise
+        show thalia terrified1
 
         "She looked and saw that the figure was holding a gun up to her, there were people around but in the quiet corner no one paid much attention."
 
@@ -1738,7 +1751,7 @@ label start:
 
         show thalia surprise
 
-        "???" "You are going to get up, you won’t run or I’ll kill you… you are gonna come with me to that door, and you are gonna play it cool…. Nod if u understand."
+        anon "You are going to get up, you won’t run or I’ll kill you… you are gonna come with me to that door, and you are gonna play it cool…. Nod if u understand."
 
         "Thalia nooded, she wanted to run, she did want to scream, but what if he shot she thought."
 
@@ -1746,7 +1759,7 @@ label start:
 
         "She did as he told her, got up, next to him, she felt the gun touch her back, as he hid it between them, and he whispered."
 
-        "???" "Walk to the door and swipe the card."
+        anon "Walk to the door and swipe the card."
 
         "She again did just like he said, her head was spinning and she felt her hands cold."
 
@@ -1782,7 +1795,7 @@ label start:
 
         "Thalia felt as the man behind her press the gun on her back and said."
 
-        "???" "Now down the stairs"
+        anon "Now down the stairs"
 
         "She was scared enough to want to cry, but also too nervous to break down, as adrenaline also made her hyper aware, she managed to walk."
 
@@ -1794,11 +1807,11 @@ label start:
 
         thalia "What do you want from me…?"
 
-        "???" "Like I said for you to live, now tell me where the other people are."
+        anon "Like I said for you to live, now tell me where the other people are."
 
         thalia "What? Who?" 
 
-        "???" "The people that monster keeps down here, it’s the only place he can hide that many people; Take me to them!"
+        anon "The people that monster keeps down here, it’s the only place he can hide that many people; Take me to them!"
 
         show thalia angry
 
@@ -1806,7 +1819,7 @@ label start:
 
         "She started to think he was crazy, he pushed her so she was facing him and said "
 
-        "The name is Harry… Harry Kepleer and you lady?"
+        harry "The name is Harry… Harry Kepleer and you lady?"
 
         "He also took his hood off, to her surprise it was an older man, she expected a mean looking thug, but not a grandpa, he looked well over sixty."
 
@@ -1850,7 +1863,7 @@ label start:
 
         "That’s when from one of the door came one of the parks full suits, it was a man dressed like a pirate."
 
-        "Pirate man" "Hey mateys… you cannot be in this boat."
+        anon "Hey mateys… you cannot be in this boat."
 
         "Thalia saw as an opportunity to scream for help."
 
@@ -1868,7 +1881,13 @@ label start:
 
         "The man looked at her angry, he pointed the gun at the full suit mascot."
 
-        "Pirate man" "If this is a munity you will walk the plank mat…."
+        anon "If this is a munity you will walk the plank mat…."
+        
+        show white 
+
+        play sound "gunshot.mp3"
+
+        show black with fade
 
         "He didn’t finish the sentence and the loud bang of a gun shot hit the mascot straight in the chest."
 
@@ -1876,17 +1895,45 @@ label start:
 
         "The pirate man simply lunged forward without saying anything, as Harry fired three more shots each hitting a part."
 
+        hide black
+
+        show white 
+
+        play sound "gunshot.mp3"
+
+        show black with fade
+
+        hide black
+
+        show white 
+
+        play sound "gunshot.mp3"
+
+        show black with fade
+
+        hide black
+
+        show white 
+
+        play sound "gunshot.mp3"
+
+        show black with fade        
+
         "Thalia tried to run but she hit a maintenance cart that was waiting right behind her to pass, she tripped and fell."
+
+        hide white
+        
+        hide black with dissolve
 
         "The pirate man also fell in the ground, she then felt the man grab her arm."
 
-        show thalia thinking
+        show thalia terrified2
 
         thalia "Please… please don’t kill me."
 
         show harry smile
 
-        harry "Look for yourself he ain’t human!"
+        harry "Look for yourself! He ain’t human!"
 
         "He dragged her closer to the body, she was too nervous and scared to fight back so he showed her."
 
@@ -1898,13 +1945,13 @@ label start:
 
         "The suit was half open on the back, and inside the suit there were machine pieces fused with flesh, it barely spewd blood, it was grotesque to behold so she looked away."
 
-        show thalia bigDisgust
+        show thalia terrified1
 
         thalia "What... What are they?!"
 
         harry "I don’t know if they are alive… but they sure ain’t living."
 
-        "Pirate man" "Thalia matey… The captain will be here…"
+        anon "Thalia matey… The captain will be here…"
 
         show thalia o
 
@@ -1914,7 +1961,7 @@ label start:
 
         hide pirate
 
-        show thalia disgust
+        show thalia verysurprise
 
         with dissolve
 
@@ -1924,7 +1971,7 @@ label start:
 
         "The man dragged her only up to the next corner, then forced her to walk the hallways."
 
-        show thalia thinking
+        show thalia terrified1
 
         "Thalia cried, she kept thinking what was going on, people fused with machines, was that really all Ailon?"
 
@@ -1959,6 +2006,12 @@ label start:
 
         show thalia verysurprise
 
+        show white 
+
+        play sound "gunshot.mp3"
+
+        hide white with fade
+
         "He pointed the gun a took a shot, the glass exploded and Thalia put her hands in her ears, she thought about running."
 
         "Just then two hands rested around her shoulder calmly, she looked and saw Ailon."
@@ -1979,7 +2032,7 @@ label start:
 
         show ailon at center
 
-        show thalia at left
+        show thalia terrified1 at left
 
         with dissolve
 
@@ -1988,8 +2041,6 @@ label start:
         show ailon side
 
         ailon "I do no such thing…"
-
-        show ailon verymad
         
         harry "I saw them don’t deny it, I’m going to expose you and your sick family."
 
@@ -1997,11 +2048,17 @@ label start:
 
         ailon "I don’t have a family it’s all me Harry…"
 
-        harry "How do you… you know what fuck you!"
+        harry "How do you… you know what! Fuck you!"
 
-        "Harry pulls the trigger, Thalia watched horrified as a bullet wound opened straight into Ailon's head and he fell to the ground"
+        show white 
 
-        "She screamed horrified and confused but she was even more baffled when he stood up"
+        play sound "gunshot.mp3"
+
+        show black with fade
+
+        "Harry pulls the trigger, Thalia watched horrified as a bullet wound opened straight into Ailon's head and he fell to the ground."
+
+        "She screamed horrified and confused but she was even more baffled when he stood up."
 
         "Ailon simply shrugged, the bullet wound expelled the lead pellet."
 
@@ -2009,15 +2066,29 @@ label start:
         
         harry "You are a monster"
 
-        "Harry shot him two more time but Ailon simply took the shots without a sound"
+        hide black
+
+        show white 
+
+        play sound "gunshot.mp3"
+
+        show black with fade 
+
+        hide black
+
+        show white 
+
+        play sound "gunshot.mp3"
+
+        show black with fade 
+
+        "Harry shot him two more time but Ailon simply took the shots without a sound."
 
         "Thalia fell on her knees terrified, her mind fuming with this scene, feeling like she would faint."
 
         "Harry picked up the knife and tried to charge at Ailon "
 
-        "Ailon for the first time seem genuinely angry as he also charged the man"
-
-        show ailon verymad
+        "Ailon for the first time seem genuinely angry as he also charged the man."
 
         ailon "Let go of that knife!"
 
@@ -2025,9 +2096,7 @@ label start:
 
         "The sound of the man hitting the ground was heavy and likely broke a bone or two."
 
-        scene black with fade
-
-        "Thalia from full of exhaustion fainted."
+        "Thalia, overwhelmed with everything, fainted from exhaustion."
 
         scene bg parknigth
 
@@ -2441,7 +2510,7 @@ label start:
 
         "Thalia looked at the gun like it was some alien thing that couldn’t be real."
 
-        show thalia surprise
+        show thalia terrified1
 
         thalia "What… no no no, I can’t take that!"
 
@@ -2519,7 +2588,7 @@ label start:
 
         harry "You can say it was vengeance, but he went to look into the Olmenah family and he found out no one ever saw more then one of the families members at a time."
 
-        harry"He thought it was suspicious and the harder he tried to look information the more he hit a brick wall."
+        harry "He thought it was suspicious and the harder he tried to look information the more he hit a brick wall."
 
         show thalia confused
 
@@ -2527,7 +2596,7 @@ label start:
 
         harry "We didn’t think so… I mostly helped my grandad, my father thought he was obsessed."
 
-        harry "The thing is after years we noticed their face never changed."
+        harry "The thing is after years we noticed... Their faces never change."
 
         show thalia o
 
@@ -2557,23 +2626,29 @@ label start:
  
         "Harry pulled Thalia's arm putting her behind him and screamed."
 
-        show thalia bigopen
+        show thalia o
 
         harry "Stay where you are."
 
         "He held out the gun and Thalia froze in fear watching this scene but she still managed to mutter."
 
-        show thalia thinking
+        show thalia terrified1
 
         thalia "No don’t hurt him…"
 
         phobion "I must say… that is a dangerous toy. You would you put it down?"
 
+        show white 
+
+        play sound "gunshot.mp3"
+
+        show black with fade
+
         "There was a loud bang and flash, Harry shot the gun right at phobions knee."
 
         "The man fell back and Thalia was horrified she let out a scream falling on her back."
 
-        show thalia verysurprise
+        show thalia terrified2
 
         harry "I told you to stay put."
 
@@ -2581,15 +2656,47 @@ label start:
 
         "It was a blunt instrument as a fake weapon, there was this stand off for a few seconds till Phobion charged."
 
+        hide black
+        
+        show white 
+
+        play sound "gunshot.mp3"
+
+        show black with fade
+
+        hide black
+
+        show white 
+
+        play sound "gunshot.mp3"
+
+        show black with fade
+
+        hide black
+
+        show white 
+
+        play sound "gunshot.mp3"
+
+        show black with fade
+
         "Harry shot his gun at least 4 or 5 times before Phobion came tumbling down at his feet."
+
+        hide white
 
         hide phobion idle with dissolve
 
+        hide black with dissolve
+
+        show thalia terrified3
+        
         thalia "What did you do?!"
+
+        show thalia terrified2
 
         "Harry had a smirk as he bend down to stage suit and ripped the helmet."
 
-        show thalia bigDisgust
+        show thalia terrified3       
 
         "Underneath was a horrifying sight, human flesh meshed together with metal, his features stretched over metallic composites and whirring."
 
@@ -2605,15 +2712,17 @@ label start:
 
         harry "Ya sure you don’t want the gun?"
 
-        show thalia thinking
+        show thalia terrified1
 
         thalia "I… think I do."
 
         "He pulled out the gun and gave it to her, she took the thing still a bit hesitant but more then afraid for her life."
 
         "She walked in silence behind Harry her mind a mess, a few tears rolling down he cheeks." 
+        
+        show thalia bigDisgust
 
-        "She begun asking herself how she got in this situation and she wished she never met Ailon."
+        "She begun asking herself how she got in this situation and how she wished she never met Ailon."
 
         "Soon Harry was using the card to open door."
         
@@ -2674,9 +2783,9 @@ label start:
 
         show thalia bigDisgust
 
-        "Ailon looked at Thalia, she felt almost disgusted to look at him."
+        "Ailon looked at Thalia, its was disgusting to look at him."
 
-        "Once she saw and attractive young man, but now saw a psychopath that tried to buy her affection and made her sick, she took a step back."
+        "Once she saw and attractive young man, but now saw a psychopath that tried to buy her affection and it made her sick, she took a step back."
 
         show ailon sad
 
@@ -2686,13 +2795,25 @@ label start:
 
         harry "Shame…"
 
+        show white 
+
+        play sound "gunshot.mp3"
+
+        show black with fade
+
+        hide black
+
+        show white 
+
+        play sound "gunshot.mp3"
+
+        show black with fade
+
         hide ailon
 
         hide thalia
         
         show harry at right, reverseFlip
-
-        show phobion idle at left, flip
 
         with dissolve
 
@@ -2702,13 +2823,17 @@ label start:
 
         "Thalia was completely frozen in pure shock, and took Harry even a moment to process, he tried to shoot him."
 
+        hide black
+
+        show white 
+
+        play sound "gunshot.mp3"
+
+        show black with fade
+
         "The first shot went flying and in the second click the gun was empty, he had not reloaded."
 
-        show phobion at center
-
         "Phobion jumped Harry brandishing the fake sword and hit Harry in the neck so hard a crack sounded across the room."
-
-        scene black
 
         "Thalia was sure, he died on the spot."
 
@@ -2716,7 +2841,7 @@ label start:
         
         scene bg repair
 
-        show thalia surprise at left, smaller
+        show thalia terrified1 at left, smaller
 
         show ailon sad at right
 
@@ -2729,6 +2854,8 @@ label start:
         "Ailon looked at her a measure of pity and shame."
 
         ailon "I’m sorry… you had to see this."
+
+        show thalia terrified2
 
         thalia "What… how…"
 
@@ -2748,11 +2875,9 @@ label start:
 
         ailon "You may not believe me but I tried to help these people… please let me explain."
 
-        show thalia angry
-
         thalia "Explain what?!"
 
-        show thalia disgust
+        show thalia terrified1
 
         thalia "That you skin people and keep them in a amusent park!? That you tried to buy me?!"
 
@@ -2778,7 +2903,7 @@ label start:
 
         thalia "You are sick in the head, you once made me fall for that but now I see you!"
 
-        show thalia disgust
+        show thalia bigDisgust
 
         thalia "A monster! Don’t you dare make that face you sick fuck!"
 
@@ -2822,9 +2947,13 @@ label start:
 
         thalia "your love is sick."
 
-        scene black
-
         "She turned the gun on herself and pulled the trigger."
+
+        show white 
+
+        play sound "gunshot.mp3"
+
+        show black with fade
 
         "HATRED ENDING"
 
@@ -2838,7 +2967,7 @@ label start:
 
         "The woman took Thalia only a little distance away and pointed out to an employee only entrance."
 
-        "Employee" "Just go through there, down the stairs and to the repair room."
+        employee "Just go through there, down the stairs and to the repair room."
         
         "The woman then gave Thalia a polite nod and walked away."        
 
@@ -2918,7 +3047,7 @@ label start:
 
         show thalia surprise
 
-        "???" "You monsters get down on your knees."
+        anon "You monsters get down on your knees."
 
         "Thalia was first shocked her whole body froze in place, at the sight."
 
@@ -2932,9 +3061,15 @@ label start:
 
         phobion "This is not a toy to wave around, brave gentleman, put down at once."
 
+        show white
+
+        show black with fade
+
+        hide black
+
         "The man shot the gun in the roof, the loud bang rippled across the halls."
 
-        show thalia shout
+        show thalia terrified1
 
         "In was enough to make Thalia let a scream of panic."
 
@@ -2948,11 +3083,15 @@ label start:
 
         show harry -smile
 
-        "???" "Oh yeah? Fucking creep!"
+        anon "Oh yeah? Fucking creep!"
+
+        show white
+
+        show black with fade
 
         "The man shot at Phobion’s leg, Thalia looked horrified as Phobion came to one knee and the man said."
 
-        "???" "Try it now."
+        anon "Try it now."
 
         "Thalia kneeled down to try and help but she was surprised to see Phobion get up as if nothing happened."
 
@@ -2960,23 +3099,25 @@ label start:
 
         "The man looked surprised, but it was hard to tell."
 
-        "???" "Try it… and this time I kill you boy."
+        anon "Try it… and this time I kill you boy."
 
         phobion "I fear no failure."
 
         "And again to Thalia's horror Phobion charged the man."
 
-        show phobion idle at center
+        show white
 
-        with dissolve
+        show black with fade
+
+        show white
+
+        show black with fade        
 
         "The gun roared fire and lead in response, at least three or four shots, all which hit Phobion."
 
         "He did not stop, he charged the man without fear, and plunged the prop into the man’s torso."
 
         "It was a metal still, blunt, yet with enough force, it could hurt someone and that it did."
-
-        scene black 
 
         "Only when Thalia saw the sword impale the man did she manage to close her eyes in fear."
 
@@ -2993,6 +3134,8 @@ label start:
         play music "Lavender.ogg"
 
         "When she opened her eyes, she saw in the further distance the man impaled, dead, she avoided but saw Phobion close."
+
+        show thalia terrified1
 
         thalia "Oh my… oh my god… oh shit…"
 
@@ -3030,7 +3173,7 @@ label start:
 
         "She ignored him and she grabbed the suit carefully, pulling clothing."
 
-        show thalia verysurprise at flip
+        show thalia terrified1 at flip
 
         "She froze when what she saw was flesh fused with machine parts, there was only a small entry wound of the bullet, no blood was flowing like it had almost healed already."
 
