@@ -1,7 +1,8 @@
 # Forever Land
 Hello there!	This is the repository for a public ren'py project know as Forever Land.
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c1433d7a-963a-4f28-9eb4-f33b0cd1a545" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4f362137-d1a7-4337-bdf6-82c82c4c055b" />
+
 
 **Tech used:** Ren'py 8.4.1
 
@@ -12,13 +13,13 @@ Thalia goes on a long-awaited date with Ailon, a charming boy she recently met. 
 
 It was created initialy to participate in a gamejam that happened october of 2025, we had only two weeks, but we failed calculate the scope of the project and it ended up taking about 2 months for us to be satisfied enough to make this work public. None the less as all can see now we decided to keep working on it as pratice for our skills. We may come back too make corrections to spelling and grammar errors, or programming bugs and perhaps add comments to explaing some of the code for those who are coming here to learn something but overall we consider it finished. Feel free to drop comments or use any line of code for your own training purposes.
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/76659026-c2aa-4265-8eea-e0e1124c3631" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/29671526-4dfc-4ae5-8bd5-698ab4a54b6b" />
 
 ## Lessons Learned:
 
 Managed to learn several fundamentals of Ren'Py: How to set scenes, manipulate layered character sprites, add and change music, how to manipulate the default UI of the engine, how to scrypt different routes, and how to do some ligth animations.
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/59ad4a37-d240-4cfe-b997-b0ef0a5c3110" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5eae1ce4-4e00-4b2a-9354-b6c98f5c37f4" />
 
 ## Credits
 Writing by Pedro Brandão (Linkedin - https://www.linkedin.com/in/pedro-brandao-589343382 Email - pedrobenebrand@gmail.com)
