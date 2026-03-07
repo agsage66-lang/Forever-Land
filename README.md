@@ -6,6 +6,9 @@ Hello there!	This is the repository for a public ren'py project know as Forever 
 
 **Tech used:** Ren'py 8.4.1
 
+**Warning**
+This game contains flashing lights that may trigger seizures or discomfort. Please take care of yourself and consider skipping this game if you are at risk.
+
 **Synopsis:**
 Thalia goes on a long-awaited date with Ailon, a charming boy she recently met. But as the night continues, she begins to suspect that Ailon is hiding a dangerous secret.
 
