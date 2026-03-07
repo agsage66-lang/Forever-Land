@@ -586,7 +586,7 @@ label start:
 
         thalia "Do you have any favorites?"
 
-        ailon "Well…not really but this area as a whole is one I take a personal attachment to"
+        ailon "Well…not really but this area as a whole is one I take a personal attachment to."
 
         show thalia o
 
@@ -604,21 +604,21 @@ label start:
         
         show ailon worry blush
 
-        ailon "Sorry did I say something to boring?"
+        ailon "Sorry did I say something too boring?"
 
         show thalia satisfied
 
-        thalia "It was the most I seen you speak I was very interested!"
+        thalia "It was the most I’ve seen you speak, I was very interested!"
 
-        thalia "You almost like a teacher… say I never asked but how old are you? To be all like a grandpa on history"
+        thalia "You almost like a teacher… by the way, I've never asked but how old are you? To be all like a 'grandpa on history'."
 
         show ailon smile -blush
 
-        ailon " Can’t say, I stoped counting"
+        ailon "Can’t say, I stopped counting."
 
         show thalia pouts
 
-        thalia "But birthday’s are so fun!."
+        thalia "But birthday’s are so fun!"
 
         show ailon sweet
 
@@ -646,7 +646,7 @@ label start:
 
         show ailon worry
  
-        "Ailons seems to try and grab her hand, but Thalia slips and goes straight inside the tent"
+        "Ailon seems to try and grab her hand, but Thalia slips and goes straight inside the tent."
 
         scene bg tent
 
@@ -657,17 +657,19 @@ label start:
 
         play music "wind_chimes_loop_3.ogg"
 
-        "There is a faint smell of oil, and a small pillow to kneel on, so she does and looks at the woman"
+        "There is a faint smell of oil, and a small pillow to kneel on, she sits and looks at the woman."
 
         show ivania idle at right with dissolve
 
-        "The woman named ivania seems just a bit older then her, she is in a full costume, making her features a bit stiff, and her whole body slightly bigger"
+        "The woman named Ivania seems just a bit older than her, she is in a full costume, making her features a bit stiff, and her whole body slightly bigger."
 
-        "Thalia wondered if it was stuffy in there, or why wasn’t it easier to just dress up instead of a full suit"
+        "Thalia wondered if it was stuffy in there, or why wasn’t it easier to just dress up in a full suit."
 
-        ivania "Welcome wonderer her mouth moved slightly as she spoke, it was very cool how she could move like that, but perhaps just a bit stiff."
- 
+        ivania "Welcome wonderer!" 
+
         show thalia shinyeyes
+        
+        "Her mouth moved slightly as she spoke, it was very cool how she could move like that, but perhaps just a bit stiff."
 
         thalia "So cool you can move your mouth!"
 
@@ -677,11 +679,11 @@ label start:
 
         show thalia o
 
-        ivania "Ivania pulled out from the side five cards, but they weren’t the size of normal playing cards, they were slightly bigger then a hand."
+        ivania "Ivania pulled out from the side five cards, but they weren’t the size of normal playing cards, they were slightly bigger than a hand."
 
         ivania "She then laid them in front of Thalia, a bit of smoke rose from the corners."
 
-        "Ailon walked up to the corner of the tent but stood outside, Thalia was too focused to notice his presence, he seemed uneasy."
+        "Ailon walked up to the corner of the tent but stood outside, Thalia was too focused to notice his presence. He seemed uneasy."
 
         ivania "I will now begin with a sight of the past."
 
@@ -693,7 +695,7 @@ label start:
 
         show cards time at top, smaller with dissolve
 
-        ivania "Time itself follows you, closer then you think."
+        ivania "Time itself follows you, closer than you think."
 
         "She puts down the card with a sketch of a clock over a feminine figure in red tinture"
 
@@ -705,11 +707,11 @@ label start:
 
         show cards heart
 
-        ivania "Love is pulling in either direction it either be your piety or kindness that will take you forward."
+        ivania "Love is pulling in either direction, it will either be your pity or kindness that will take you forward."
 
-        "She picks up the third"
+        "She picks up the third card."
 
-        "After drawing she says before putting it down"
+        "After drawing she says before putting it down."
 
         ivania "You will see the end of your current world."
 
@@ -719,7 +721,7 @@ label start:
 
         thalia "Is that bad?"
 
-        "Ivania picks both of the last cards, she quickly draws on both, squeezing them together, she says in a whisper"
+        "Ivania picks both of the last cards, she quickly draws on both, squeezing them together, she says in a whisper."
 
         ivania "It will depend in where will the dagger land."
 
@@ -748,7 +750,7 @@ label start:
 
         with dissolve
 
-        ailon "She is playing to make you believe disaster, it alwaysallways to make a shock, she does that all the time!"
+        ailon "She is playing to make you believe in disaster, it's always does this to make a shock, she does that all the time!"
 
         show thalia uwu
 
@@ -1058,9 +1060,9 @@ label start:
     if (phobianJealosly):
         jump part3b
 
-    "They continued on to try other things, Mostly Thalia was adventuring around Foreverland, asking about the rides, and the different areas of the park."
+    "They continued on to try other things. Dragging Ailon along Thalia was adventuring around Foreverland, asking about the rides, and the different areas of the park."
 
-    "The hours went by, the sun went down, and the lights came on, Making the to the whole place even more mystical."
+    "The hours went by, the sun went down, and the lights came on, Making the place even more mystical."
 
     "There were still many people around, but perhaps now most were tired from a day of playing around so it seemed more slow and calm."
 
@@ -1080,15 +1082,15 @@ label start:
 
     show thalia bigopen
 
-    thalia "This park, it's theme park, where did the ideia come from? Was it yours?… maybe your dad’s? This park has been here a while right?"
+    thalia "This park, it's theme park, where did the ideia come from? Was it yours?… Maybe your dad’s? This park has been here a while right?"
 
     ailon "It has yes, almost two hundred years the park has, but it wasn’t this big for a while."
 
-    thalia "That’s so cool! So it does belong to your family, who had the ideia?"
+    thalia "That’s so cool! So it does belong to your family! Who had the ideia?"
 
     show ailon side
 
-    "Ailon seemed to shift a bit as if thinging, maybe a little to hard on the subject but then he spoke."
+    "Ailon seemed to shift a bit as if thinking, maybe a little to hard on the subject, but then he spoke."
 
     ailon "My grandpa… he wanted to make a place for people he knew."
 
@@ -1112,7 +1114,7 @@ label start:
 
     show ailon sweetsmile
 
-    ailon "So you were after my grandad not me? How scandalous!"
+    ailon "So you were after my grandad, not me? How scandalous!"
 
     show thalia convencida
 
@@ -1130,13 +1132,13 @@ label start:
 
     show thalia thinking smallBlush
 
-    thalia "I don’t know you haven’t told me… but you do feel old…"
+    thalia "I don’t know! You haven’t told me… But you do feel kinda old…"
 
     show thalia nervous -smallBlush bigBlush
 
     show ailon surprise
 
-    thalia "Old in the good way I mean! Like that is confortable to be around you…"
+    thalia "Old in a good way, I mean! Like, in a way, that is comfortable to be around you…"
 
     show thalia embarrased
 
@@ -1268,7 +1270,7 @@ label start:
 
         show thalia thinking
 
-        thalia "Every relationship is complicated, and sometimes you hurt each other… you maybe older then me but I'm not naive like that."
+        thalia "Every relationship is complicated, and sometimes you hurt each other… You may be older than me but I'm not naive like that."
 
         "Ailon looked surprised, he seemed to expect something different, maybe rejection, but he got a response."
 
@@ -1278,7 +1280,7 @@ label start:
 
         show thalia angry
 
-        ailon "It’s more complicated then that…"
+        ailon "It’s more complicated than that…"
 
         thalia "And they say woman are complicated…"
 
@@ -1286,15 +1288,13 @@ label start:
 
         show ailon surprise blush
 
-        "She walks up to Ailon pulls him and gives him a fast kiss on the lips."
+        "She walks up to Ailon and pulls him close, and gives him a quick kiss on the lips."
 
-        "Inside she was so nervous she could be shaking, but she was also a bit angry, and wanted to show him her commitment."
+        "Inside she was so nervous she could be shaking, but also a bit angry, and wanted to show him her commitment."
 
         show thalia embarrased at left
 
-        "Ailon looked shocked, then embarrassed, then the embarrassment came back to Thalia as well, She turned around and said."
-
-        show ailon idle
+        "Ailon looked shocked, then flustered, then the embarrassment came back to Thalia as well. She turned around and said:"
 
         thalia "There… you either liked it… or didn’t."
 
@@ -1304,9 +1304,9 @@ label start:
 
         show thalia o bigBlush
 
-        "Thalia got even more embarrassed and she felt like she wanted to disappear she was getting ready to run off when Ailon grabbed her hand."
+        "Thalia got even more embarrassed, feeling like she wanted to disappear. She was getting ready to run off when Ailon grabbed her hand."
 
-        ailon "I need a minute… and I think you do to… meet at the central plaza later… and have this, anything you want. Its is my treat."
+        ailon "I need a minute… and I think you do too… meet me at central plaza later… and have this, anything you want. Its is my treat."
 
         show thalia confused
 
@@ -1314,9 +1314,9 @@ label start:
 
         hide ailon with dissolve
 
-        "She was very shocked still, was that a good sing? A bad one?"
+        "She was still very shocked, was that a good sign? A bad one?"
 
-        "She stood there a bit giddy and did not see a man approach her."
+        "She stood there a bit giddy and didn't notice a man approach her."
 
         "He was wearing a hood and said in a soft voice."
 
@@ -1356,7 +1356,7 @@ label start:
 
         anon "You scream you die… you run, you die… you will get up, stand next to me and walk, then you live… nod if you understood."
 
-        "Thalia mind began racing with the very ideas he just warned her against, but if he was crazy enough to try and pull this in a park full of people, she might die."
+        "Thalia's mind began racing with the very ideas he just warned her against, but if he was crazy enough to try and pull this in a park full of people, she might die."
 
         "As natural as she could, got up slowly and he came around the side putting the gun behind her, hiding it between them."
 
@@ -1789,11 +1789,11 @@ label start:
 
         show harry at left , flip
         
-        "The hallway is obscure, clean, but very unsettling, there are few light lining the walls and the air is still and dry."
+        "The hallway is obscure, clean, but very unsettling. There are few light lining the walls and the air is still and dry."
 
         "Some noises can be heard like machine working, water flowing in pipes. Only some talk could be heard in the far distance, probably from the park."
 
-        "Thalia felt as the man behind her press the gun on her back and said."
+        "Thalia felt as the man behind her pressed the gun on her back and said."
 
         anon "Now down the stairs"
 
@@ -1971,13 +1971,13 @@ label start:
 
         "The man dragged her only up to the next corner, then forced her to walk the hallways."
 
-        show thalia terrified1
+        show thalia terrified2
 
         "Thalia cried, she kept thinking what was going on, people fused with machines, was that really all Ailon?"
 
         "Harry was lost, he wandered the hall, many doors had weird symbols, he tried opening some of them, but they were mostly empty except for some strange surgical equipment he refused to touch, but took some pictures."
 
-        "They finally came across a stranger door with had a bridge simbol."
+        "They finally came across a strange door with a bridge symbol."
 
         "Harry was frustrated and he stopped and looked at the door for a moment."
 
@@ -2092,7 +2092,7 @@ label start:
 
         ailon "Let go of that knife!"
 
-        "Not only was a man in his prime against an old one, but also seemed like a warrior against a child, as Ailon simply dogged the thrust, flipped the man’s arm and trip him down."
+        "Not only was Ailon in his prime against an old Harry, but also seemed like a warrior against a child, as Ailon simply dogged the thrust, flipped the man’s arm and triped him down."
 
         "The sound of the man hitting the ground was heavy and likely broke a bone or two."
 
@@ -2110,9 +2110,9 @@ label start:
 
         show thalia verysurprise
 
-        "She thought she was dreaming, there was no people around, but sitting by a bench was Ailon a somber expression stamped all acorss his features."
+        "She thought she was dreaming, there was no people around, but sitting by a bench was Ailon a somber expression stamped all across his features."
 
-        "He still held the black knife in his hands. Thalia sat up on the mattress, her head a mess full of thoughts and fears."
+        "He still held the black knife in his hands. Thalia sat up on the mattress, her head was a mess full of thoughts and fears."
 
         show ailon worry at right
 
@@ -2122,15 +2122,15 @@ label start:
 
         thalia "Who are you?"
 
-        "Ailon looked at her, and she could almost feel a weight on him, like he was dragging himself to every action she could fear him but also pity him"
+        "Ailon looked at her, and she could almost feel a weight on him, like he was dragging himself to every action she could fear him but also pity him."
 
-        "He got up leaving the knife where it was, he sat just a bit away from her and said"
+        "He got up leaving the knife where it was, he sat just a bit away from her and said."
 
-        ailon "I’m Ailon… and I can’t die…"
+        ailon "I’m Ailon… And I can’t die…"
 
-        "Thalia was confused and bewildered, but if she saw what she saw, him getting shot and shrugging it off like some super hero she couldn’t lie to herself "
+        "Thalia was confused and bewildered, but if she saw what she saw, him getting shot and shrugging it off like some super hero she couldn’t lie to herself."
 
-        "She struggled to find out what to say, but could still see Ailons sadness"
+        "She struggled to find out what to say, but could still see Ailons sadness."
         
         thalia "Tell me more… what was all that I saw down there?"
 
@@ -2142,17 +2142,17 @@ label start:
 
         thalia "Maybe tell me… what is going on… who was that man who are you really?"
 
-        "Ailon looked bitter and sad but he seemed trufull in his words."
+        "Ailon looked bitter and sad but he seemed truthfull in his words."
 
         ailon "My name is Ailon…"
 
         show ailon side
 
-        ailon "I have been cursed Thalia… to live forever, I have since a very long time."
+        ailon "I have been cursed Thalia… To live forever... I have since a very long time."
 
         show ailon worry
 
-        ailon "That man… Harry… his grandfather was involved in trying to pin me on vengeance because years ago his wife left his grandfather and he, belived my family were criminals involed."
+        ailon "That man… Harry… his grandfather was trying to pin on me, vengeance because years ago his wife left his grandfather, and he, belived my family were criminals."
 
         ailon "Only it was me…"
 
@@ -2194,7 +2194,7 @@ label start:
 
         thalia "I… don’t get it."
 
-        ailon "Me either, but I have been told it is such… should I be stabbed and their love be selfless I will die… "
+        ailon "Me Neither, But I have been told it is such… If I am stabbed by this, and the person bears a true selfless love, it will end the curse and I will die."
 
         ailon "And their granted immortality is unfortunately not good either…"
 
@@ -2228,7 +2228,7 @@ label start:
 
         ailon "So those suits… is how I keep them alive and safe…"
 
-        ailon "The areas in the park work to much the same… to feel like they are in their own time, makes them docile"
+        ailon "The areas in the park work to much the same… To feel like they are in their own time, makes them docile"
 
         show ailon side
 
@@ -2268,7 +2268,7 @@ label start:
 
         "Looking at it if they truly were insane, as cruel as his method was he was keeping them from being used by other people."
 
-        "Ailon seemed to shake, tears still flowed, they were truthfull and to her that made it clear he at least was trying to be good."
+        "Ailon seemed to shake, tears still flowed, they were truthfull and to her that made it clear that he at least was trying to be good."
 
         thalia "You… what do you want then?"
 
@@ -2298,7 +2298,7 @@ label start:
 
         show ailon worry
 
-        ailon "By every fiber of me yes… the people I loved are gone, walking corpser for all I know, people hunting me for things they can’t understand."
+        ailon "By every fiber of me yes… the people I loved are gone, walking corpses for all I know, people hunting me for things they can’t understand."
 
         ailon "I seem to have this allure… that makes me wanna claw my own face off but it would just grow back."
 
@@ -2318,7 +2318,7 @@ label start:
 
         thalia "I can say I still feel some atraction… and I can’t tell if you are bad… or just hurt, like anyone would for all this time."
 
-        thalia "I have asked you to open your heart for me many times and you did… just now you are telling me truth."
+        thalia "I have asked you to open your heart for me many times and you did… just now you are telling me the truth."
 
         thalia "Why?"
 
@@ -2438,9 +2438,9 @@ label start:
 
         show ailon
 
-        thalia "Hey!!"
-
         show thalia pouts
+
+        thalia "Hey!!"
 
         "From all the tense and sadness they both laughed in a rare moment of joy."
 
@@ -2466,7 +2466,7 @@ label start:
 
         with dissolve
 
-        "She felt to the ground."
+        "She fell to the ground."
 
         show thalia o
 
