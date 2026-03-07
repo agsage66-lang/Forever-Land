@@ -198,7 +198,14 @@ transform reverseFlip:
 
 label start:
 
+    #======================== epylepsy warning ================================
+    
+    scene black
+    
+    "Before we start, I want to give a warning for people with epilepsy or light sensitivity. This game contains flashing lights that may trigger seizures or discomfort. Please take care of yourself and consider skipping this game if you are at risk."
+    
     #======================== part 1 ================================
+    
     scene bg coffeeshop
 
     play music "Buy Something!.mp3"
