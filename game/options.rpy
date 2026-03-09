@@ -50,6 +50,12 @@ Music:
 
     Heartbeat Suspense soundtrack by Aspecty (https://opengameart.org/content/suspenseheartbeat-soundtrack)
 
+MIT License Copyright (c) 2026 Matheus Carvalho Ferreira Silva
+
+Licensed under CC BY 4.0 see link -- https://creativecommons.org/licenses/by/4.0/ 
+
+Please credit the creators if you use this game or its assets in your projects as shown above, and link back to the original game if possible.
+
 """)
 
 
