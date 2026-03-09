@@ -3,7 +3,7 @@ Hello there!	This is the repository for a public ren'py project know as Forever 
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4f362137-d1a7-4337-bdf6-82c82c4c055b" />
 
-**Itch.io:**https://a-sage7.itch.io/forever-land
+**Itch.io:** https://a-sage7.itch.io/forever-land
 
 
 **Tech used:** Ren'py 8.4.1
